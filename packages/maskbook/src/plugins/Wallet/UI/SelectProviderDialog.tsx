@@ -63,20 +63,17 @@ function SelectProviderDialogUI(props: SelectProviderDialogUIProps) {
     const history = useHistory()
 
     //#region remote controlled dialog logic
-    const [open, setOpen] = useRemoteControlledDialog(WalletMessages.events.selectProviderDialogUpdated)
-    const onClose = useCallback(() => {
-        setOpen({
-            open: false,
-        })
-    }, [setOpen])
+    const { open, closeDialog } = useRemoteControlledDialog(WalletMessages.events.selectProviderDialogUpdated)
     //#endregion
 
     //#region select wallet dialog
-    const [, selectWalletDialogOpen] = useRemoteControlledDialog(WalletMessages.events.selectWalletDialogUpdated)
+    const { openDialog: openSelectWalletDialog } = useRemoteControlledDialog(
+        WalletMessages.events.selectWalletDialogUpdated,
+    )
     //#endregion
 
     //#region wallet connect QR code dialog
-    const [_, setWalletConnectDialogOpen] = useRemoteControlledDialog(
+    const { setDialog: setWalletConnectDialog } = useRemoteControlledDialog(
         WalletMessages.events.walletConnectQRCodeDialogUpdated,
     )
     //#endregion
@@ -84,13 +81,11 @@ function SelectProviderDialogUI(props: SelectProviderDialogUIProps) {
     const wallets = useWallets(ProviderType.Maskbook)
     const onConnect = useCallback(
         async (providerType: ProviderType) => {
-            onClose()
+            closeDialog()
             switch (providerType) {
                 case ProviderType.Maskbook:
                     if (wallets.length > 0) {
-                        selectWalletDialogOpen({
-                            open: true,
-                        })
+                        openSelectWalletDialog()
                         return
                     }
                     if (isEnvironment(Environment.ManifestOptions))
@@ -101,7 +96,7 @@ function SelectProviderDialogUI(props: SelectProviderDialogUIProps) {
                     await Services.Ethereum.connectMetaMask()
                     break
                 case ProviderType.WalletConnect:
-                    setWalletConnectDialogOpen({
+                    setWalletConnectDialog({
                         open: true,
                         uri: await Services.Ethereum.createConnectionURI(),
                     })
@@ -110,11 +105,11 @@ function SelectProviderDialogUI(props: SelectProviderDialogUIProps) {
                     unreachable(providerType)
             }
         },
-        [wallets, history, onClose, selectWalletDialogOpen, setWalletConnectDialogOpen],
+        [wallets, history, closeDialog, openSelectWalletDialog, setWalletConnectDialog],
     )
 
     return (
-        <InjectedDialog title={t('plugin_wallet_select_provider_dialog_title')} open={open} onClose={onClose}>
+        <InjectedDialog title={t('plugin_wallet_select_provider_dialog_title')} open={open} onClose={closeDialog}>
             <DialogContent className={classes.content}>
                 <ImageList className={classes.grid} gap={16} rowHeight={183}>
                     <ImageListItem>

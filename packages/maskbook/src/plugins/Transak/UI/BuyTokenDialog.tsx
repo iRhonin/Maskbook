@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useState } from 'react'
 import { createStyles, DialogContent, IconButton, makeStyles } from '@material-ui/core'
 import CloseIcon from '@material-ui/icons/Close'
 import { useStylesExtends } from '../../../components/custom-ui-helper'
@@ -49,24 +49,22 @@ export function BuyTokenDialog(props: BuyTokenDialogProps) {
     })
 
     //#region remote controlled buy token dialog
-    const [open, setOpen] = useRemoteControlledDialog(PluginTransakMessages.events.buyTokenDialogUpdated, (ev) => {
-        if (ev.open) {
-            setCode(ev.code ?? 'ETH')
-            setAddress(ev.address)
-        }
-    })
-    const onClose = useCallback(() => {
-        setOpen({
-            open: false,
-        })
-    }, [setOpen])
+    const { open, closeDialog } = useRemoteControlledDialog(
+        PluginTransakMessages.events.buyTokenDialogUpdated,
+        (ev) => {
+            if (ev.open) {
+                setCode(ev.code ?? 'ETH')
+                setAddress(ev.address)
+            }
+        },
+    )
     //#endregion
 
     return (
         <div className={classes.root}>
             <InjectedDialog
                 open={open}
-                onClose={onClose}
+                onClose={closeDialog}
                 DialogProps={{
                     classes: {
                         paper: classes.dialogPaper,
@@ -74,7 +72,7 @@ export function BuyTokenDialog(props: BuyTokenDialogProps) {
                 }}
                 disableBackdropClick>
                 <DialogContent className={classes.content}>
-                    <IconButton className={classes.close} size="small" onClick={onClose}>
+                    <IconButton className={classes.close} size="small" onClick={closeDialog}>
                         <CloseIcon />
                     </IconButton>
                     {transakURL ? <iframe className={classes.frame} src={transakURL} /> : null}

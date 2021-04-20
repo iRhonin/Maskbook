@@ -80,7 +80,7 @@ export function ExchangeTokenPanel(props: ExchangetokenPanelProps) {
 
     //#region select token dialog
     const [id] = useState(uuid())
-    const [, setSelectTokenDialogOpen] = useRemoteControlledDialog(
+    const { setDialog: setSelectTokenDialog } = useRemoteControlledDialog(
         WalletMessages.events.selectTokenDialogUpdated,
         useCallback(
             (ev: SelectTokenDialogEvent) => {
@@ -91,7 +91,7 @@ export function ExchangeTokenPanel(props: ExchangetokenPanelProps) {
         ),
     )
     const onSelectTokenChipClick = useCallback(() => {
-        setSelectTokenDialogOpen({
+        setSelectTokenDialog({
             open: true,
             uuid: id,
             disableEther: isSell,

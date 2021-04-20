@@ -89,7 +89,7 @@ export function ITO_Card(props: ITO_CardProps) {
         .toString()
 
     // close the transaction dialog
-    const [_, setTransactionDialogOpen] = useRemoteControlledDialog(
+    const { setDialog: setTransactionDialog } = useRemoteControlledDialog(
         EthereumMessages.events.transactionDialogUpdated,
         (ev) => {
             if (ev.open) return
@@ -103,7 +103,7 @@ export function ITO_Card(props: ITO_CardProps) {
     useEffect(() => {
         if (!packet) return
         if (claimState.type === TransactionStateType.UNKNOWN) return
-        setTransactionDialogOpen({
+        setTransactionDialog({
             open: true,
             shareLink,
             state: claimState,

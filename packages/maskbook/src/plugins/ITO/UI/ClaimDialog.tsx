@@ -124,7 +124,7 @@ export function ClaimDialog(props: ClaimDialogProps) {
     )
 
     //#region confirm swap dialog
-    const [, setConfirmSwapDialogOpen] = useRemoteControlledDialog(
+    const { setDialog: setConfirmSwapDialog } = useRemoteControlledDialog(
         EthereumMessages.events.confirmSwapDialogUpdated,
         async (event) => {
             if (event.open) return
@@ -140,7 +140,7 @@ export function ClaimDialog(props: ClaimDialogProps) {
 
     //#region select token
     const [id] = useState(uuid())
-    const [, setSelectTokenDialogOpen] = useRemoteControlledDialog(
+    const { setDialog: setSelectTokenDialog } = useRemoteControlledDialog(
         WalletMessages.events.selectTokenDialogUpdated,
         useCallback(
             (ev: SelectTokenDialogEvent) => {
@@ -167,7 +167,7 @@ export function ClaimDialog(props: ClaimDialogProps) {
         ),
     )
     const onSelectTokenChipClick = useCallback(() => {
-        setSelectTokenDialogOpen({
+        setSelectTokenDialog({
             open: true,
             uuid: id,
             disableEther: !exchangeTokens.some((x) => isETH(x.address)),
@@ -205,13 +205,13 @@ export function ClaimDialog(props: ClaimDialogProps) {
         swapToken,
     )
     const onSwap = useCallback(async () => {
-        setConfirmSwapDialogOpen({
+        setConfirmSwapDialog({
             open: true,
             variableIndex: sample([1, 2, 3]) ?? 'bypass',
         })
-    }, [setConfirmSwapDialogOpen])
+    }, [setConfirmSwapDialog])
 
-    const [_, setTransactionDialogOpen] = useRemoteControlledDialog(
+    const { setDialog: setTransactionDialog } = useRemoteControlledDialog(
         EthereumMessages.events.transactionDialogUpdated,
         (ev) => {
             if (ev.open) return
@@ -237,7 +237,7 @@ export function ClaimDialog(props: ClaimDialogProps) {
             return
         }
 
-        setTransactionDialogOpen({
+        setTransactionDialog({
             open: true,
             state: swapState,
             summary: t('plugin_ito_swapping', {

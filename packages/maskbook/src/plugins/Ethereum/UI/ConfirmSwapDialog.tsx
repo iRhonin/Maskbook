@@ -46,7 +46,7 @@ export const ConfirmSwapDialog: FC = () => {
     const result = problem[variableIndex]
 
     //#region remote controlled dialog
-    const [open, setOpen] = useRemoteControlledDialog(EthereumMessages.events.confirmSwapDialogUpdated, (event) => {
+    const { open, setDialog } = useRemoteControlledDialog(EthereumMessages.events.confirmSwapDialogUpdated, (event) => {
         if (!event.open) {
             return
         } else if (event.variableIndex === 'bypass') {
@@ -58,10 +58,10 @@ export const ConfirmSwapDialog: FC = () => {
     })
     const handleConfirm = useCallback(() => {
         if (bypass || value === result) {
-            setOpen({ open: false, result: true })
+            setDialog({ open: false, result: true })
         }
-    }, [bypass, value, result, setOpen])
-    const handleClose = useCallback(() => setOpen({ open: false, result: false }), [setOpen])
+    }, [bypass, value, result, setDialog])
+    const handleClose = useCallback(() => setDialog({ open: false, result: false }), [setDialog])
     //#endregion
 
     useEffect(() => {
