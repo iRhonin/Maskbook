@@ -36,7 +36,7 @@ export function useEtherTransferCallback(amount?: string, recipient?: string, me
         }
 
         // error: insufficent balance
-        const balance = await Services.Ethereum.getBalance(account, chainId)
+        const balance = await Services.Ethereum.getBalance(account)
 
         if (new BigNumber(amount).isGreaterThan(balance)) {
             setTransferState({
@@ -66,7 +66,7 @@ export function useEtherTransferCallback(amount?: string, recipient?: string, me
         if (memo) config.data = toHex(memo)
 
         // step 1: estimate gas
-        const estimatedGas = await Services.Ethereum.estimateGas(config, chainId)
+        const estimatedGas = await Services.Ethereum.estimateGas(config)
         const iterator = ServicesWithProgress.sendTransaction(account, {
             // the esitmated gas limit is too low with arbitrary message to be encoded as data (increase 20% gas limit)
             gas: addGasMargin(estimatedGas, 2000).toFixed(),

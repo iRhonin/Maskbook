@@ -1,18 +1,18 @@
-import type { JsonRpcPayload, JsonRpcResponse } from 'web3-core-helpers'
+import type { RequestArguments } from 'web3-core'
 import { send } from './send'
 
 let id = 0
 
-export async function request(
-    payload: Omit<JsonRpcPayload, 'id' | 'jsonrpc'>,
-    callback: (error: Error | null, response?: JsonRpcResponse) => void,
-) {
+export async function request(requestArguments: RequestArguments) {
     return new Promise((resolve, reject) => {
         send(
             {
                 jsonrpc: '2.0',
                 id,
-                ...payload,
+                ...{
+                    params: [],
+                    ...requestArguments,
+                },
             },
             (err, response) => {
                 if (err) reject(err)

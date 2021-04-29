@@ -2,7 +2,7 @@ import type { JsonRpcPayload, JsonRpcResponse } from 'web3-core-helpers'
 import type { HttpProvider, TransactionConfig } from 'web3-core'
 import * as Maskbook from './providers/Maskbook'
 import { sign } from './sign'
-import { createWeb3 } from './provider'
+import { createWeb3 } from './web3'
 import { signTransaction } from './signTransaction'
 import {
     currentSelectedWalletProviderSettings,
@@ -35,8 +35,9 @@ export async function send(
         return
     }
 
-    // unable to create provider
     const provider = (await createWeb3()).currentProvider as HttpProvider | undefined
+
+    // unable to create provider
     if (!provider) throw new Error('failed to create provider')
 
     switch (payload.method) {

@@ -3,7 +3,7 @@ import { getWallet } from '../../../plugins/Wallet/services'
 import { currentSelectedWalletProviderSettings } from '../../../plugins/Wallet/settings'
 import { unreachable } from '../../../utils/utils'
 import { ProviderType } from '../../../web3/types'
-import { createWeb3 } from './provider'
+import { createWeb3 } from './web3'
 
 export async function signTransaction(config: TransactionConfig) {
     if (!config.from)

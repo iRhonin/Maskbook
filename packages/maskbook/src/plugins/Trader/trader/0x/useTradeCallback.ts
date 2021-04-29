@@ -43,7 +43,7 @@ export function useTradeCallback(tradeComputed: TradeComputed<SwapQuoteResponse>
 
         try {
             // step 1: estimate tx
-            const gasEstimated = await Services.Ethereum.estimateGas(omit(config, ['gas']), chainId)
+            const gasEstimated = await Services.Ethereum.estimateGas(omit(config, ['gas']))
             const config_ = {
                 ...config,
                 gas: addGasMargin(gasEstimated).toFixed(),

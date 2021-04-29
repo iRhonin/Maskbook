@@ -3,11 +3,11 @@ import BigNumber from 'bignumber.js'
 import { ERC20TokenDetailed, EthereumTokenType, EtherTokenDetailed } from '../../../web3/types'
 import { useConstant } from '../../../web3/hooks/useConstant'
 import { GITCOIN_CONSTANT } from '../constants'
-import { addGasMargin } from '../../../web3/helpers'
 import { TransactionStateType, useTransactionState } from '../../../web3/hooks/useTransactionState'
 import type { Tx } from '@dimensiondev/contracts/types/types'
 import { useBulkCheckoutContract } from '../contracts/useBulkCheckoutWallet'
 import { useAccount } from '../../../web3/hooks/useAccount'
+import Services from '../../../extension/service'
 
 /**
  * A callback for donate gitcoin grant
@@ -55,45 +55,30 @@ export function useDonateCallback(address: string, amount: string, token?: Ether
         })
 
         // step 1: estimate gas
-        const config: Tx = {
+        const config: Tx = await Services.Ethereum.composeTransaction({
             from: account,
             to: bulkCheckoutContract.options.address,
             value: new BigNumber(token.type === EthereumTokenType.Ether ? amount : 0).toFixed(),
-        }
-        const estimatedGas = await bulkCheckoutContract.methods
-            .donate(donations)
-            .estimateGas(config)
-            .catch((error) => {
-                setDonateState({
-                    type: TransactionStateType.FAILED,
-                    error,
-                })
-                throw error
-            })
+            data: bulkCheckoutContract.methods.donate(donations).encodeABI(),
+        })
 
         // step 2: blocking
         return new Promise<string>((resolve, reject) => {
-            bulkCheckoutContract.methods.donate(donations).send(
-                {
-                    gas: addGasMargin(estimatedGas).toFixed(),
-                    ...config,
-                },
-                (error, hash) => {
-                    if (error) {
-                        setDonateState({
-                            type: TransactionStateType.FAILED,
-                            error,
-                        })
-                        reject(error)
-                    } else {
-                        setDonateState({
-                            type: TransactionStateType.HASH,
-                            hash,
-                        })
-                        resolve(hash)
-                    }
-                },
-            )
+            bulkCheckoutContract.methods.donate(donations).send(config, (error, hash) => {
+                if (error) {
+                    setDonateState({
+                        type: TransactionStateType.FAILED,
+                        error,
+                    })
+                    reject(error)
+                } else {
+                    setDonateState({
+                        type: TransactionStateType.HASH,
+                        hash,
+                    })
+                    resolve(hash)
+                }
+            })
         })
     }, [address, account, amount, token, donations])
 

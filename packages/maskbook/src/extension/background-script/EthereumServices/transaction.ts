@@ -1,5 +1,7 @@
-import type { TransactionConfig, PromiEvent as PromiEventW3, TransactionReceipt } from 'web3-core'
+import type { Tx } from '@dimensiondev/contracts/types/types'
+import { pickBy } from 'lodash-es'
 import BigNumber from 'bignumber.js'
+import type { TransactionConfig, PromiEvent as PromiEventW3, TransactionReceipt } from 'web3-core'
 
 import { enhancePromiEvent, promiEventToIterator, StageType } from '../../../utils/promiEvent'
 import { getWallets } from '../../../plugins/Wallet/services'
@@ -8,14 +10,17 @@ import { WalletMessages } from '../../../plugins/Wallet/messages'
 import * as Maskbook from './providers/Maskbook'
 import * as MetaMask from './providers/MetaMask'
 import * as WalletConnect from './providers/WalletConnect'
-import { isSameAddress } from '../../../web3/helpers'
+import { addGasMargin, isSameAddress } from '../../../web3/helpers'
 import { getNonce, resetNonce, commitNonce } from './nonce'
 import { TransactionEventType } from '../../../web3/types'
 import { ProviderType } from '../../../web3/types'
 import { delay } from '../../../utils/utils'
-import { getTransactionReceipt } from './network'
+import { estimateGas, getGasPrice, getTransactionReceipt } from './network'
 import { getChainId } from './chainState'
-import { currentSelectedWalletProviderSettings } from '../../../plugins/Wallet/settings'
+import {
+    currentSelectedWalletAddressSettings,
+    currentSelectedWalletProviderSettings,
+} from '../../../plugins/Wallet/settings'
 
 //#region tracking wallets
 let wallets: WalletRecord[] = []
@@ -37,7 +42,7 @@ function watchTransactionEvent(from: string, event: PromiEventW3<TransactionRece
     async function watchTransactionHash(hash: string) {
         // retry 30 times
         for (const _ of new Array(30).fill(0)) {
-            const receipt = await getTransactionReceipt(hash, await getChainId(from))
+            const receipt = await getTransactionReceipt(hash)
 
             // the 'receipt' event was emitted
             if (controller.signal.aborted) break
@@ -117,6 +122,7 @@ async function createTransactionEventCreator(from: string, config: TransactionCo
  * same as `eth_sendTransaction`
  * @param from
  * @param config
+ * @deprecated
  */
 export async function* sendTransaction(from: string, config: TransactionConfig) {
     try {
@@ -143,6 +149,7 @@ export async function* sendTransaction(from: string, config: TransactionConfig) 
  * Send signed transaction on different provider with given account is the same as `eth_sendSignedTransaction`
  * @param from
  * @param config
+ * @deprecated
  */
 export async function sendSignedTransaction(from: string, config: TransactionConfig) {
     throw new Error('TO BE IMPLEMENTED')
@@ -153,10 +160,46 @@ export async function sendSignedTransaction(from: string, config: TransactionCon
  * same as `eth_call`
  * @param from
  * @param config
+ * @deprecated
  */
-
 export async function callTransaction(config: TransactionConfig) {
     return Maskbook.createWeb3({
         chainId: await getChainId(config.from as string | undefined),
     }).eth.call(config)
+}
+
+/**
+ * Compose a common purpose transaction payload
+ * @param from
+ * @returns
+ */
+export async function composeTransaction({
+    from = currentSelectedWalletAddressSettings.value,
+    to,
+    data,
+    value,
+}: {
+    from: string
+    to: string
+    data: string
+    value?: string
+}): Promise<Partial<Tx>> {
+    const [nonce, gas, gasPrice] = await Promise.all([
+        getNonce(from),
+        estimateGas({
+            from,
+            to,
+            data,
+            value,
+        }),
+        getGasPrice(),
+    ])
+
+    return pickBy({
+        from,
+        value,
+        nonce,
+        gas: addGasMargin(gas).toString(16),
+        gasPrice,
+    })
 }

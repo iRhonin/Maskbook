@@ -1,6 +1,6 @@
 import { ProviderType } from '../../../web3/types'
 import { currentSelectedWalletProviderSettings } from '../../../plugins/Wallet/settings'
-import { createWeb3 } from './provider'
+import { createWeb3 } from './web3'
 import { unreachable } from '../../../utils/utils'
 
 /**
