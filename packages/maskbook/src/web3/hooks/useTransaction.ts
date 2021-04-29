@@ -11,7 +11,7 @@ export function useTransaction(hash: string) {
     useAsync(async () => {
         if (tx) return
         if (!hash) return
-        setTx(await Services.Ethereum.getTransaction(hash))
+        setTx(await Services.Ethereum.getTransactionByHash(hash))
     }, [account, hash, tx])
     return tx
 }

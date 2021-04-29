@@ -3,8 +3,8 @@ import { send } from './send'
 
 let id = 0
 
-export async function request(requestArguments: RequestArguments) {
-    return new Promise((resolve, reject) => {
+export async function request<T extends unknown>(requestArguments: RequestArguments) {
+    return new Promise<T>((resolve, reject) => {
         send(
             {
                 jsonrpc: '2.0',

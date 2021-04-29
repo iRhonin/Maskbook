@@ -1,33 +1,73 @@
-import type { TransactionConfig } from 'web3-core'
-import { createWeb3 } from './web3'
-
-// TODO:
-// send transaction by using request
+import type { Transaction, TransactionConfig, TransactionReceipt } from 'web3-core'
+import { request } from './request'
 
 export async function getGasPrice() {
-    return (await createWeb3()).eth.getGasPrice()
+    return request<string>({
+        method: 'eth_gasPrice',
+    })
 }
 
 export async function getBlockNumber() {
-    return (await createWeb3()).eth.getBlockNumber()
+    const blockNumber = await request<string>({
+        method: 'eth_blockNumber',
+    })
+    return Number.parseInt(blockNumber, 16)
 }
 
 export async function getBalance(address: string) {
-    return (await createWeb3()).eth.getBalance(address)
+    return request<string>({
+        method: 'eth_getBalance',
+        params: [address, 'latest'],
+    })
 }
 
-export async function getTransaction(id: string) {
-    return (await createWeb3()).eth.getTransaction(id)
+export async function getTransactionByHash(hash: string) {
+    return request<Transaction>({
+        method: 'eth_getTransactionByHash',
+        params: [hash],
+    })
 }
 
-export async function getTransactionReceipt(id: string) {
-    return (await createWeb3()).eth.getTransactionReceipt(id)
+export async function getTransactionReceipt(hash: string) {
+    return request<TransactionReceipt>({
+        method: 'eth_getTransactionReceipt',
+        params: [hash],
+    })
 }
 
 export async function getTransactionCount(address: string) {
-    return (await createWeb3()).eth.getTransactionCount(address)
+    const count = await request<string>({
+        method: 'eth_getTransactionCount',
+        params: [address, 'latest'],
+    })
+    return Number.parseInt(count, 16)
 }
 
 export async function estimateGas(config: TransactionConfig) {
-    return (await createWeb3()).eth.estimateGas(config)
+    const gas = await request<string>({
+        method: 'eth_estimateGas',
+        params: [config],
+    })
+    return Number.parseInt(gas, 16)
+}
+
+export async function sign(dataToSign: string, address: string) {
+    return request<string>({
+        method: 'eth_sign',
+        params: [dataToSign, address],
+    })
+}
+
+export async function personalSign(dataToSign: string, address: string, password?: string) {
+    return request<string>({
+        method: 'personal_sign',
+        params: [dataToSign, address, password].filter(Boolean),
+    })
+}
+
+export async function signTransaction(config: TransactionConfig) {
+    return request<string>({
+        method: 'eth_signTransaction',
+        params: [config],
+    })
 }
