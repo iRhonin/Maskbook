@@ -59,7 +59,8 @@ export async function fromV3Keystore(input: string | V3Keystore, password: strin
         throw new Error('Not a V3 wallet')
     }
 
-    // TODO; check json schema
+    // TODO: use json schema check input
+    // see https://github.com/DimensionDev/Maskbook/issues/2661
 
     let derivedKey: Uint8Array
     let kdfparams: KeyStore.KeyDerivation['kdfparams']
