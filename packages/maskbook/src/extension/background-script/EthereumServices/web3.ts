@@ -9,7 +9,7 @@ import type { WalletRecord } from '../../../plugins/Wallet/database/types'
 import { WalletComparer } from '../../../plugins/Wallet/helpers'
 import { WalletMessages, WalletRPC } from '../../../plugins/Wallet/messages'
 
-//#region tracking wallets
+//#region tracking the selected wallet
 const walletRef = new ValueRef<WalletRecord | null>(null, WalletComparer)
 async function revalidate() {
     walletRef.value = (await WalletRPC.getWallet()) ?? null

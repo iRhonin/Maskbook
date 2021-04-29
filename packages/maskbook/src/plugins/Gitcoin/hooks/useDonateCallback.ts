@@ -55,32 +55,38 @@ export function useDonateCallback(address: string, amount: string, token?: Ether
         })
 
         // step 1: estimate gas
-        const config: Tx = await Services.Ethereum.composeTransaction({
+        const config = await Services.Ethereum.composeTransaction({
             from: account,
             to: bulkCheckoutContract.options.address,
             value: new BigNumber(token.type === EthereumTokenType.Ether ? amount : 0).toFixed(),
             data: bulkCheckoutContract.methods.donate(donations).encodeABI(),
+        }).catch((error) => {
+            setDonateState({
+                type: TransactionStateType.FAILED,
+                error,
+            })
+            throw error
         })
 
         // step 2: blocking
         return new Promise<string>((resolve, reject) => {
-            bulkCheckoutContract.methods.donate(donations).send(config, (error, hash) => {
+            bulkCheckoutContract.methods.donate(donations).send(config as Tx, (error, hash) => {
                 if (error) {
                     setDonateState({
                         type: TransactionStateType.FAILED,
                         error,
                     })
                     reject(error)
-                } else {
-                    setDonateState({
-                        type: TransactionStateType.HASH,
-                        hash,
-                    })
-                    resolve(hash)
+                    return
                 }
+                setDonateState({
+                    type: TransactionStateType.HASH,
+                    hash,
+                })
+                resolve(hash)
             })
         })
-    }, [address, account, amount, token, donations])
+    }, [account, amount, token, donations])
 
     const resetCallback = useCallback(() => {
         setDonateState({
