@@ -1,4 +1,5 @@
 import Airdrop from '@masknet/web3-constants/data/airdrop.json'
+import Augur from '@masknet/web3-constants/data/augur.json'
 import Ethereum from '@masknet/web3-constants/data/ethereum.json'
 import Gitcoin from '@masknet/web3-constants/data/gitcoin.json'
 import ITO from '@masknet/web3-constants/data/ito.json'
@@ -16,6 +17,9 @@ import { hookTransform, transform, transformFromJSON } from './utils'
 
 export const getAirdropConstants = transform(Airdrop)
 export const useAirdropConstants = hookTransform(getAirdropConstants)
+
+export const getAugurConstants = transform(Augur)
+export const useAugurConstants = hookTransform(getAugurConstants)
 
 export const getEthereumConstants = transform(Ethereum)
 export const useEthereumConstants = hookTransform(getEthereumConstants)
