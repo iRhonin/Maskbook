@@ -429,7 +429,11 @@ importers:
       elliptic: ^6.5.3
       enzyme: ^3.11.0
       enzyme-adapter-react-16: ^1.15.5
+<<<<<<< HEAD
       ethereumjs-util: ^7.1.0
+=======
+      ethers: ^5.4.4
+>>>>>>> fix: prices
       event-iterator: ^2.0.0
       expect-puppeteer: ^5.0.4
       fake-indexeddb: ^3.1.3
@@ -580,7 +584,11 @@ importers:
       d3: 5.16.0
       date-fns: 2.23.0
       elliptic: 6.5.4
+<<<<<<< HEAD
       ethereumjs-util: 7.1.0
+=======
+      ethers: 5.4.4
+>>>>>>> fix: prices
       event-iterator: 2.0.0
       fuse.js: 6.4.6
       gun: 0.2020.520
@@ -602,7 +610,12 @@ importers:
       promievent: 0.1.5
       pvtsutils: 1.1.7
       qrcode: 1.4.4
+<<<<<<< HEAD
       react-draggable: 4.4.4_f991c289939c8299bed5e4a6a5a79a62
+=======
+      react-draggable: 4.4.3
+<<<<<<< HEAD
+>>>>>>> fix: prices
       react-feather: 2.0.9_react@18.0.0-alpha-aecb3b6d1
       react-highlight-words: 0.17.0_react@18.0.0-alpha-aecb3b6d1
 <<<<<<< HEAD
@@ -619,6 +632,16 @@ importers:
       react-use: 17.3.1_f991c289939c8299bed5e4a6a5a79a62
       react-virtualized-auto-sizer: 1.0.6_f991c289939c8299bed5e4a6a5a79a62
       react-window: 1.8.6_f991c289939c8299bed5e4a6a5a79a62
+=======
+      react-feather: 2.0.9
+      react-highlight-words: 0.17.0
+      react-middle-ellipsis: 1.2.1
+      react-router: 5.2.0
+      react-router-dom: 5.2.0
+      react-use: 17.2.4
+      react-virtualized-auto-sizer: 1.0.5
+      react-window: 1.8.6
+>>>>>>> fix: prices
       remarkable: 2.0.1
       safari-14-idb-fix: 1.0.4
       scrypt-js: 3.0.1
@@ -628,6 +651,7 @@ importers:
       tiny-secp256k1: 1.1.6
       ts-results: 3.3.0
       unstated-next: 1.1.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       urlcat: 2.0.4
@@ -650,8 +674,17 @@ importers:
 =======
       use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+      use-subscription: 1.5.1
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
       uuid: 8.3.2
       wallet.ts: 1.0.1
       web-ext-types: 3.2.1
@@ -670,16 +703,21 @@ importers:
     devDependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@dimensiondev/webextension-shim': 0.0.3-20210823035705-4257e12_typescript@4.4.2
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.0-rc.2_d12f4ccad8cb8cae815e9eaaa89e5553
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d_typescript@4.4.1-rc
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d
 <<<<<<< HEAD
@@ -689,6 +727,8 @@ importers:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d_typescript@4.3.5
 >>>>>>> feat: initial setup for augur
@@ -704,9 +744,12 @@ importers:
 =======
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d_typescript@4.3.5
 >>>>>>> feat: three tabs added to the market view
+=======
+      '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d
+>>>>>>> fix: prices
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.0-rc.0_dae7018c5b5576f32207b1e2608a9d18
       '@sinonjs/text-encoding': 0.7.1
-      '@testing-library/react-hooks': 7.0.0_1959de3a9153879cff3acd96b46ed70f
+      '@testing-library/react-hooks': 7.0.0_react-test-renderer@17.0.2
       '@types/enzyme': 3.10.8
 >>>>>>> feat: initial setup for augur
       '@types/enzyme-adapter-react-16': 1.0.6
@@ -739,8 +782,8 @@ importers:
       babel-loader: 8.2.2_webpack@5.46.0
 =======
       '@types/webpack-dev-server': 3.11.4
-      '@typescript-eslint/eslint-plugin': 4.25.0_64d9676e024912f4dcc97746c0e896ee
-      '@typescript-eslint/parser': 4.25.0_eslint@7.27.0+typescript@4.3.5
+      '@typescript-eslint/eslint-plugin': 4.25.0_@typescript-eslint+parser@4.25.0
+      '@typescript-eslint/parser': 4.25.0
       babel-loader: 8.2.2_webpack@5.37.1
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -749,7 +792,7 @@ importers:
       copy-webpack-plugin: 9.0.1_webpack@5.51.1
       dotenv: 10.0.0
       enzyme: 3.11.0
-      enzyme-adapter-react-16: 1.15.6_f15f970d9b179e8975516dda0497bdea
+      enzyme-adapter-react-16: 1.15.6_enzyme@3.11.0
       expect-puppeteer: 5.0.4
 <<<<<<< HEAD
       fake-indexeddb: 3.1.3
@@ -777,6 +820,7 @@ importers:
       file-loader: 6.2.0_webpack@5.37.1
       html-webpack-plugin: 5.3.1_webpack@5.37.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       jest: 27.0.1
 >>>>>>> feat: initial setup for augur
 <<<<<<< HEAD
@@ -791,9 +835,21 @@ importers:
 =======
       jest: 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+=======
+      jest: 27.0.1
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
       jest-environment-jsdom-fourteen: 1.0.1
       jest-esm-transformer: 1.0.0
       jest-junit: 12.2.0
@@ -802,6 +858,7 @@ importers:
       openzeppelin-solidity: 3.4.1
       react-devtools-core: 4.17.0
       react-refresh: 0.10.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       react-test-renderer: 17.0.2_react@18.0.0-alpha-aecb3b6d1
@@ -823,11 +880,15 @@ importers:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       react-test-renderer: 17.0.2
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       react-test-renderer: 17.0.2_react@18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: initial setup for augur
@@ -852,11 +913,15 @@ importers:
       react-refresh-typescript: 2.0.1_07d643ea690a1c588819a69f1ef8f0ab
       react-test-renderer: 17.0.2_react@18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: three tabs added to the market view
+=======
+      react-refresh-typescript: 2.0.1_react-refresh@0.10.0
+      react-test-renderer: 17.0.2
+>>>>>>> fix: prices
       rimraf: 3.0.2
       source-map-loader: 3.0.0_webpack@5.37.1
-      ts-jest: 27.0.1_jest@27.0.1+typescript@4.3.5
-      ts-loader: 9.2.2_typescript@4.3.5+webpack@5.37.1
-      type-coverage: 2.17.5_typescript@4.3.5
+      ts-jest: 27.0.1_jest@27.0.1
+      ts-loader: 9.2.2_webpack@5.37.1
+      type-coverage: 2.17.5
       webpack: 5.37.1_webpack-cli@4.7.0
       webpack-cli: 4.7.0_73b101d6e7258082846183368a5d0f22
       webpack-dev-server: 3.11.2_webpack-cli@4.7.0+webpack@5.37.1
@@ -4133,14 +4198,20 @@ packages:
     dev: false
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@dimensiondev/webextension-shim/0.0.3-20210823035705-4257e12_typescript@4.4.2:
     resolution: {integrity: sha512-zkpb1xzfyhWu9c5FZc4HHa5aBrUVdQCNGfmnUzNk2kU6AaCtfVeB4i39LLaPVLCP5nKKAVnbWNe88fGYSmcryw==, tarball: download/@dimensiondev/webextension-shim/0.0.3-20210823035705-4257e12/f0cf9f4c48531ee9828e0a0d2842d70212dc0f371b409054026fc17fcd3eef93}
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d_typescript@4.4.1-rc:
 =======
   /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d_typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-0O0Nc3j2Vxo9Gfvgeq8pWuMHKMSU3tDjRnzE0U5oWvYoY+ZO61NniKp4xf/C+J6Py6lhQFutjd2tqlporqRwlw==, tarball: download/@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d/a2ee1bed40822a7f6b9c60ce4296930c9bab00828e82637aa56060498a135ac7}
 >>>>>>> feat: three tabs added to the market view
     hasBin: true
@@ -4151,14 +4222,22 @@ packages:
       buffer: 6.0.3
       systemjs: 6.3.2
 <<<<<<< HEAD
+<<<<<<< HEAD
       typescript: 4.4.2
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       typescript: 4.4.1-rc
 =======
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+>>>>>>> fix: prices
+>>>>>>> fix: prices
       web-ext-types: 3.2.1
     dev: true
 
@@ -4712,6 +4791,57 @@ packages:
       '@ethersproject/logger': 5.4.0
       '@ethersproject/properties': 5.4.0
       '@ethersproject/strings': 5.4.0
+<<<<<<< HEAD
+=======
+    dev: false
+
+  /@ethersproject/hdnode/5.4.0:
+    resolution: {integrity: sha512-pKxdS0KAaeVGfZPp1KOiDLB0jba11tG6OP1u11QnYfb7pXn6IZx0xceqWRr6ygke8+Kw74IpOoSi7/DwANhy8Q==}
+    dependencies:
+      '@ethersproject/abstract-signer': 5.4.1
+      '@ethersproject/basex': 5.4.0
+      '@ethersproject/bignumber': 5.4.1
+      '@ethersproject/bytes': 5.4.0
+      '@ethersproject/logger': 5.4.0
+      '@ethersproject/pbkdf2': 5.4.0
+      '@ethersproject/properties': 5.4.0
+      '@ethersproject/sha2': 5.4.0
+      '@ethersproject/signing-key': 5.4.0
+      '@ethersproject/strings': 5.4.0
+      '@ethersproject/transactions': 5.4.0
+      '@ethersproject/wordlists': 5.4.0
+    dev: false
+
+  /@ethersproject/json-wallets/5.4.0:
+    resolution: {integrity: sha512-igWcu3fx4aiczrzEHwG1xJZo9l1cFfQOWzTqwRw/xcvxTk58q4f9M7cjh51EKphMHvrJtcezJ1gf1q1AUOfEQQ==}
+    dependencies:
+      '@ethersproject/abstract-signer': 5.4.1
+      '@ethersproject/address': 5.4.0
+      '@ethersproject/bytes': 5.4.0
+      '@ethersproject/hdnode': 5.4.0
+      '@ethersproject/keccak256': 5.4.0
+      '@ethersproject/logger': 5.4.0
+      '@ethersproject/pbkdf2': 5.4.0
+      '@ethersproject/properties': 5.4.0
+      '@ethersproject/random': 5.4.0
+      '@ethersproject/strings': 5.4.0
+      '@ethersproject/transactions': 5.4.0
+      aes-js: 3.0.0
+      scrypt-js: 3.0.1
+    dev: false
+
+  /@ethersproject/keccak256/5.1.0:
+    resolution: {integrity: sha512-vrTB1W6AEYoadww5c9UyVJ2YcSiyIUTNDRccZIgwTmFFoSHwBtcvG1hqy9RzJ1T0bMdATbM9Hfx2mJ6H0i7Hig==}
+    dependencies:
+      '@ethersproject/bytes': 5.1.0
+      js-sha3: 0.5.7
+
+  /@ethersproject/keccak256/5.2.0:
+    resolution: {integrity: sha512-LqyxTwVANga5Y3L1yo184czW6b3PibabN8xyE/eOulQLLfXNrHHhwrOTpOhoVRWCICVCD/5SjQfwqTrczjS7jQ==}
+    dependencies:
+      '@ethersproject/bytes': 5.2.0
+      js-sha3: 0.5.7
+>>>>>>> fix: prices
 
   /@ethersproject/hdnode/5.4.0:
     resolution: {integrity: sha512-pKxdS0KAaeVGfZPp1KOiDLB0jba11tG6OP1u11QnYfb7pXn6IZx0xceqWRr6ygke8+Kw74IpOoSi7/DwANhy8Q==}
@@ -4766,6 +4896,27 @@ packages:
 >>>>>>> feat: liquidity and volume
     dependencies:
       '@ethersproject/logger': 5.4.0
+<<<<<<< HEAD
+=======
+    dev: false
+
+  /@ethersproject/pbkdf2/5.4.0:
+    resolution: {integrity: sha512-x94aIv6tiA04g6BnazZSLoRXqyusawRyZWlUhKip2jvoLpzJuLb//KtMM6PEovE47pMbW+Qe1uw+68ameJjB7g==}
+    dependencies:
+      '@ethersproject/bytes': 5.4.0
+      '@ethersproject/sha2': 5.4.0
+    dev: false
+
+  /@ethersproject/properties/5.1.0:
+    resolution: {integrity: sha512-519KKTwgmH42AQL3+GFV3SX6khYEfHsvI6v8HYejlkigSDuqttdgVygFTDsGlofNFchhDwuclrxQnD5B0YLNMg==}
+    dependencies:
+      '@ethersproject/logger': 5.1.0
+
+  /@ethersproject/properties/5.2.0:
+    resolution: {integrity: sha512-oNFkzcoGwXXV+/Yp/MLcDLrL/2i360XIy2YN9yRZJPnIbLwjroFNLiRzLs6PyPw1D09Xs8OcPR1/nHv6xDKE2A==}
+    dependencies:
+      '@ethersproject/logger': 5.2.0
+>>>>>>> fix: prices
 
   /@ethersproject/pbkdf2/5.4.0:
     resolution: {integrity: sha512-x94aIv6tiA04g6BnazZSLoRXqyusawRyZWlUhKip2jvoLpzJuLb//KtMM6PEovE47pMbW+Qe1uw+68ameJjB7g==}
@@ -4937,10 +5088,19 @@ packages:
       '@ethersproject/logger': 5.4.0
     dev: false
 
+<<<<<<< HEAD
   /@ethersproject/wallet/5.4.0:
     resolution: {integrity: sha512-wU29majLjM6AjCjpat21mPPviG+EpK7wY1+jzKD0fg3ui5fgedf2zEu1RDgpfIMsfn8fJHJuzM4zXZ2+hSHaSQ==}
     dependencies:
       '@ethersproject/abstract-provider': 5.4.0
+=======
+<<<<<<< HEAD
+=======
+  /@ethersproject/wallet/5.4.0:
+    resolution: {integrity: sha512-wU29majLjM6AjCjpat21mPPviG+EpK7wY1+jzKD0fg3ui5fgedf2zEu1RDgpfIMsfn8fJHJuzM4zXZ2+hSHaSQ==}
+    dependencies:
+      '@ethersproject/abstract-provider': 5.4.1
+>>>>>>> fix: prices
       '@ethersproject/abstract-signer': 5.4.1
       '@ethersproject/address': 5.4.0
       '@ethersproject/bignumber': 5.4.1
@@ -4957,6 +5117,29 @@ packages:
       '@ethersproject/wordlists': 5.4.0
     dev: false
 
+<<<<<<< HEAD
+=======
+  /@ethersproject/web/5.1.0:
+    resolution: {integrity: sha512-LTeluWgTq04+RNqAkVhpydPcRZK/kKxD2Vy7PYGrAD27ABO9kTqTBKwiOuzTyAHKUQHfnvZbXmxBXJAGViSDcA==}
+    dependencies:
+      '@ethersproject/base64': 5.1.0
+      '@ethersproject/bytes': 5.1.0
+      '@ethersproject/logger': 5.1.0
+      '@ethersproject/properties': 5.1.0
+      '@ethersproject/strings': 5.1.0
+    dev: false
+
+  /@ethersproject/web/5.2.0:
+    resolution: {integrity: sha512-mYb9qxGlOBFR2pR6t1CZczuqqX6r8RQGn7MtwrBciMex3cvA/qs+wbmcDgl+/OZY0Pco/ih6WHQRnVi+4sBeCQ==}
+    dependencies:
+      '@ethersproject/base64': 5.2.0
+      '@ethersproject/bytes': 5.2.0
+      '@ethersproject/logger': 5.2.0
+      '@ethersproject/properties': 5.2.0
+      '@ethersproject/strings': 5.2.0
+
+>>>>>>> fix: prices
+>>>>>>> fix: prices
   /@ethersproject/web/5.4.0:
     resolution: {integrity: sha512-1bUusGmcoRLYgMn6c1BLk1tOKUIFuTg8j+6N8lYlbMpDesnle+i3pGSagGNvwjaiLo4Y5gBibwctpPRmjrh4Og==}
     dependencies:
@@ -5052,21 +5235,28 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@jest/core/27.1.0_ts-node@10.2.1:
     resolution: {integrity: sha512-3l9qmoknrlCFKfGdrmiQiPne+pUR4ALhKwFTYyOeKw6egfDwJkO21RJ1xf41rN8ZNFLg5W+w6+P4fUqq4EMRWA==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@jest/core/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@jest/core/27.0.6:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@jest/core/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
@@ -5077,6 +5267,9 @@ packages:
 =======
   /@jest/core/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@jest/core/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-PiCbKSMf6t8PEfY3MAd0Ldn3aJAt5T+UcaFkAfMZ1VZgas35+fXk5uHIjAQHQLNIHZWX19TLv0wWNT03yvrw6w==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -5130,13 +5323,13 @@ packages:
       jest-watcher: 27.0.6
 =======
       jest-changed-files: 27.0.1
-      jest-config: 27.0.1_ts-node@10.0.0
+      jest-config: 27.0.1
       jest-haste-map: 27.0.1
       jest-message-util: 27.0.1
       jest-regex-util: 27.0.1
       jest-resolve: 27.0.1
       jest-resolve-dependencies: 27.0.1
-      jest-runner: 27.0.1_ts-node@10.0.0
+      jest-runner: 27.0.1
       jest-runtime: 27.0.1
       jest-snapshot: 27.0.1
       jest-util: 27.0.1
@@ -5329,6 +5522,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@jest/test-sequencer/27.1.0:
     resolution: {integrity: sha512-lnCWawDr6Z1DAAK9l25o3AjmKGgcutq1iIbp+hC10s/HxnB8ZkUsYq1FzjOoxxZ5hW+1+AthBtvS4x9yno3V1A==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -5340,6 +5534,8 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@jest/test-sequencer/27.0.6:
     resolution: {integrity: sha512-bISzNIApazYOlTHDum9PwW22NOyDa6VI31n6JucpjTVM0jD6JDgqEZ9+yn575nDdPF0+4csYDxNNW13NvFQGZA==}
@@ -5348,6 +5544,9 @@ packages:
 =======
   /@jest/test-sequencer/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@jest/test-sequencer/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-yK2c2iruJ35WgH4KH8whS72uH+FASJUrzwxzNKTzLAEWmNpWKNEPOsSEKsHynvz78bLHafrTg4adN7RrYNbEOA==}
 >>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -5359,7 +5558,7 @@ packages:
       jest-runtime: 27.0.6
 =======
       jest-haste-map: 27.0.1
-      jest-runner: 27.0.1_ts-node@10.0.0
+      jest-runner: 27.0.1
       jest-runtime: 27.0.1
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -10326,6 +10525,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@szmarczak/http-timer/4.0.6:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
@@ -10344,6 +10544,9 @@ packages:
 =======
   /@testing-library/react-hooks/7.0.0_1959de3a9153879cff3acd96b46ed70f:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@testing-library/react-hooks/7.0.0_react-test-renderer@17.0.2:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-WFBGH8DWdIGGBHt6PBtQPe2v4Kbj9vQ1sQ9qLBTmwn1PNggngint4MTE/IiWCYhPbyTW3oc/7X62DObMn/AjQQ==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -10364,15 +10567,20 @@ packages:
       '@types/react-test-renderer': 17.0.1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       react-error-boundary: 3.1.3
       react-test-renderer: 17.0.2
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
       react: 18.0.0-alpha-aecb3b6d1
@@ -10397,8 +10605,18 @@ packages:
       react-error-boundary: 3.1.1_react@18.0.0-alpha-aecb3b6d1
       react-test-renderer: 17.0.2_react@18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+      react-error-boundary: 3.1.1
+      react-test-renderer: 17.0.2
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -11465,16 +11683,21 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.30.0_8a8a2d3eaa9257455a03c16dce5f55b3:
     resolution: {integrity: sha512-NgAnqk55RQ/SD+tZFD9aPwNSeHmDHHe5rtUyhIq0ZeCWZEvo4DK9rYz7v9HDuQZFvn320Ot+AikaCKMFKLlD0g==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.29.1_9e650468d3ce62d57e2df2f2fad149b2:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.29.1_@typescript-eslint+parser@4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11482,11 +11705,15 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.28.5_@typescript-eslint+parser@4.28.5:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.28.5_514553717ff968e20f6d1c6e521f8616:
 >>>>>>> feat: initial setup for augur
@@ -11496,6 +11723,9 @@ packages:
 =======
   /@typescript-eslint/eslint-plugin/4.25.0_64d9676e024912f4dcc97746c0e896ee:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@typescript-eslint/eslint-plugin/4.25.0_@typescript-eslint+parser@4.25.0:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-Qfs3dWkTMKkKwt78xp2O/KZQB8MPS1UQ5D3YW2s6LQWBE1074BE+Rym+b1pXZIX3M3fSvPUDaCvZLKV2ylVYYQ==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -11511,18 +11741,23 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.30.0_eslint@7.32.0+typescript@4.4.2
       '@typescript-eslint/parser': 4.30.0_eslint@7.32.0+typescript@4.4.2
       '@typescript-eslint/scope-manager': 4.30.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.29.1_f8ed5431742f75332c3083279db44140
       '@typescript-eslint/parser': 4.29.1_f8ed5431742f75332c3083279db44140
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.29.1
       '@typescript-eslint/parser': 4.29.1
@@ -11531,6 +11766,8 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.28.5
       '@typescript-eslint/parser': 4.28.5
@@ -11544,6 +11781,8 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.28.5_eslint@7.31.0+typescript@4.3.5
       '@typescript-eslint/parser': 4.28.5_eslint@7.31.0+typescript@4.3.5
@@ -11578,18 +11817,35 @@ packages:
       debug: 4.3.1
       eslint: 7.27.0
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+      '@typescript-eslint/experimental-utils': 4.25.0
+      '@typescript-eslint/parser': 4.25.0
+      '@typescript-eslint/scope-manager': 4.25.0
+      debug: 4.3.1
+>>>>>>> fix: prices
+>>>>>>> fix: prices
       functional-red-black-tree: 1.0.1
       regexpp: 3.2.0
       semver: 7.3.5
+<<<<<<< HEAD
       tsutils: 3.21.0_typescript@4.3.5
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+      tsutils: 3.21.0
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.30.0_eslint@7.32.0+typescript@4.4.2:
@@ -11597,11 +11853,15 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.29.1_f8ed5431742f75332c3083279db44140:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11609,11 +11869,15 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.28.5:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.28.5_eslint@7.31.0+typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
@@ -11623,6 +11887,9 @@ packages:
 =======
   /@typescript-eslint/experimental-utils/4.25.0_eslint@7.27.0+typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@typescript-eslint/experimental-utils/4.25.0:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-f0doRE76vq7NEEU0tw+ajv6CrmPelw5wLoaghEHkA2dNLFb3T/zJQqGPQ0OYt5XlZaS13MtnN+GTPCuUVg338w==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -11661,6 +11928,7 @@ packages:
       '@typescript-eslint/scope-manager': 4.25.0
       '@typescript-eslint/types': 4.25.0
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@typescript-eslint/typescript-estree': 4.25.0
 >>>>>>> feat: initial setup for augur
 <<<<<<< HEAD
@@ -11676,9 +11944,21 @@ packages:
       '@typescript-eslint/typescript-estree': 4.25.0_typescript@4.3.5
       eslint: 7.27.0
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+=======
+      '@typescript-eslint/typescript-estree': 4.25.0
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0_eslint@7.32.0
     transitivePeerDependencies:
@@ -11688,16 +11968,21 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@typescript-eslint/parser/4.30.0_eslint@7.32.0+typescript@4.4.2:
     resolution: {integrity: sha512-HJ0XuluSZSxeboLU7Q2VQ6eLlCwXPBOGnA7CqgBnz2Db3JRQYyBDJgQnop6TZ+rsbSx5gEdWhw4rE4mDa1FnZg==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/parser/4.29.1_f8ed5431742f75332c3083279db44140:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/parser/4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11705,11 +11990,15 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/parser/4.28.5:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/parser/4.28.5_eslint@7.31.0+typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
@@ -11719,6 +12008,9 @@ packages:
 =======
   /@typescript-eslint/parser/4.25.0_eslint@7.27.0+typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@typescript-eslint/parser/4.25.0:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-OZFa1SKyEJpAhDx8FcbWyX+vLwh7OEtzoo2iQaeWwxucyfbi0mT4DijbOSsTgPKzGHr6GrF2V5p/CEpUH/VBxg==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -11763,8 +12055,9 @@ packages:
 =======
       '@typescript-eslint/scope-manager': 4.25.0
       '@typescript-eslint/types': 4.25.0
-      '@typescript-eslint/typescript-estree': 4.25.0_typescript@4.3.5
+      '@typescript-eslint/typescript-estree': 4.25.0
       debug: 4.3.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
 <<<<<<< HEAD
@@ -11780,9 +12073,20 @@ packages:
       eslint: 7.27.0
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+=======
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11802,16 +12106,21 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.30.0_typescript@4.4.2:
     resolution: {integrity: sha512-6WN7UFYvykr/U0Qgy4kz48iGPWILvYL34xXJxvDQeiRE018B7POspNRVtAZscWntEPZpFCx4hcz/XBT+erenfg==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.29.1_typescript@4.4.1-rc:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11819,11 +12128,15 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.28.5:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.28.5_typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
@@ -11833,6 +12146,9 @@ packages:
 =======
   /@typescript-eslint/typescript-estree/4.25.0_typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /@typescript-eslint/typescript-estree/4.25.0:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-1B8U07TGNAFMxZbSpF6jqiDs1cVGO0izVkf18Q/SPcUAc9LhHxzvSowXDTvkHMWUVuPpagupaW63gB6ahTXVlg==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -11851,9 +12167,12 @@ packages:
       is-glob: 4.0.1
       semver: 7.3.5
 <<<<<<< HEAD
+<<<<<<< HEAD
       tsutils: 3.21.0_typescript@4.4.2
       typescript: 4.4.2
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       tsutils: 3.21.0_typescript@4.4.1-rc
       typescript: 4.4.1-rc
@@ -11861,7 +12180,13 @@ packages:
       tsutils: 3.21.0_typescript@4.3.5
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+      tsutils: 3.21.0
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -12485,7 +12810,7 @@ packages:
       symbol.prototype.description: 1.0.5
     dev: true
 
-  /airbnb-prop-types/2.16.0_react@18.0.0-alpha-aecb3b6d1:
+  /airbnb-prop-types/2.16.0:
     resolution: {integrity: sha512-7WHOFolP/6cS96PhKNrslCLMYAI8yB1Pp6u6XmxozQOiZbsI5ycglZr5cHhBFfuRcQQjzCMith5ZPZdYiJCxUg==}
     peerDependencies:
       react: ^0.14 || ^15.0.0 || ^16.0.0-alpha
@@ -12498,7 +12823,6 @@ packages:
       object.entries: 1.1.4
       prop-types: 15.7.2
       prop-types-exact: 1.2.0
-      react: 18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
     dev: true
 
@@ -16574,7 +16898,7 @@ packages:
     hasBin: true
     dev: true
 
-  /enzyme-adapter-react-16/1.15.6_f15f970d9b179e8975516dda0497bdea:
+  /enzyme-adapter-react-16/1.15.6_enzyme@3.11.0:
     resolution: {integrity: sha512-yFlVJCXh8T+mcQo8M6my9sPgeGzj85HSHi6Apgf1Cvq/7EL/J9+1JoJmJsRxZgyTvPMAqOEpRSu/Ii/ZpyOk0g==}
     peerDependencies:
       enzyme: ^3.0.0
@@ -16582,31 +16906,28 @@ packages:
       react-dom: ^16.0.0-0
     dependencies:
       enzyme: 3.11.0
-      enzyme-adapter-utils: 1.14.0_react@18.0.0-alpha-aecb3b6d1
+      enzyme-adapter-utils: 1.14.0
       enzyme-shallow-equal: 1.0.4
       has: 1.0.3
       object.assign: 4.1.2
       object.values: 1.1.4
       prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
-      react-test-renderer: 16.14.0_react@18.0.0-alpha-aecb3b6d1
+      react-test-renderer: 16.14.0
       semver: 5.7.1
     dev: true
 
-  /enzyme-adapter-utils/1.14.0_react@18.0.0-alpha-aecb3b6d1:
+  /enzyme-adapter-utils/1.14.0:
     resolution: {integrity: sha512-F/z/7SeLt+reKFcb7597IThpDp0bmzcH1E9Oabqv+o01cID2/YInlqHbFl7HzWBl4h3OdZYedtwNDOmSKkk0bg==}
     peerDependencies:
       react: 0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0
     dependencies:
-      airbnb-prop-types: 2.16.0_react@18.0.0-alpha-aecb3b6d1
+      airbnb-prop-types: 2.16.0
       function.prototype.name: 1.1.4
       has: 1.0.3
       object.assign: 4.1.2
       object.fromentries: 2.0.4
       prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
       semver: 5.7.1
     dev: true
 
@@ -17453,6 +17774,44 @@ packages:
       merkle-patricia-tree: 2.3.2
       rustbn.js: 0.2.0
       safe-buffer: 5.2.1
+    dev: false
+
+  /ethers/5.4.4:
+    resolution: {integrity: sha512-zaTs8yaDjfb0Zyj8tT6a+/hEkC+kWAA350MWRp6yP5W7NdGcURRPMOpOU+6GtkfxV9wyJEShWesqhE/TjdqpMA==}
+    dependencies:
+      '@ethersproject/abi': 5.4.0
+      '@ethersproject/abstract-provider': 5.4.1
+      '@ethersproject/abstract-signer': 5.4.1
+      '@ethersproject/address': 5.4.0
+      '@ethersproject/base64': 5.4.0
+      '@ethersproject/basex': 5.4.0
+      '@ethersproject/bignumber': 5.4.1
+      '@ethersproject/bytes': 5.4.0
+      '@ethersproject/constants': 5.4.0
+      '@ethersproject/contracts': 5.4.1
+      '@ethersproject/hash': 5.4.0
+      '@ethersproject/hdnode': 5.4.0
+      '@ethersproject/json-wallets': 5.4.0
+      '@ethersproject/keccak256': 5.4.0
+      '@ethersproject/logger': 5.4.0
+      '@ethersproject/networks': 5.4.2
+      '@ethersproject/pbkdf2': 5.4.0
+      '@ethersproject/properties': 5.4.0
+      '@ethersproject/providers': 5.4.3
+      '@ethersproject/random': 5.4.0
+      '@ethersproject/rlp': 5.4.0
+      '@ethersproject/sha2': 5.4.0
+      '@ethersproject/signing-key': 5.4.0
+      '@ethersproject/solidity': 5.4.0
+      '@ethersproject/strings': 5.4.0
+      '@ethersproject/transactions': 5.4.0
+      '@ethersproject/units': 5.4.0
+      '@ethersproject/wallet': 5.4.0
+      '@ethersproject/web': 5.4.0
+      '@ethersproject/wordlists': 5.4.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
     dev: false
 
   /ethjs-unit/0.1.6:
@@ -20298,11 +20657,14 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest-circus/27.1.0:
     resolution: {integrity: sha512-6FWtHs3nZyZlMBhRf1wvAC5CirnflbGJAY1xssSAnERLiiXQRH+wY2ptBVtXjX4gz4AA2EwRV57b038LmifRbA==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-circus/27.0.6:
     resolution: {integrity: sha512-OJlsz6BBeX9qR+7O9lXefWoc2m9ZqcZ5Ohlzz0pTEAG4xMiZUJoacY8f4YDHxgk0oKYxj277AfOk9w6hZYvi1Q==}
@@ -20311,6 +20673,9 @@ packages:
 =======
   /jest-circus/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /jest-circus/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-Tz3ytmrsgxWlTwSyPYb8StF9J2IMjLlbBMKAjhL2UU9/0ZpYb2JiEGjXaAhnGauQRbbpyFbSH3yj5HIbdurmwQ==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -20348,7 +20713,7 @@ packages:
       jest-each: 27.0.1
       jest-matcher-utils: 27.0.1
       jest-message-util: 27.0.1
-      jest-runner: 27.0.1_ts-node@10.0.0
+      jest-runner: 27.0.1
       jest-runtime: 27.0.1
       jest-snapshot: 27.0.1
       jest-util: 27.0.1
@@ -20362,21 +20727,28 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest-cli/27.1.0_ts-node@10.2.1:
     resolution: {integrity: sha512-h6zPUOUu+6oLDrXz0yOWY2YXvBLk8gQinx4HbZ7SF4V3HzasQf+ncoIbKENUMwXyf54/6dBkYXvXJos+gOHYZw==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-cli/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-cli/27.0.6:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-cli/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
@@ -20387,6 +20759,9 @@ packages:
 =======
   /jest-cli/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /jest-cli/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-plDsQQwpkKK1SZ5L5xqMa7v/sTwB5LTIeSJqb+cV+4EMlThdUQfg8jwMfHX8jHuUc9TPGLcdoZeBuZcGGn3Rlg==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -20400,6 +20775,7 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@jest/core': 27.1.0_ts-node@10.2.1
       '@jest/test-result': 27.1.0
       '@jest/types': 27.1.0
@@ -20407,16 +20783,22 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@jest/core': 27.0.6_ts-node@10.2.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@jest/core': 27.0.6
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@jest/core': 27.0.6_ts-node@10.1.0
 >>>>>>> feat: initial setup for augur
@@ -20428,6 +20810,9 @@ packages:
 =======
       '@jest/core': 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+=======
+      '@jest/core': 27.0.1
+>>>>>>> fix: prices
       '@jest/test-result': 27.0.1
       '@jest/types': 27.0.1
 >>>>>>> feat: initial setup for augur
@@ -20438,22 +20823,29 @@ packages:
       import-local: 3.0.2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       jest-config: 27.1.0_ts-node@10.2.1
       jest-util: 27.1.0
       jest-validate: 27.1.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest-config: 27.0.6_ts-node@10.2.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest-config: 27.0.6
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest-config: 27.0.6_ts-node@10.1.0
 >>>>>>> feat: initial setup for augur
@@ -20465,6 +20857,9 @@ packages:
 =======
       jest-config: 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+=======
+      jest-config: 27.0.1
+>>>>>>> fix: prices
       jest-util: 27.0.1
       jest-validate: 27.0.1
 >>>>>>> feat: initial setup for augur
@@ -20481,21 +20876,28 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest-config/27.1.0_ts-node@10.2.1:
     resolution: {integrity: sha512-GMo7f76vMYUA3b3xOdlcKeKQhKcBIgurjERO2hojo0eLkKPGcw7fyIoanH+m6KOP2bLad+fGnF8aWOJYxzNPeg==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-config/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-config/27.0.6:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-config/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
@@ -20506,6 +20908,9 @@ packages:
 =======
   /jest-config/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /jest-config/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-V8O6+CZjGF0OMq4kxVR29ztV/LQqlAAcJLw7a94RndfRXkha4U84n50yZCXiPWtAHHTmb3g1y52US6rGPxA+3w==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -20530,7 +20935,7 @@ packages:
       babel-jest: 27.0.6_@babel+core@7.14.8
 =======
       '@babel/core': 7.14.3
-      '@jest/test-sequencer': 27.0.1_ts-node@10.0.0
+      '@jest/test-sequencer': 27.0.1
       '@jest/types': 27.0.1
       babel-jest: 27.0.1_@babel+core@7.14.3
 >>>>>>> feat: initial setup for augur
@@ -20542,12 +20947,15 @@ packages:
       is-ci: 3.0.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       jest-circus: 27.1.0
       jest-environment-jsdom: 27.1.0
       jest-environment-node: 27.1.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest-circus: 27.0.6
       jest-environment-jsdom: 27.0.6
@@ -20577,6 +20985,9 @@ packages:
 =======
       jest-circus: 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+=======
+      jest-circus: 27.0.1
+>>>>>>> fix: prices
       jest-environment-jsdom: 27.0.1
       jest-environment-node: 27.0.1
       jest-get-type: 27.0.1
@@ -20587,6 +20998,7 @@ packages:
       jest-validate: 27.0.1
       micromatch: 4.0.4
       pretty-format: 27.0.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
 <<<<<<< HEAD
@@ -20601,9 +21013,20 @@ packages:
 =======
       ts-node: 10.0.0_typescript@4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+=======
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -21035,11 +21458,14 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest-runner/27.1.0:
     resolution: {integrity: sha512-ZWPKr9M5w5gDplz1KsJ6iRmQaDT/yyAFLf18fKbb/+BLWsR1sCNC2wMT0H7pP3gDcBz0qZ6aJraSYUNAGSJGaw==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest-runner/27.0.6:
     resolution: {integrity: sha512-W3Bz5qAgaSChuivLn+nKOgjqNxM7O/9JOJoKDCqThPIg2sH/d4A/lzyiaFgnb9V1/w29Le11NpzTJSzga1vyYQ==}
@@ -21048,6 +21474,9 @@ packages:
 =======
   /jest-runner/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /jest-runner/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-DUNizlD2D7J80G3VOrwfbtb7KYxiftMng82HNcKwTW0W3AwwNuBeq+1exoCnLO7Mxh7NP+k/1XQBlzLpjr/CnA==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -21078,6 +21507,7 @@ packages:
       graceful-fs: 4.2.6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       jest-docblock: 27.0.6
       jest-environment-jsdom: 27.0.6
       jest-environment-node: 27.0.6
@@ -21093,6 +21523,9 @@ packages:
 =======
       jest-config: 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+=======
+      jest-config: 27.0.1
+>>>>>>> fix: prices
       jest-docblock: 27.0.1
       jest-haste-map: 27.0.1
       jest-leak-detector: 27.0.1
@@ -21311,21 +21744,28 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest/27.1.0_ts-node@10.2.1:
     resolution: {integrity: sha512-pSQDVwRSwb109Ss13lcMtdfS9r8/w2Zz8+mTUA9VORD66GflCdl8nUFCqM96geOD2EBwWCNURrNAfQsLIDNBdg==}
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest/27.0.6:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /jest/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
@@ -21336,6 +21776,9 @@ packages:
 =======
   /jest/27.0.1_ts-node@10.0.0:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /jest/27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-lFEoUdXjbGAIxk/gZhcv98xOaH1hjqG5R/PQHs5GBfIK5iL3tnXCjHQf4HQLVZZ2rcXML3oeVg9+XrRZbooBdQ==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -21349,12 +21792,15 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@jest/core': 27.1.0_ts-node@10.2.1
       import-local: 3.0.2
       jest-cli: 27.1.0_ts-node@10.2.1
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@jest/core': 27.0.6_ts-node@10.2.0
       import-local: 3.0.2
@@ -21362,6 +21808,8 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@jest/core': 27.0.6
       import-local: 3.0.2
@@ -21369,6 +21817,8 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       '@jest/core': 27.0.6_ts-node@10.1.0
       import-local: 3.0.2
@@ -21392,9 +21842,23 @@ packages:
       import-local: 3.0.2
       jest-cli: 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+=======
+      '@jest/core': 27.0.1
+      import-local: 3.0.2
+      jest-cli: 27.0.1
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -22728,7 +23192,7 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  /mini-create-react-context/0.4.1_d2630f1b5c5d613d08a8af07021f9fe5:
+  /mini-create-react-context/0.4.1_prop-types@15.7.2:
     resolution: {integrity: sha512-YWCYEmd5CQeHGSAKrYvXgmzzkrvssZcuuQDDeqkT+PziKGMgE+0MCCtcKbROzocGBG1meBLl2FotlRwf4gAzbQ==}
     peerDependencies:
       prop-types: ^15.0.0
@@ -22736,7 +23200,6 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.3
       prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
       tiny-warning: 1.0.3
     dev: false
 
@@ -23010,6 +23473,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /nano-base32/1.0.1:
     resolution: {integrity: sha1-ulSMh578+5DaHE2eCX20pGySVe8=}
     dev: false
@@ -23020,14 +23484,22 @@ packages:
 =======
 =======
 <<<<<<< HEAD
+>>>>>>> fix: prices
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
   /nano-css/5.3.1:
 <<<<<<< HEAD
+=======
+  /nano-css/5.3.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-ENPIyNzANQRyYVvb62ajDd7PAyIgS2LIUnT9ewih4yrXSZX4hKoUwssy8WjUH++kEOA5wUTMgNnV7ko5n34kUA==}
     peerDependencies:
       react: '*'
@@ -25120,15 +25592,20 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /react-error-boundary/3.1.3_react@18.0.0-alpha-aecb3b6d1:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /react-error-boundary/3.1.3:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /react-error-boundary/3.1.3_react@18.0.0-alpha-aecb3b6d1:
 >>>>>>> feat: initial setup for augur
@@ -25139,6 +25616,9 @@ packages:
 =======
   /react-error-boundary/3.1.1_react@18.0.0-alpha-aecb3b6d1:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /react-error-boundary/3.1.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-W3xCd9zXnanqrTUeViceufD3mIW8Ut29BUD+S2f0eO2XCOU8b6UrJfY46RDGe5lxCJzfe4j0yvIfh0RbTZhKJw==}
 >>>>>>> feat: initial setup for augur
     engines: {node: '>=10', npm: '>=6'}
@@ -25160,6 +25640,7 @@ packages:
 =======
       '@babel/runtime': 7.13.17
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
 <<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
@@ -25170,8 +25651,16 @@ packages:
 =======
       react: 18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+=======
+>>>>>>> fix: prices
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     dev: true
 
   /react-error-overlay/6.0.9:
@@ -25182,13 +25671,12 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: true
 
-  /react-feather/2.0.9_react@18.0.0-alpha-aecb3b6d1:
+  /react-feather/2.0.9:
     resolution: {integrity: sha512-yMfCGRkZdXwIs23Zw/zIWCJO3m3tlaUvtHiXlW+3FH7cIT6fiK1iJ7RJWugXq7Fso8ZaQyUm92/GOOHXvkiVUw==}
     peerDependencies:
       react: ^16.8.6 || ^17
     dependencies:
       prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
     dev: false
 
 <<<<<<< HEAD
@@ -25215,7 +25703,7 @@ packages:
       shallowequal: 1.1.0
     dev: true
 
-  /react-highlight-words/0.17.0_react@18.0.0-alpha-aecb3b6d1:
+  /react-highlight-words/0.17.0:
     resolution: {integrity: sha512-uX1Qh5IGjnLuJT0Zok234QDwRC8h4hcVMnB99Cb7aquB1NlPPDiWKm0XpSZOTdSactvnClCk8LOmVlP+75dgHA==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0
@@ -25223,6 +25711,7 @@ packages:
       highlight-words-core: 1.2.2
       memoize-one: 4.0.3
       prop-types: 15.7.2
+<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
 <<<<<<< HEAD
     dev: false
@@ -25239,6 +25728,8 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
     dev: false
 
   /react-hook-form/7.12.0_react@18.0.0-alpha-aecb3b6d1:
@@ -25283,15 +25774,12 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: true
 
-  /react-middle-ellipsis/1.2.1_f991c289939c8299bed5e4a6a5a79a62:
+  /react-middle-ellipsis/1.2.1:
     resolution: {integrity: sha512-BUQWVXIWwkY7qBqZx0qyeCnPIh188t0lLS0ftfBsU41HB6k769HyBwE23eP+qNXr4vEnmKTEmlicrypVdWYs0w==}
     engines: {node: '>=8', npm: '>=5'}
     peerDependencies:
       react: ^17.0.0
       react-dom: ^17.0.0
-    dependencies:
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
     dev: false
 
   /react-popper-tooltip/3.1.1_f991c289939c8299bed5e4a6a5a79a62:
@@ -25344,6 +25832,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /react-property/1.0.1:
     resolution: {integrity: sha512-1tKOwxFn3dXVomH6pM9IkLkq2Y8oh+fh/lYW3MJ/B03URswUTqttgckOlbxY2XHF3vPG6uanSc4dVsLW/wk3wQ==}
     dev: false
@@ -25351,19 +25840,23 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
 =======
   /react-refresh-typescript/2.0.1_react-refresh@0.10.0:
 =======
   /react-refresh-typescript/2.0.1_07d643ea690a1c588819a69f1ef8f0ab:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /react-refresh-typescript/2.0.1_react-refresh@0.10.0:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-hzn1GakEKnO5JmQ1/Av6kUFOq+2B62y0wvQndjeaRn/bDC+gEAYOYYO4T83iqr817fIbyttIicZiqpZUFum63A==}
     peerDependencies:
       react-refresh: 0.10.x
       typescript: ^4
     dependencies:
       react-refresh: 0.10.0
-      typescript: 4.3.5
     dev: true
 
 >>>>>>> feat: initial setup for augur
@@ -25383,8 +25876,13 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+<<<<<<< HEAD
   /react-router-dom/5.2.1_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-xhFFkBGVcIVPbWM2KEYzED+nuHQPmulVa7sqIs3ESxzYd1pYg8N8rxPnQ4T2o1zu/2QeDUWcaqST131SO1LR3w==}
+=======
+  /react-router-dom/5.2.0:
+    resolution: {integrity: sha512-gxAmfylo2QUjcwxI63RhQ5G85Qqt4voZpUXSEqCwykV0baaOTQDR1f0PmY8AELqIyVc0NEZUj0Gov5lNGcXgsA==}
+>>>>>>> fix: prices
     peerDependencies:
       react: '>=15'
     dependencies:
@@ -25392,8 +25890,12 @@ packages:
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.7.2
+<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-router: 5.2.1_react@18.0.0-alpha-aecb3b6d1
+=======
+      react-router: 5.2.0
+>>>>>>> fix: prices
       tiny-invariant: 1.1.0
       tiny-warning: 1.0.3
     dev: false
@@ -25432,8 +25934,13 @@ packages:
 >>>>>>> feat: three tabs added to the market view
     dev: false
 
+<<<<<<< HEAD
   /react-router/5.2.1_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-lIboRiOtDLFdg1VTemMwud9vRVuOCZmUIT/7lUoZiSpPODiiH1UQlfXy+vPLC/7IWdFYnhRwAyNqA/+I7wnvKQ==}
+=======
+  /react-router/5.2.0:
+    resolution: {integrity: sha512-smz1DUuFHRKdcJC0jobGo8cVbhO3x50tCL4icacOlcwDOEQPq4TMqwx3sY1TP+DvtTgz4nm3thuo7A+BK2U0Dw==}
+>>>>>>> fix: prices
     peerDependencies:
       react: '>=15'
     dependencies:
@@ -25441,10 +25948,9 @@ packages:
       history: 4.10.1
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
-      mini-create-react-context: 0.4.1_d2630f1b5c5d613d08a8af07021f9fe5
+      mini-create-react-context: 0.4.1_prop-types@15.7.2
       path-to-regexp: 1.8.0
       prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
       tiny-invariant: 1.1.0
       tiny-warning: 1.0.3
@@ -25478,13 +25984,12 @@ packages:
 >>>>>>> feat: three tabs added to the market view
     dev: false
 
-  /react-shallow-renderer/16.14.1_react@18.0.0-alpha-aecb3b6d1:
+  /react-shallow-renderer/16.14.1:
     resolution: {integrity: sha512-rkIMcQi01/+kxiTE9D3fdS959U1g7gs+/rborw++42m1O9FAQiNI/UNRZExVUoAOprn4umcXf+pFRou8i4zuBg==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0
     dependencies:
       object-assign: 4.1.1
-      react: 18.0.0-alpha-aecb3b6d1
       react-is: 17.0.2
     dev: true
 
@@ -25530,27 +26035,25 @@ packages:
 >>>>>>> feat: initial setup for augur
     dev: true
 
-  /react-test-renderer/16.14.0_react@18.0.0-alpha-aecb3b6d1:
+  /react-test-renderer/16.14.0:
     resolution: {integrity: sha512-L8yPjqPE5CZO6rKsKXRO/rVPiaCOy0tQQJbC+UjPNlobl5mad59lvPjwFsQHTvL03caVDIVr9x9/OSgDe6I5Eg==}
     peerDependencies:
       react: ^16.14.0
     dependencies:
       object-assign: 4.1.1
       prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
       scheduler: 0.19.1
     dev: true
 
-  /react-test-renderer/17.0.2_react@18.0.0-alpha-aecb3b6d1:
+  /react-test-renderer/17.0.2:
     resolution: {integrity: sha512-yaQ9cB89c17PUb0x6UfWRs7kQCorVdHlutU1boVPEsB8IDZH6n9tHxMacc3y0JoXOJUsZb/t/Mb8FUWMKaM7iQ==}
     peerDependencies:
       react: 17.0.2
     dependencies:
       object-assign: 4.1.1
-      react: 18.0.0-alpha-aecb3b6d1
       react-is: 17.0.2
-      react-shallow-renderer: 16.14.1_react@18.0.0-alpha-aecb3b6d1
+      react-shallow-renderer: 16.14.1
       scheduler: 0.20.2
     dev: true
 
@@ -25663,16 +26166,23 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /react-universal-interface/0.6.2_tslib@2.3.0:
+=======
+  /react-universal-interface/0.6.2_tslib@2.2.0:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==}
     peerDependencies:
       react: '*'
       tslib: '*'
     dependencies:
+<<<<<<< HEAD
       tslib: 2.3.0
     dev: false
 
@@ -25680,25 +26190,43 @@ packages:
 =======
   /react-use/17.2.4_f991c289939c8299bed5e4a6a5a79a62:
 >>>>>>> feat: three tabs added to the market view
+=======
+      tslib: 2.2.0
+    dev: false
+
+  /react-use/17.2.4:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-vQGpsAM0F5UIlshw5UI8ULGPS4yn5rm7/qvn3T1Gnkrz7YRMEEMh+ynKcmRloOyiIeLvKWiQjMiwRGtdbgs5qQ==}
     peerDependencies:
       react: ^16.8.0  || ^17.0.0
       react-dom: ^16.8.0  || ^17.0.0
     dependencies:
+<<<<<<< HEAD
       '@types/js-cookie': 2.2.7
+=======
+      '@types/js-cookie': 2.2.6
+>>>>>>> fix: prices
       '@xobotyi/scrollbar-width': 1.9.5
       copy-to-clipboard: 3.3.1
       fast-deep-equal: 3.1.3
       fast-shallow-equal: 1.0.0
       js-cookie: 2.2.1
       nano-css: 5.3.1
+<<<<<<< HEAD
       react-universal-interface: 0.6.2_tslib@2.3.0
+=======
+      react-universal-interface: 0.6.2_tslib@2.2.0
+>>>>>>> fix: prices
       resize-observer-polyfill: 1.5.1
       screenfull: 5.1.0
       set-harmonic-interval: 1.0.1
       throttle-debounce: 3.0.1
       ts-easing: 0.2.0
+<<<<<<< HEAD
       tslib: 2.3.0
+=======
+      tslib: 2.2.0
+>>>>>>> fix: prices
     dev: false
 
 >>>>>>> feat: initial setup for augur
@@ -25754,12 +26282,18 @@ packages:
       tslib: 2.3.1
     dev: false
 
+<<<<<<< HEAD
   /react-virtualized-auto-sizer/1.0.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-7tQ0BmZqfVF6YYEWcIGuoR3OdYe8I/ZFbNclFlGOC3pMqunkYF/oL30NCjSGl9sMEb17AnzixDz98Kqc3N76HQ==}
+=======
+  /react-virtualized-auto-sizer/1.0.5:
+    resolution: {integrity: sha512-kivjYVWX15TX2IUrm8F1jaCEX8EXrpy3DD+u41WGqJ1ZqbljWpiwscV+VxOM1l7sSIM1jwi2LADjhhAJkJ9dxA==}
+>>>>>>> fix: prices
     engines: {node: '>8.0.0'}
     peerDependencies:
       react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0
       react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     dependencies:
@@ -25769,6 +26303,11 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     dev: false
 
   /react-window/1.8.6:
@@ -25777,6 +26316,7 @@ packages:
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0
       react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0
+<<<<<<< HEAD
     dependencies:
       '@babel/runtime': 7.14.8
       memoize-one: 5.2.1
@@ -25790,7 +26330,15 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+    dependencies:
+      '@babel/runtime': 7.13.10
+      memoize-one: 5.1.1
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     dev: false
 
   /react-window/1.8.6_f991c289939c8299bed5e4a6a5a79a62:
@@ -28520,6 +29068,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /ts-interface-checker/0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
@@ -28534,15 +29083,22 @@ packages:
 =======
 <<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+<<<<<<< HEAD
+>>>>>>> fix: prices
   /ts-jest/27.0.4_2b1bb99c65ce8fc8eda3ccb6cb24befc:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /ts-jest/27.0.4_@types+jest@26.0.24+jest@27.0.6:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /ts-jest/27.0.4_52cc4273aa16028085013af47e479e10:
 >>>>>>> feat: initial setup for augur
@@ -28553,6 +29109,9 @@ packages:
 =======
   /ts-jest/27.0.1_jest@27.0.1+typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /ts-jest/27.0.1_jest@27.0.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-03qAt77QjhxyM5Bt2KrrT1WbdumiwLz989sD3IUznSp3GIFQrx76kQqSMLF7ynnxrF3/1ipzABnHxMlU8PD4Vw==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -28577,21 +29136,28 @@ packages:
       fast-json-stable-stringify: 2.1.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       jest: 27.1.0_ts-node@10.2.1
       jest-util: 27.1.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest: 27.0.6_ts-node@10.2.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest: 27.0.6
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       jest: 27.0.6_ts-node@10.1.0
 >>>>>>> feat: initial setup for augur
@@ -28602,6 +29168,9 @@ packages:
 =======
       jest: 27.0.1_ts-node@10.0.0
 >>>>>>> feat: three tabs added to the market view
+=======
+      jest: 27.0.1
+>>>>>>> fix: prices
       jest-util: 27.0.1
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -28609,6 +29178,7 @@ packages:
       lodash: 4.17.21
       make-error: 1.3.6
       semver: 7.3.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       typescript: 4.4.2
@@ -28620,16 +29190,23 @@ packages:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       typescript: 4.4.1-rc
 =======
 <<<<<<< HEAD
+>>>>>>> fix: prices
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       typescript: 4.3.5
 >>>>>>> feat: initial setup for augur
@@ -28647,10 +29224,12 @@ packages:
 =======
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
       yargs-parser: 20.2.7
     dev: true
 
-  /ts-loader/9.2.2_typescript@4.3.5+webpack@5.37.1:
+  /ts-loader/9.2.2_webpack@5.37.1:
     resolution: {integrity: sha512-hNIhGTQHtNKjOzR2ZtQ2OSVbXPykOae+zostf1IlHCf61Mt41GMJurKNqrYUbzHgpmj6UWRu8eBfb7q0XliV0g==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -28661,7 +29240,6 @@ packages:
       enhanced-resolve: 5.8.0
       micromatch: 4.0.4
       semver: 7.3.5
-      typescript: 4.3.5
       webpack: 5.37.1_webpack-cli@4.7.0
     dev: true
 
@@ -28849,14 +29427,23 @@ packages:
     dev: false
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /tsutils/3.21.0_typescript@4.4.2:
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /tsutils/3.21.0_typescript@4.4.1-rc:
 =======
   /tsutils/3.21.0_typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+  /tsutils/3.21.0:
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
@@ -28864,14 +29451,22 @@ packages:
     dependencies:
       tslib: 1.14.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       typescript: 4.4.2
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       typescript: 4.4.1-rc
 =======
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     dev: true
 
   /tty-browserify/0.0.0:
@@ -28911,14 +29506,20 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /type-coverage-core/2.18.2_typescript@4.4.2:
     resolution: {integrity: sha512-cyQKmRoh+7gbIvXnPg5F6xWTdZ2+0R0tqgdJaIImqDs1Gih6fBeIDhYblS25TkR2ZmacmYnG33nAvQUe89zwnA==}
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
   /type-coverage-core/2.17.5_typescript@4.4.1-rc:
 =======
   /type-coverage-core/2.17.5_typescript@4.3.5:
 >>>>>>> feat: three tabs added to the market view
+=======
+  /type-coverage-core/2.17.5:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-FfkH2kIgQkkgC47V2WHJZWBbjYjMw2ZpQRdRGTcMBAnkijmRCp9I1LpOuI+Gv4MDtniRLnkAo8htGGt2iExFgA==}
 >>>>>>> feat: three tabs added to the market view
     peerDependencies:
@@ -28946,11 +29547,10 @@ packages:
     resolution: {integrity: sha512-SAyrR6Xl7GfHNcXU8Y3wSnJfGftdCvf/b2JlJJtt7gt74T0dCF077/ukhlLjI/MsWmRCxW8k8x/d4AjrFiLSpQ==}
 =======
       tslib: 2.2.0
-      tsutils: 3.21.0_typescript@4.3.5
-      typescript: 4.3.5
+      tsutils: 3.21.0
     dev: true
 
-  /type-coverage/2.17.5_typescript@4.3.5:
+  /type-coverage/2.17.5:
     resolution: {integrity: sha512-Lqmvt4RVf1A+KE7x5PSRU7lM53HfyqeYmAuueHgJnol4omlZ4EnydodMkEc015cQohdqvLLz1vQ5Qhspg1hfRw==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -28958,14 +29558,23 @@ packages:
     dependencies:
       minimist: 1.2.5
 <<<<<<< HEAD
+<<<<<<< HEAD
       type-coverage-core: 2.18.2_typescript@4.4.2
 =======
+=======
+>>>>>>> fix: prices
 <<<<<<< HEAD
       type-coverage-core: 2.17.5_typescript@4.4.1-rc
 =======
       type-coverage-core: 2.17.5_typescript@4.3.5
 >>>>>>> feat: three tabs added to the market view
+<<<<<<< HEAD
 >>>>>>> feat: three tabs added to the market view
+=======
+=======
+      type-coverage-core: 2.17.5
+>>>>>>> fix: prices
+>>>>>>> fix: prices
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -29563,11 +30172,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: prices
   /use-subscription/1.5.1:
 <<<<<<< HEAD
+=======
+  /use-subscription/1.5.1:
+>>>>>>> fix: prices
     resolution: {integrity: sha512-Xv2a1P/yReAjAbhylMfFplFKj9GssgTwN7RlcTxBujFQcloStWNDQdc4g4NRWH9xS4i/FDk04vQBptAXoF3VcA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
