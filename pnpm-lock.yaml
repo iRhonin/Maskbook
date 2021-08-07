@@ -93,49 +93,6 @@ importers:
       ttypescript: 1.5.12_49f9424defa249b0eec74eceb43d82e4
       typescript: 4.4.1-rc
 
-<<<<<<< HEAD
-=======
-  packages/cli:
-    specifiers:
-      '@types/gulp': ^4.0.8
-      '@types/inquirer': ^7.3.1
-      '@types/lodash': ^4.14.170
-      '@types/proper-lockfile': ^4.1.1
-      gulp: ^4.0.2
-      inquirer: ^8.1.0
-      lodash: ^4.17.21
-      proper-lockfile: ^4.1.1
-      ts-node: ^10.0.0
-    dependencies:
-      inquirer: 8.1.0
-      lodash: 4.17.21
-      proper-lockfile: 4.1.2
-    devDependencies:
-      '@types/gulp': 4.0.8
-      '@types/inquirer': 7.3.1
-      '@types/lodash': 4.14.170
-      '@types/proper-lockfile': 4.1.1
-      gulp: 4.0.2
-      ts-node: 10.0.0_typescript@4.3.5
-
-  packages/contracts:
-    specifiers:
-      '@typechain/web3-v1': ^3.0.0
-      bn.js: ^4.12.0
-      promievent: ^0.1.5
-      typechain: ^5.0.0
-      web3-core: ^1.3.4
-      web3-eth-contract: ^1.3.4
-    dependencies:
-      '@typechain/web3-v1': 3.0.0_typechain@5.0.0
-      typechain: 5.0.0_typescript@4.3.5
-    devDependencies:
-      bn.js: 4.12.0
-      promievent: 0.1.5
-      web3-core: 1.3.4
-      web3-eth-contract: 1.3.4
-
->>>>>>> feat: initial setup for augur
   packages/dashboard:
     specifiers:
       '@babel/core': ^7.15.0
@@ -206,22 +163,10 @@ importers:
       i18next-browser-languagedetector: 6.1.2
       json-stable-stringify: 1.0.1
       lodash-es: 4.17.21
-<<<<<<< HEAD
-<<<<<<< HEAD
       react-hook-form: 7.12.0_react@18.0.0-alpha-aecb3b6d1
       react-router: 6.0.0-beta.0_dd3df4049b9a65e1e2d003c7940c4871
       react-router-dom: 6.0.0-beta.0_66263521e705c985f663eeac15167a50
       react-use: 17.2.4_f991c289939c8299bed5e4a6a5a79a62
-=======
-      react-router: 6.0.0-beta.0_history@5.0.0
-      react-router-dom: 6.0.0-beta.0_history@5.0.0
-      react-use: 17.2.4
->>>>>>> feat: initial setup for augur
-=======
-      react-router: 6.0.0-beta.0_dd3df4049b9a65e1e2d003c7940c4871
-      react-router-dom: 6.0.0-beta.0_66263521e705c985f663eeac15167a50
-      react-use: 17.2.4_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
       unstated-next: 1.1.0
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,8 +183,6 @@ importers:
     devDependencies:
       '@babel/core': 7.15.0
       '@snowpack/plugin-dotenv': 2.1.0
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@snowpack/plugin-react-refresh': 2.5.0_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/addon-actions': 6.3.6_873b6ee332b32a0534335ea366866a4e
       '@storybook/addon-essentials': 6.3.6_2b5a31f87dde00b299b74e0fb51e98d7
@@ -253,27 +196,6 @@ importers:
 
   packages/empty:
     specifiers: {}
-=======
-      '@snowpack/plugin-react-refresh': 2.5.0
-      '@storybook/addon-actions': 6.3.0
-      '@storybook/addon-essentials': 6.3.0_39cd091171729aa2cccda2ce52974d2f
-      '@storybook/addon-links': 6.3.0
-      '@storybook/addons': 6.3.0
-      '@storybook/react': 6.3.0_@babel+core@7.14.3
-      '@storybook/theming': 6.3.0
-=======
-      '@snowpack/plugin-react-refresh': 2.5.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/addon-actions': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addon-essentials': 6.3.0_8569c2ec86eea36afd1f8cc1fbead929
-      '@storybook/addon-links': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/react': 6.3.0_6aadd72a980eea05039aedec59259344
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@types/snowpack-env': 2.3.3
-      babel-loader: 8.2.2_@babel+core@7.14.3
-      snowpack: 3.5.1
->>>>>>> feat: initial setup for augur
 
   packages/external-plugin-previewer:
     specifiers:
@@ -582,18 +504,24 @@ importers:
       qrcode: 1.4.4
       react-draggable: 4.4.3
 <<<<<<< HEAD
+<<<<<<< HEAD
       react-feather: 2.0.9_react@18.0.0-alpha-aecb3b6d1
       react-highlight-words: 0.17.0_react@18.0.0-alpha-aecb3b6d1
 <<<<<<< HEAD
       react-hook-form: 7.10.1_react@18.0.0-alpha-aecb3b6d1
 =======
 >>>>>>> feat: three tabs added to the market view
+=======
+      react-feather: 2.0.9_react@18.0.0-alpha-aecb3b6d1
+      react-highlight-words: 0.17.0_react@18.0.0-alpha-aecb3b6d1
+>>>>>>> fix: conflicts and bugs
       react-middle-ellipsis: 1.2.1_f991c289939c8299bed5e4a6a5a79a62
       react-router: 5.2.0_react@18.0.0-alpha-aecb3b6d1
       react-router-dom: 5.2.0_react@18.0.0-alpha-aecb3b6d1
       react-use: 17.2.4_f991c289939c8299bed5e4a6a5a79a62
       react-virtualized-auto-sizer: 1.0.5_f991c289939c8299bed5e4a6a5a79a62
       react-window: 1.8.6_f991c289939c8299bed5e4a6a5a79a62
+<<<<<<< HEAD
 =======
       react-feather: 2.0.9
       react-highlight-words: 0.17.0
@@ -604,6 +532,8 @@ importers:
       react-virtualized-auto-sizer: 1.0.5
       react-window: 1.8.6
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
       remarkable: 2.0.1
       safari-14-idb-fix: 1.0.4
       scrypt-js: 3.0.1
@@ -613,9 +543,6 @@ importers:
       tiny-secp256k1: 1.1.6
       ts-results: 3.3.0
       unstated-next: 1.1.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       urlcat: 2.0.4
 <<<<<<< HEAD
       use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
@@ -624,6 +551,7 @@ importers:
       use-subscription: 1.5.1
 =======
       use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
+<<<<<<< HEAD
 =======
       use-subscription: 1.5.1
 >>>>>>> feat: initial setup for augur
@@ -646,7 +574,12 @@ importers:
       use-subscription: 1.5.1
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
       uuid: 8.3.2
       wallet.ts: 1.0.1
       web-ext-types: 3.2.1
@@ -666,12 +599,15 @@ importers:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d_typescript@4.4.1-rc
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d
 <<<<<<< HEAD
@@ -684,6 +620,8 @@ importers:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d_typescript@4.3.5
 >>>>>>> feat: initial setup for augur
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.0-rc.2_0cb17a392999b7da0b5f4263f37b1695
@@ -692,19 +630,6 @@ importers:
       '@swc/core': 1.2.77
       '@testing-library/react-hooks': 7.0.1_1959de3a9153879cff3acd96b46ed70f
       '@types/enzyme': 3.10.9
-=======
-      '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d
-=======
-      '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d_typescript@4.3.5
->>>>>>> feat: three tabs added to the market view
-=======
-      '@dimensiondev/webextension-shim': 0.0.3-20210708053012-57a254d
->>>>>>> fix: prices
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.0-rc.0_dae7018c5b5576f32207b1e2608a9d18
-      '@sinonjs/text-encoding': 0.7.1
-      '@testing-library/react-hooks': 7.0.0_react-test-renderer@17.0.2
-      '@types/enzyme': 3.10.8
->>>>>>> feat: initial setup for augur
       '@types/enzyme-adapter-react-16': 1.0.6
       '@types/expect-puppeteer': 4.4.6
       '@types/jest': 26.0.24
@@ -712,7 +637,6 @@ importers:
       '@types/puppeteer': 5.4.4
       '@types/remarkable': 2.0.3
       '@types/socket.io-client': 1.4.36
-<<<<<<< HEAD
       '@types/webpack-dev-server': 3.11.5
 <<<<<<< HEAD
       '@typescript-eslint/eslint-plugin': 4.29.1_9e650468d3ce62d57e2df2f2fad149b2
@@ -727,6 +651,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 4.28.5_@typescript-eslint+parser@4.28.5
       '@typescript-eslint/parser': 4.28.5
       babel-loader: 8.2.2_webpack@5.46.0
+<<<<<<< HEAD
 =======
       '@types/webpack-dev-server': 3.11.4
       '@typescript-eslint/eslint-plugin': 4.25.0_@typescript-eslint+parser@4.25.0
@@ -734,13 +659,14 @@ importers:
       babel-loader: 8.2.2_webpack@5.37.1
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
       chrome-launcher: 0.14.0
       copy-webpack-plugin: 9.0.1_webpack@5.50.0
       dotenv: 10.0.0
       enzyme: 3.11.0
-      enzyme-adapter-react-16: 1.15.6_enzyme@3.11.0
+      enzyme-adapter-react-16: 1.15.6_f15f970d9b179e8975516dda0497bdea
       expect-puppeteer: 5.0.4
-<<<<<<< HEAD
       fake-indexeddb: 3.1.3
 <<<<<<< HEAD
       file-loader: 6.2.0_webpack@5.50.0
@@ -756,6 +682,7 @@ importers:
       jest: 27.0.6
 =======
       jest: 27.0.6_ts-node@10.1.0
+<<<<<<< HEAD
 =======
       fake-indexeddb: 3.1.2
       file-loader: 6.2.0_webpack@5.37.1
@@ -783,7 +710,12 @@ importers:
       jest: 27.0.1
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
       jest-environment-jsdom-fourteen: 1.0.1
       jest-esm-transformer: 1.0.0
       jest-junit: 12.2.0
@@ -792,6 +724,7 @@ importers:
       openzeppelin-solidity: 3.4.1
       react-devtools-core: 4.14.0
       react-refresh: 0.10.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +738,8 @@ importers:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       react-test-renderer: 17.0.2
 =======
@@ -813,6 +748,8 @@ importers:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       react-test-renderer: 17.0.2_react@18.0.0-alpha-aecb3b6d1
 >>>>>>> feat: initial setup for augur
       rimraf: 3.0.2
@@ -829,6 +766,7 @@ importers:
       webpack: 5.46.0_webpack-cli@4.7.2
       webpack-cli: 4.7.2_d46d1c9a5e33a01c3500802a2e542ae0
       webpack-dev-server: 3.11.2_webpack-cli@4.7.2+webpack@5.46.0
+<<<<<<< HEAD
 =======
       react-refresh-typescript: 2.0.1_react-refresh@0.10.0
       react-test-renderer: 17.0.2
@@ -850,6 +788,8 @@ importers:
       webpack-dev-server: 3.11.2_webpack-cli@4.7.0+webpack@5.37.1
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
       webpack-extension-manifest-plugin: 0.7.0
       webpack-notifier: 1.13.0
       webpack-target-webextension: 0.4.4_webpack@5.50.0
@@ -954,7 +894,6 @@ importers:
       classnames: 2.3.1
       lodash-es: 4.17.21
       qrcode: 1.4.4
-<<<<<<< HEAD
       react-use: 17.2.4_f991c289939c8299bed5e4a6a5a79a62
       use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
       uuid: 8.3.2
@@ -986,37 +925,22 @@ importers:
       bignumber.js: 9.0.1
       immer: 9.0.5
       lodash-es: 4.17.21
-<<<<<<< HEAD
       react: link:../empty
       ts-results: 3.3.0
       typeson: 6.1.0
       typeson-registry: 1.0.0-alpha.39
-=======
-      react-use: 17.2.4
-=======
-      qrcode: 1.4.4
-      react-use: 17.2.4_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      ts-results: 3.3.0
-      typeson: 6.1.0
-      typeson-registry: 1.0.0-alpha.39
-      use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
-      uuid: 8.3.2
-      wallet.ts: 1.0.1
->>>>>>> feat: initial setup for augur
 
   packages/storybook-shared:
     specifiers:
       '@storybook/addons': ^6.3.5
       '@storybook/react': ^6.3.5
     devDependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
 <<<<<<< HEAD
       '@storybook/react': 6.3.6_4f7bd588893bba3af559a87c8b8df9ad
 =======
       '@storybook/react': 6.3.6_4880cc6c35b84094bd856f07dc18daf1
+<<<<<<< HEAD
 =======
       '@storybook/addons': 6.2.9
       '@storybook/react': 6.2.9
@@ -1029,6 +953,8 @@ importers:
       '@storybook/react': 6.2.9_57edae19559a63df11d45e0275c3f063
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: conflicts and bugs
 
   packages/theme:
     specifiers:
@@ -1060,31 +986,29 @@ importers:
       lodash-es: 4.17.21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       notistack: 1.0.6-next.2_2bafb7a15616b0e6b032876a69294dcb
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       notistack: 1.0.6-next.1_132ff92e0fd7328580f6380de259b809
 >>>>>>> feat: initial setup for augur
       react-window: 1.8.6_f991c289939c8299bed5e4a6a5a79a62
-=======
-      notistack: 1.0.9
-      react-window: 1.8.6
->>>>>>> feat: initial setup for augur
-=======
-      notistack: 1.0.9_132ff92e0fd7328580f6380de259b809
-      react-window: 1.8.6_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
       tinycolor2: 1.4.2
       tss-react: 0.6.0_bef0d66e98e8cc6f9687bc5bf9034690
       unstated-next: 1.1.0
       use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
     devDependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@babel/core': 7.15.0
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@babel/core': 7.14.8
 >>>>>>> feat: initial setup for augur
       '@storybook/addon-actions': 6.3.6_873b6ee332b32a0534335ea366866a4e
@@ -1097,23 +1021,6 @@ importers:
       '@types/tinycolor2': 1.4.3
       babel-loader: 8.2.2_@babel+core@7.15.0
       storybook-addon-matrix: 1.6.0_react-dom@18.0.0-alpha-aecb3b6d1
-=======
-      '@babel/core': 7.14.3
-      '@storybook/addon-actions': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addon-essentials': 6.3.0_8569c2ec86eea36afd1f8cc1fbead929
-      '@storybook/addon-links': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/react': 6.3.0_6aadd72a980eea05039aedec59259344
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@types/qrcode': 1.4.0
-      '@types/tinycolor2': 1.4.2
-      babel-loader: 8.2.2_@babel+core@7.14.3
-<<<<<<< HEAD
-      storybook-addon-matrix: 1.6.0
->>>>>>> feat: initial setup for augur
-=======
-      storybook-addon-matrix: 1.6.0_react-dom@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
 
   packages/web3-constants:
     specifiers: {}
@@ -1167,16 +1074,8 @@ importers:
       lodash-es: 4.17.21
       react-use: 17.2.4_f991c289939c8299bed5e4a6a5a79a62
       unstated-next: 1.1.0
-<<<<<<< HEAD
-<<<<<<< HEAD
       urlcat: 2.0.4
       use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
-=======
-      use-subscription: 1.5.1
->>>>>>> feat: initial setup for augur
-=======
-      use-subscription: 1.5.1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       wallet.ts: 1.0.1
       web3: 1.4.0
       web3-core: 1.4.0
@@ -4964,6 +4863,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d_typescript@4.4.1-rc:
 =======
   /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d_typescript@4.3.5:
@@ -4971,6 +4871,9 @@ packages:
 =======
   /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d:
 >>>>>>> fix: prices
+=======
+  /@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d_typescript@4.3.5:
+>>>>>>> fix: conflicts and bugs
     resolution: {integrity: sha512-0O0Nc3j2Vxo9Gfvgeq8pWuMHKMSU3tDjRnzE0U5oWvYoY+ZO61NniKp4xf/C+J6Py6lhQFutjd2tqlporqRwlw==, tarball: download/@dimensiondev/webextension-shim/0.0.3-20210708053012-57a254d/a2ee1bed40822a7f6b9c60ce4296930c9bab00828e82637aa56060498a135ac7}
     hasBin: true
     peerDependencies:
@@ -4981,12 +4884,16 @@ packages:
       systemjs: 6.3.2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       typescript: 4.4.1-rc
 =======
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+      typescript: 4.3.5
+>>>>>>> fix: conflicts and bugs
       web-ext-types: 3.2.1
     dev: true
 
@@ -5167,55 +5074,26 @@ packages:
       '@emotion/core': ^10.0.28
       react: '>=16.3.0'
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
       '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@babel/runtime': 7.14.0
-<<<<<<< HEAD
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: initial setup for augur
-=======
-      '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       '@emotion/is-prop-valid': 0.8.8
       '@emotion/serialize': 0.11.16
       '@emotion/utils': 0.11.3
       react: 18.0.0-alpha-aecb3b6d1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@emotion/styled-base/10.0.31_c989b1aa057905c7a8b69bf973f55a19:
-=======
-  /@emotion/styled-base/10.0.31_@emotion+core@10.1.1:
->>>>>>> feat: initial setup for augur
-=======
-  /@emotion/styled-base/10.0.31_868fdfab3e8c9138cf50b7ab83aa28b0:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-wTOE1NcXmqMWlyrtwdkqg87Mu6Rj1MaukEoEmEkHirO5IoHDJ8LgCQL4MjJODgxWxXibGR3opGp1p7YvkNEdXQ==}
     peerDependencies:
       '@emotion/core': ^10.0.28
       react: '>=16.3.0'
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
       '@emotion/core': 10.0.28_react@16.13.1
       '@emotion/is-prop-valid': 0.8.8
       '@emotion/serialize': 0.11.16
       '@emotion/utils': 0.11.3
       react: 16.13.1
-=======
-      '@babel/runtime': 7.14.0
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/is-prop-valid': 0.8.8
-      '@emotion/serialize': 0.11.16
-      '@emotion/utils': 0.11.3
-<<<<<<< HEAD
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
     dev: true
 
   /@emotion/styled/10.0.27_0969515b2e564c6f8da5ffe0dd24efb6:
@@ -5230,37 +5108,16 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@emotion/styled/10.0.27_c989b1aa057905c7a8b69bf973f55a19:
-=======
-  /@emotion/styled/10.0.27_@emotion+core@10.1.1:
->>>>>>> feat: initial setup for augur
-=======
-  /@emotion/styled/10.0.27_868fdfab3e8c9138cf50b7ab83aa28b0:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-iK/8Sh7+NLJzyp9a5+vIQIXTYxfT4yB/OJbjzQanB2RZpvmzBQOHZWhpAMZWYEKRNNbsD6WfBw5sVWkb6WzS/Q==}
     peerDependencies:
       '@emotion/core': ^10.0.27
       react: '>=16.3.0'
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@emotion/core': 10.0.28_react@16.13.1
       '@emotion/styled-base': 10.0.31_c989b1aa057905c7a8b69bf973f55a19
       babel-plugin-emotion: 10.2.2
       react: 16.13.1
-=======
-      '@emotion/core': 10.1.1
-      '@emotion/styled-base': 10.0.31_@emotion+core@10.1.1
-      babel-plugin-emotion: 10.2.2
->>>>>>> feat: initial setup for augur
-=======
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/styled-base': 10.0.31_868fdfab3e8c9138cf50b7ab83aa28b0
-      babel-plugin-emotion: 10.2.2
-      react: 18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
     dev: true
 
   /@emotion/styled/11.3.0_6ab2aa4a60cb3b32dba32c44ea3f6a9c:
@@ -5376,57 +5233,33 @@ packages:
       '@ethersproject/strings': 5.4.0
     dev: false
 
-<<<<<<< HEAD
   /@ethersproject/abstract-provider/5.4.0:
     resolution: {integrity: sha512-vPBR7HKUBY0lpdllIn7tLIzNN7DrVnhCLKSzY0l8WAwxz686m/aL7ASDzrVxV93GJtIub6N2t4dfZ29CkPOxgA==}
-=======
-  /@ethersproject/abstract-provider/5.1.0:
-    resolution: {integrity: sha512-8dJUnT8VNvPwWhYIau4dwp7qe1g+KgdRm4XTWvjkI9gAT2zZa90WF5ApdZ3vl1r6NDmnn6vUVvyphClRZRteTQ==}
-    dependencies:
-      '@ethersproject/bignumber': 5.1.1
-      '@ethersproject/bytes': 5.1.0
-      '@ethersproject/logger': 5.1.0
-      '@ethersproject/networks': 5.1.0
-      '@ethersproject/properties': 5.1.0
-      '@ethersproject/transactions': 5.1.1
-      '@ethersproject/web': 5.1.0
-    dev: false
-
-  /@ethersproject/abstract-provider/5.2.0:
-    resolution: {integrity: sha512-Xi7Pt+CulRijc/vskBGIaYMEhafKjoNx8y4RNj/dnSpXHXScOJUSTtypqGBUngZddRbcwZGbHwEr6DZoKZwIZA==}
-    dependencies:
-      '@ethersproject/bignumber': 5.2.0
-      '@ethersproject/bytes': 5.2.0
-      '@ethersproject/logger': 5.2.0
-      '@ethersproject/networks': 5.2.0
-      '@ethersproject/properties': 5.2.0
-      '@ethersproject/transactions': 5.2.0
-      '@ethersproject/web': 5.2.0
-
-  /@ethersproject/abstract-provider/5.4.1:
-    resolution: {integrity: sha512-3EedfKI3LVpjSKgAxoUaI+gB27frKsxzm+r21w9G60Ugk+3wVLQwhi1LsEJAKNV7WoZc8CIpNrATlL1QFABjtQ==}
->>>>>>> feat: liquidity and volume
     dependencies:
       '@ethersproject/bignumber': 5.4.1
       '@ethersproject/bytes': 5.4.0
       '@ethersproject/logger': 5.4.0
-<<<<<<< HEAD
       '@ethersproject/networks': 5.4.1
-=======
+      '@ethersproject/properties': 5.4.0
+      '@ethersproject/transactions': 5.4.0
+      '@ethersproject/web': 5.4.0
+    dev: false
+
+  /@ethersproject/abstract-provider/5.4.1:
+    resolution: {integrity: sha512-3EedfKI3LVpjSKgAxoUaI+gB27frKsxzm+r21w9G60Ugk+3wVLQwhi1LsEJAKNV7WoZc8CIpNrATlL1QFABjtQ==}
+    dependencies:
+      '@ethersproject/bignumber': 5.4.1
+      '@ethersproject/bytes': 5.4.0
+      '@ethersproject/logger': 5.4.0
       '@ethersproject/networks': 5.4.2
->>>>>>> feat: liquidity and volume
       '@ethersproject/properties': 5.4.0
       '@ethersproject/transactions': 5.4.0
       '@ethersproject/web': 5.4.0
 
-  /@ethersproject/abstract-signer/5.4.1:
-    resolution: {integrity: sha512-SkkFL5HVq1k4/25dM+NWP9MILgohJCgGv5xT5AcRruGz4ILpfHeBtO/y6j+Z3UN/PAjDeb4P7E51Yh8wcGNLGA==}
+  /@ethersproject/abstract-signer/5.4.0:
+    resolution: {integrity: sha512-AieQAzt05HJZS2bMofpuxMEp81AHufA5D6M4ScKwtolj041nrfIbIi8ciNW7+F59VYxXq+V4c3d568Q6l2m8ew==}
     dependencies:
-<<<<<<< HEAD
       '@ethersproject/abstract-provider': 5.4.0
-=======
-      '@ethersproject/abstract-provider': 5.4.1
->>>>>>> feat: liquidity and volume
       '@ethersproject/bignumber': 5.4.1
       '@ethersproject/bytes': 5.4.0
       '@ethersproject/logger': 5.4.0
@@ -5436,7 +5269,7 @@ packages:
   /@ethersproject/abstract-signer/5.4.1:
     resolution: {integrity: sha512-SkkFL5HVq1k4/25dM+NWP9MILgohJCgGv5xT5AcRruGz4ILpfHeBtO/y6j+Z3UN/PAjDeb4P7E51Yh8wcGNLGA==}
     dependencies:
-      '@ethersproject/abstract-provider': 5.4.0
+      '@ethersproject/abstract-provider': 5.4.1
       '@ethersproject/bignumber': 5.4.1
       '@ethersproject/bytes': 5.4.0
       '@ethersproject/logger': 5.4.0
@@ -5479,32 +5312,13 @@ packages:
     resolution: {integrity: sha512-tzjn6S7sj9+DIIeKTJLjK9WGN2Tj0P++Z8ONEIlZjyoTkBuODN+0VfhAyYksKi43l1Sx9tX2VlFfzjfmr5Wl3Q==}
     dependencies:
       '@ethersproject/bignumber': 5.4.1
-<<<<<<< HEAD
-=======
-    dev: false
 
-  /@ethersproject/contracts/5.1.0:
-    resolution: {integrity: sha512-dvTMs/4XGSc57cYOW0KjgX1NdTujUu7mNb6PQdJWg08m9ULzPyGZuBkFJnijBcp6vTOCQ59RwjboWgNWw393og==}
-    dependencies:
-      '@ethersproject/abi': 5.1.0
-      '@ethersproject/abstract-provider': 5.1.0
-      '@ethersproject/abstract-signer': 5.1.0
-      '@ethersproject/address': 5.1.0
-      '@ethersproject/bignumber': 5.1.0
-      '@ethersproject/bytes': 5.1.0
-      '@ethersproject/constants': 5.1.0
-      '@ethersproject/logger': 5.1.0
-      '@ethersproject/properties': 5.1.0
-      '@ethersproject/transactions': 5.1.0
-    dev: false
->>>>>>> feat: liquidity and volume
-
-  /@ethersproject/contracts/5.4.1:
-    resolution: {integrity: sha512-m+z2ZgPy4pyR15Je//dUaymRUZq5MtDajF6GwFbGAVmKz/RF+DNIPwF0k5qEcL3wPGVqUjFg2/krlCRVTU4T5w==}
+  /@ethersproject/contracts/5.4.0:
+    resolution: {integrity: sha512-hkO3L3IhS1Z3ZtHtaAG/T87nQ7KiPV+/qnvutag35I0IkiQ8G3ZpCQ9NNOpSCzn4pWSW4CfzmtE02FcqnLI+hw==}
     dependencies:
       '@ethersproject/abi': 5.4.0
-      '@ethersproject/abstract-provider': 5.4.1
-      '@ethersproject/abstract-signer': 5.4.1
+      '@ethersproject/abstract-provider': 5.4.0
+      '@ethersproject/abstract-signer': 5.4.0
       '@ethersproject/address': 5.4.0
       '@ethersproject/bignumber': 5.4.1
       '@ethersproject/bytes': 5.4.0
@@ -5518,7 +5332,7 @@ packages:
     resolution: {integrity: sha512-m+z2ZgPy4pyR15Je//dUaymRUZq5MtDajF6GwFbGAVmKz/RF+DNIPwF0k5qEcL3wPGVqUjFg2/krlCRVTU4T5w==}
     dependencies:
       '@ethersproject/abi': 5.4.0
-      '@ethersproject/abstract-provider': 5.4.0
+      '@ethersproject/abstract-provider': 5.4.1
       '@ethersproject/abstract-signer': 5.4.1
       '@ethersproject/address': 5.4.0
       '@ethersproject/bignumber': 5.4.1
@@ -5540,9 +5354,6 @@ packages:
       '@ethersproject/logger': 5.4.0
       '@ethersproject/properties': 5.4.0
       '@ethersproject/strings': 5.4.0
-<<<<<<< HEAD
-=======
-    dev: false
 
   /@ethersproject/hdnode/5.4.0:
     resolution: {integrity: sha512-pKxdS0KAaeVGfZPp1KOiDLB0jba11tG6OP1u11QnYfb7pXn6IZx0xceqWRr6ygke8+Kw74IpOoSi7/DwANhy8Q==}
@@ -5579,6 +5390,7 @@ packages:
       scrypt-js: 3.0.1
     dev: false
 
+<<<<<<< HEAD
   /@ethersproject/keccak256/5.1.0:
     resolution: {integrity: sha512-vrTB1W6AEYoadww5c9UyVJ2YcSiyIUTNDRccZIgwTmFFoSHwBtcvG1hqy9RzJ1T0bMdATbM9Hfx2mJ6H0i7Hig==}
     dependencies:
@@ -5627,6 +5439,8 @@ packages:
       scrypt-js: 3.0.1
     dev: false
 
+=======
+>>>>>>> fix: conflicts and bugs
   /@ethersproject/keccak256/5.4.0:
     resolution: {integrity: sha512-FBI1plWet+dPUvAzPAeHzRKiPpETQzqSUWR1wXJGHVWi4i8bOSrpC3NwpkPjgeXG7MnugVc1B42VbfnQikyC/A==}
     dependencies:
@@ -5636,18 +5450,16 @@ packages:
   /@ethersproject/logger/5.4.0:
     resolution: {integrity: sha512-xYdWGGQ9P2cxBayt64d8LC8aPFJk6yWCawQi/4eJ4+oJdMMjEBMrIcIMZ9AxhwpPVmnBPrsB10PcXGmGAqgUEQ==}
 
-<<<<<<< HEAD
   /@ethersproject/networks/5.4.1:
     resolution: {integrity: sha512-8SvowCKz9Uf4xC5DTKI8+il8lWqOr78kmiqAVLYT9lzB8aSmJHQMD1GSuJI0CW4hMAnzocpGpZLgiMdzsNSPig==}
-=======
-  /@ethersproject/networks/5.4.2:
-    resolution: {integrity: sha512-eekOhvJyBnuibfJnhtK46b8HimBc5+4gqpvd1/H9LEl7Q7/qhsIhM81dI9Fcnjpk3jB1aTy6bj0hz3cifhNeYw==}
->>>>>>> feat: liquidity and volume
     dependencies:
       '@ethersproject/logger': 5.4.0
-<<<<<<< HEAD
-=======
     dev: false
+
+  /@ethersproject/networks/5.4.2:
+    resolution: {integrity: sha512-eekOhvJyBnuibfJnhtK46b8HimBc5+4gqpvd1/H9LEl7Q7/qhsIhM81dI9Fcnjpk3jB1aTy6bj0hz3cifhNeYw==}
+    dependencies:
+      '@ethersproject/logger': 5.4.0
 
   /@ethersproject/pbkdf2/5.4.0:
     resolution: {integrity: sha512-x94aIv6tiA04g6BnazZSLoRXqyusawRyZWlUhKip2jvoLpzJuLb//KtMM6PEovE47pMbW+Qe1uw+68ameJjB7g==}
@@ -5656,6 +5468,7 @@ packages:
       '@ethersproject/sha2': 5.4.0
     dev: false
 
+<<<<<<< HEAD
   /@ethersproject/properties/5.1.0:
     resolution: {integrity: sha512-519KKTwgmH42AQL3+GFV3SX6khYEfHsvI6v8HYejlkigSDuqttdgVygFTDsGlofNFchhDwuclrxQnD5B0YLNMg==}
     dependencies:
@@ -5674,6 +5487,8 @@ packages:
       '@ethersproject/sha2': 5.4.0
     dev: false
 
+=======
+>>>>>>> fix: conflicts and bugs
   /@ethersproject/properties/5.4.0:
     resolution: {integrity: sha512-7jczalGVRAJ+XSRvNA6D5sAwT4gavLq3OXPuV/74o3Rd2wuzSL035IMpIMgei4CYyBdialJMrTqkOnzccLHn4A==}
     dependencies:
@@ -5740,11 +5555,7 @@ packages:
   /@ethersproject/providers/5.4.3:
     resolution: {integrity: sha512-VURwkaWPoUj7jq9NheNDT5Iyy64Qcyf6BOFDwVdHsmLmX/5prNjFrgSX3GHPE4z1BRrVerDxe2yayvXKFm/NNg==}
     dependencies:
-<<<<<<< HEAD
-      '@ethersproject/abstract-provider': 5.4.0
-=======
       '@ethersproject/abstract-provider': 5.4.1
->>>>>>> feat: liquidity and volume
       '@ethersproject/abstract-signer': 5.4.1
       '@ethersproject/address': 5.4.0
       '@ethersproject/basex': 5.4.0
@@ -5753,7 +5564,11 @@ packages:
       '@ethersproject/constants': 5.4.0
       '@ethersproject/hash': 5.4.0
       '@ethersproject/logger': 5.4.0
+<<<<<<< HEAD
       '@ethersproject/networks': 5.4.1
+=======
+      '@ethersproject/networks': 5.4.2
+>>>>>>> fix: conflicts and bugs
       '@ethersproject/properties': 5.4.0
       '@ethersproject/random': 5.4.0
       '@ethersproject/rlp': 5.4.0
@@ -5838,6 +5653,7 @@ packages:
     dev: false
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@ethersproject/wallet/5.4.0:
     resolution: {integrity: sha512-wU29majLjM6AjCjpat21mPPviG+EpK7wY1+jzKD0fg3ui5fgedf2zEu1RDgpfIMsfn8fJHJuzM4zXZ2+hSHaSQ==}
     dependencies:
@@ -5845,6 +5661,8 @@ packages:
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> fix: conflicts and bugs
   /@ethersproject/wallet/5.4.0:
     resolution: {integrity: sha512-wU29majLjM6AjCjpat21mPPviG+EpK7wY1+jzKD0fg3ui5fgedf2zEu1RDgpfIMsfn8fJHJuzM4zXZ2+hSHaSQ==}
     dependencies:
@@ -5866,6 +5684,7 @@ packages:
       '@ethersproject/wordlists': 5.4.0
     dev: false
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   /@ethersproject/web/5.1.0:
@@ -5889,6 +5708,8 @@ packages:
 
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
   /@ethersproject/web/5.4.0:
     resolution: {integrity: sha512-1bUusGmcoRLYgMn6c1BLk1tOKUIFuTg8j+6N8lYlbMpDesnle+i3pGSagGNvwjaiLo4Y5gBibwctpPRmjrh4Og==}
     dependencies:
@@ -5989,12 +5810,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@jest/core/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@jest/core/27.0.6:
 =======
@@ -6003,20 +5827,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@jest/core/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-SsYBm3yhqOn5ZLJCtccaBcvD/ccTLCeuDv8U41WJH/V1MW5eKUkeMHT9U+Pw/v1m1AIWlnIW/eM2XzQr0rEmow==}
-=======
-  /@jest/core/27.0.1:
-=======
-  /@jest/core/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /@jest/core/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-PiCbKSMf6t8PEfY3MAd0Ldn3aJAt5T+UcaFkAfMZ1VZgas35+fXk5uHIjAQHQLNIHZWX19TLv0wWNT03yvrw6w==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     peerDependencies:
       node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
@@ -6035,7 +5851,6 @@ packages:
       emittery: 0.8.1
       exit: 0.1.2
       graceful-fs: 4.2.6
-<<<<<<< HEAD
       jest-changed-files: 27.0.6
       jest-config: 27.0.6_ts-node@10.2.0
       jest-haste-map: 27.0.6
@@ -6049,21 +5864,6 @@ packages:
       jest-util: 27.0.6
       jest-validate: 27.0.6
       jest-watcher: 27.0.6
-=======
-      jest-changed-files: 27.0.1
-      jest-config: 27.0.1
-      jest-haste-map: 27.0.1
-      jest-message-util: 27.0.1
-      jest-regex-util: 27.0.1
-      jest-resolve: 27.0.1
-      jest-resolve-dependencies: 27.0.1
-      jest-runner: 27.0.1
-      jest-runtime: 27.0.1
-      jest-snapshot: 27.0.1
-      jest-util: 27.0.1
-      jest-validate: 27.0.1
-      jest-watcher: 27.0.1
->>>>>>> feat: initial setup for augur
       micromatch: 4.0.4
       p-each-series: 2.2.0
       rimraf: 3.0.2
@@ -6225,33 +6025,14 @@ packages:
       collect-v8-coverage: 1.0.1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@jest/test-sequencer/27.0.6:
     resolution: {integrity: sha512-bISzNIApazYOlTHDum9PwW22NOyDa6VI31n6JucpjTVM0jD6JDgqEZ9+yn575nDdPF0+4csYDxNNW13NvFQGZA==}
-=======
-  /@jest/test-sequencer/27.0.1:
-=======
-  /@jest/test-sequencer/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /@jest/test-sequencer/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-yK2c2iruJ35WgH4KH8whS72uH+FASJUrzwxzNKTzLAEWmNpWKNEPOsSEKsHynvz78bLHafrTg4adN7RrYNbEOA==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/test-result': 27.0.6
       graceful-fs: 4.2.6
-<<<<<<< HEAD
       jest-haste-map: 27.0.6
       jest-runtime: 27.0.6
-=======
-      jest-haste-map: 27.0.1
-      jest-runner: 27.0.1
-      jest-runtime: 27.0.1
->>>>>>> feat: initial setup for augur
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7000,18 +6781,12 @@ packages:
   /@popperjs/core/2.9.2:
     resolution: {integrity: sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@reach/router/1.3.4_b0d14957e13ee1f402de6c14cc0c4091:
-=======
-  /@reach/router/1.3.4:
->>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA==}
     peerDependencies:
       react: 15.x || 16.x || 16.4.0-alpha.0911da3
       react-dom: 15.x || 16.x || 16.4.0-alpha.0911da3
     dependencies:
-<<<<<<< HEAD
       create-react-context: 0.3.0_prop-types@15.7.2+react@16.13.1
       invariant: 2.2.4
       prop-types: 15.7.2
@@ -7021,18 +6796,6 @@ packages:
     dev: true
 
   /@reach/router/1.3.4_f991c289939c8299bed5e4a6a5a79a62:
-=======
-      create-react-context: 0.3.0_prop-types@15.7.2
-      invariant: 2.2.4
-      prop-types: 15.7.2
-      react-lifecycles-compat: 3.0.4
-    dev: true
-
-  /@reach/router/1.3.4_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: initial setup for augur
-=======
-  /@reach/router/1.3.4_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA==}
     peerDependencies:
       react: 15.x || 16.x || 16.4.0-alpha.0911da3
@@ -7205,36 +6968,17 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
     dependencies:
-<<<<<<< HEAD
       '@babel/core': 7.14.8
       '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.14.8
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@babel/core': 7.14.3
-      '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.14.3
-<<<<<<< HEAD
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       react-refresh: 0.9.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/addon-actions/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-1MBqCbFiupGEDyIXqFkzF4iR8AduuB7qSNduqtsFauvIkrG5bnlbg5JC7WjnixkCaaWlufgbpasEHioXO9EXGw==}
-=======
-  /@storybook/addon-actions/6.3.0:
-=======
-  /@storybook/addon-actions/6.3.0_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-7Ls1OIAdtAa4a27/bTuAlejQee4j7bFBkRzAeaHzcaZT1VVXoF6yBfMGuEGJI8brQ+KuSaIhIU2b0Iuzq47dDQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -7244,8 +6988,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -7253,41 +6995,15 @@ packages:
       '@storybook/core-events': 6.3.6
       '@storybook/theming': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       core-js: 3.15.2
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-      '@storybook/client-api': 6.3.0
-      '@storybook/components': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
->>>>>>> feat: three tabs added to the market view
-      '@storybook/core-events': 6.3.0
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      core-js: 3.11.0
->>>>>>> feat: initial setup for augur
       fast-deep-equal: 3.1.3
       global: 4.4.0
       lodash: 4.17.21
       polished: 4.1.3
       prop-types: 15.7.2
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-inspector: 5.1.1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-      react-inspector: 5.1.1
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      react-inspector: 5.1.1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       ts-dedent: 2.1.1
       util-deprecate: 1.0.2
       uuid-browser: 3.1.0
@@ -7295,17 +7011,8 @@ packages:
       - '@types/react'
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/addon-backgrounds/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-1lBVAem2M+ggb1UNVgB7/56LaQAor9lI8q0xtQdAzAkt9K4RbbOsLGRhyUm3QH5OiB3qHHG5WQBujWUD6Qfy4g==}
-=======
-  /@storybook/addon-backgrounds/6.3.0:
-=======
-  /@storybook/addon-backgrounds/6.3.0_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-MzqD94IDfJ9oipFKMLoJhf3zTxqQ0DVfsWXGV1o2nslg8gZFFH04yXex2kVuTiHYCuaLxfk/wnlpSyzqX2+CZQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -7315,8 +7022,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-logger': 6.3.6
@@ -7329,41 +7034,14 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/client-logger': 6.3.0
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/core-events': 6.3.0
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      core-js: 3.11.0
-      global: 4.4.0
-      memoizerific: 1.11.3
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       ts-dedent: 2.1.1
       util-deprecate: 1.0.2
     transitivePeerDependencies:
       - '@types/react'
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/addon-controls/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-wTWmnZl2qEAUqgLh8a7TL5f6w37Q51lAoJNlwxFFBSKtGS7xFUnou4qTUArNy5iKu1cWoVvofJ9RnP1maGByYA==}
-=======
-  /@storybook/addon-controls/6.3.0:
-=======
-  /@storybook/addon-controls/6.3.0_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-caiWFJ/iCdZPHI5rwk26fAQsf8QI7WXIoB850SYVDhkIirzJVZjugvwgrqgTfVf2Z5dWOe9aceroC9rBClHAlQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -7373,8 +7051,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -7384,26 +7060,6 @@ packages:
       core-js: 3.15.2
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-      '@storybook/client-api': 6.3.0
-      '@storybook/components': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
->>>>>>> feat: three tabs added to the market view
-      '@storybook/node-logger': 6.3.0
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      core-js: 3.11.0
-<<<<<<< HEAD
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       ts-dedent: 2.1.1
     transitivePeerDependencies:
       - '@types/react'
@@ -7411,21 +7067,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/addon-docs/6.3.6_4f7bd588893bba3af559a87c8b8df9ad:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/addon-docs/6.3.6_4880cc6c35b84094bd856f07dc18daf1:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-/ZPB9u3lfc6ZUrgt9HENU1BxAHNfTbh9r2LictQ8o9gYE/BqvZutl2zqilTpVuutQtTgQ6JycVhxtpk9+TDcuA==}
-=======
-  /@storybook/addon-docs/6.3.0:
-=======
-  /@storybook/addon-docs/6.3.0_57edae19559a63df11d45e0275c3f063:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-FpANy+7J3jpoxUoMfqwAetMatwbxQctOwN+Eh95uwQWYRZwsNHqdTv72/rtHiWR9wMaYThok5vqYHFvCpQTVPw==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/angular': 6.3.6
       '@storybook/vue': 6.3.6
@@ -7473,8 +7125,6 @@ packages:
       '@jest/transform': 26.6.2
       '@mdx-js/loader': 1.6.22_react@18.0.0-alpha-aecb3b6d1
       '@mdx-js/mdx': 1.6.22
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@mdx-js/react': 1.6.22_react@18.0.0-alpha-aecb3b6d1
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -7490,35 +7140,6 @@ packages:
       '@storybook/postinstall': 6.3.6
       '@storybook/source-loader': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/theming': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
-=======
-      '@mdx-js/react': 1.6.22
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-      '@storybook/builder-webpack4': 6.3.0
-      '@storybook/client-api': 6.3.0
-=======
-      '@mdx-js/react': 1.6.22_react@18.0.0-alpha-aecb3b6d1
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/builder-webpack4': 6.3.0_57edae19559a63df11d45e0275c3f063
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/client-logger': 6.3.0
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/core': 6.3.0_6aadd72a980eea05039aedec59259344
-      '@storybook/core-events': 6.3.0
-      '@storybook/csf': 0.0.1
-      '@storybook/csf-tools': 6.3.0_@babel+core@7.14.3
-      '@storybook/node-logger': 6.3.0
-      '@storybook/postinstall': 6.3.0
-<<<<<<< HEAD
-      '@storybook/source-loader': 6.3.0
-      '@storybook/theming': 6.3.0
->>>>>>> feat: initial setup for augur
-=======
-      '@storybook/source-loader': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
       acorn: 7.4.1
       acorn-jsx: 5.3.2_acorn@7.4.1
       acorn-walk: 7.2.0
@@ -7534,21 +7155,10 @@ packages:
       p-limit: 3.1.0
       prettier: 2.2.1
       prop-types: 15.7.2
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-element-to-jsx-string: 14.3.2_f991c289939c8299bed5e4a6a5a79a62
       regenerator-runtime: 0.13.9
-=======
-      react-element-to-jsx-string: 14.3.2
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      react-element-to-jsx-string: 14.3.2_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       remark-external-links: 8.0.0
       remark-slug: 6.1.0
       ts-dedent: 2.1.1
@@ -7565,21 +7175,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/addon-essentials/6.3.6_2b5a31f87dde00b299b74e0fb51e98d7:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/addon-essentials/6.3.6_58aa967dd73fede9a857a96953c9f04f:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-FUrpCeINaN4L9L81FswtQFEq2xLwj3W7EyhmqsZcYSr64nscpQyjlPVjs5zhrEanOGIf+4E+mBmWafxbYufXwQ==}
-=======
-  /@storybook/addon-essentials/6.3.0_39cd091171729aa2cccda2ce52974d2f:
-=======
-  /@storybook/addon-essentials/6.3.0_8569c2ec86eea36afd1f8cc1fbead929:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-8ejOP3l4UC2utDbcq8QUQ2nOqAOzL9ri20So5qrlTuBPtMmSNUea7p5yAGB0GOJ9j96k3pS2nU1/dlEqepo5nA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@babel/core': ^7.9.6
       '@storybook/vue': 6.3.6
@@ -7604,9 +7210,12 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@babel/core': 7.15.0
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@babel/core': 7.14.8
 >>>>>>> feat: initial setup for augur
       '@storybook/addon-actions': 6.3.6_873b6ee332b32a0534335ea366866a4e
@@ -7625,29 +7234,6 @@ packages:
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
       storybook-addon-outline: 1.4.1_873b6ee332b32a0534335ea366866a4e
-=======
-      '@babel/core': 7.14.3
-      '@storybook/addon-actions': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addon-backgrounds': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addon-controls': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addon-docs': 6.3.0_57edae19559a63df11d45e0275c3f063
-      '@storybook/addon-measure': 1.2.4_9262dd142c2abf9419d85bd362706911
-      '@storybook/addon-toolbars': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addon-viewport': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/node-logger': 6.3.0
-      babel-loader: 8.2.2_@babel+core@7.14.3
-      core-js: 3.11.0
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
-<<<<<<< HEAD
-      storybook-addon-outline: 1.3.4
->>>>>>> feat: initial setup for augur
-=======
-      storybook-addon-outline: 1.3.4_1f407347b6533184bf697218ead413cc
->>>>>>> feat: three tabs added to the market view
       ts-dedent: 2.1.1
     transitivePeerDependencies:
       - '@storybook/angular'
@@ -7668,17 +7254,8 @@ packages:
       - webpack-command
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/addon-links/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-PaeAJTjwtPlhrLZlaSQ1YIFA8V0C1yI0dc351lPbTiE7fJ7DwTE03K6xIF/jEdTo+xzhi2PM1Fgvi/SsSecI8w==}
-=======
-  /@storybook/addon-links/6.3.0:
-=======
-  /@storybook/addon-links/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-Q5rGj5lMhjB3LK/fvXwFS3o184hYzSUFC+99dbM1zeAhVIfFDUuETCckEsTI7gc9lt/5vWOjHF98KNk77PvhiA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -7688,8 +7265,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-logger': 6.3.6
       '@storybook/core-events': 6.3.6
@@ -7708,29 +7283,6 @@ packages:
 
   /@storybook/addon-measure/2.0.0_05b958e8e4b0c4c1fe9503d4e416b217:
     resolution: {integrity: sha512-ZhdT++cX+L9LwjhGYggvYUUVQH/MGn2rwbrAwCMzA/f2QTFvkjxzX8nDgMxIhaLCDC+gHIxfJG2wrWN0jkBr3g==}
-=======
-      '@storybook/addons': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/client-logger': 6.3.0
-      '@storybook/core-events': 6.3.0
-      '@storybook/csf': 0.0.1
-      '@storybook/router': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@types/qs': 6.9.6
-      core-js: 3.11.0
-      global: 4.4.0
-      prop-types: 15.7.2
-      qs: 6.10.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
-      ts-dedent: 2.1.1
-    dev: true
-
-  /@storybook/addon-measure/1.2.4_9262dd142c2abf9419d85bd362706911:
-    resolution: {integrity: sha512-pxAo7QcETdiienZYMjAhX/3BqPnYTuH0ZSjmJzsr+yCBvZmZUciq1h3WvyUN59rT0ewFwLTKsmZG/wVZj+aN+Q==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/addons': ^6.3.0
       '@storybook/api': ^6.3.0
@@ -7745,8 +7297,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/theming': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -7756,22 +7306,6 @@ packages:
 
   /@storybook/addon-toolbars/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-VpwkMtvT/4KNjqdO2SCkFw4koMgYN2k8hckbTGRzuUYYTHBvl9yK4q0A7RELEnkm/tsmDI1TjenV/MBifp2Aiw==}
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-      '@storybook/theming': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-    dev: true
-
-  /@storybook/addon-toolbars/6.3.0_1f407347b6533184bf697218ead413cc:
-    resolution: {integrity: sha512-E0LwAaoWNtmPfMq9GbySsK2ZdXlPf9gJQD1uI3KXbcaGBhtY136QmZS+VpUmPfilplrYJ2G6GAQoPHrIPUf1VQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -7781,8 +7315,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -7792,39 +7324,12 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-      '@storybook/client-api': 6.3.0
-      '@storybook/components': 6.3.0
-      '@storybook/theming': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      core-js: 3.11.0
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
     transitivePeerDependencies:
       - '@types/react'
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/addon-viewport/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-Z5eztFFGd6vd+38sDurfTkIr9lY6EYWtMJzr5efedRZGg2IZLXZxQCoyjKEB29VB/IIjHEYHhHSh4SFsHT/m6g==}
-=======
-  /@storybook/addon-viewport/6.3.0:
-=======
-  /@storybook/addon-viewport/6.3.0_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-aOENuKIfmeQOhm++p2ezwIV9gET05s5/QQ1TTZrrPixQ3FxmCwAb/OqsmD4m/8e075C5gLXQEV47vGAkYyTm0Q==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -7834,8 +7339,6 @@ packages:
       react-dom:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-logger': 6.3.6
@@ -7849,25 +7352,6 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/client-logger': 6.3.0
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/core-events': 6.3.0
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      core-js: 3.11.0
-      global: 4.4.0
-      memoizerific: 1.11.3
-      prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
     transitivePeerDependencies:
       - '@types/react'
     dev: true
@@ -7887,23 +7371,12 @@ packages:
       - regenerator-runtime
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/addons/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-tVV0vqaEEN9Md4bgScwfrnZYkN8iKZarpkIOFheLev+PHjSp8lgWMK5SNWDlbBYqfQfzrz9xbs+F07bMjfx9jQ==}
-=======
-  /@storybook/addons/6.2.9:
-=======
-  /@storybook/addons/6.2.9_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-GnmEKbJwiN1jncN9NSA8CuR1i2XAlasPcl/Zn0jkfV9WitQeczVcJCPw86SGH84AD+tTBCyF2i9UC0KaOV1YBQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/channels': 6.3.6
       '@storybook/client-logger': 6.3.6
@@ -7915,41 +7388,6 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-      '@storybook/api': 6.2.9
-=======
-      '@storybook/api': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channels': 6.2.9
-      '@storybook/client-logger': 6.2.9
-      '@storybook/core-events': 6.2.9
-      '@storybook/router': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/theming': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      core-js: 3.11.0
-      global: 4.4.0
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
-    dev: true
-
-  /@storybook/addons/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-/dcq20HtdSw5+cG8znR59Y/uv2zCR2VjRK3N52IkGWk162b/UbSjjL0PhNnnQFGpH9Fruft6mqvjTAKT41kmJw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/channels': 6.3.0
-      '@storybook/client-logger': 6.3.0
-      '@storybook/core-events': 6.3.0
-      '@storybook/router': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      core-js: 3.11.0
-      global: 4.4.0
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
     dev: true
 
   /@storybook/api/5.3.18_react-dom@18.0.0-alpha-aecb3b6d1:
@@ -7957,35 +7395,15 @@ packages:
     peerDependencies:
       regenerator-runtime: '*'
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@reach/router': 1.3.4_b0d14957e13ee1f402de6c14cc0c4091
-=======
-      '@reach/router': 1.3.4_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: initial setup for augur
-=======
-      '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
       '@storybook/channels': 5.3.18
       '@storybook/client-logger': 5.3.18
       '@storybook/core-events': 5.3.18
       '@storybook/csf': 0.0.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/router': 5.3.18_b0d14957e13ee1f402de6c14cc0c4091
       '@storybook/theming': 5.3.18_b0d14957e13ee1f402de6c14cc0c4091
       '@types/reach__router': 1.3.9
       core-js: 3.15.2
-=======
-      '@storybook/router': 5.3.18_react@18.0.0-alpha-aecb3b6d1
-      '@storybook/theming': 5.3.18_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@storybook/router': 5.3.18_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/theming': 5.3.18_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@types/reach__router': 1.3.7
-      core-js: 3.10.0
->>>>>>> feat: initial setup for augur
       fast-deep-equal: 2.0.1
       global: 4.4.0
       lodash: 4.17.21
@@ -8001,23 +7419,12 @@ packages:
       - react-dom
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/api/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-F5VuR1FrEwD51OO/EDDAZXNfF5XmJedYHJLwwCB4az2ZMrzG45TxGRmiEohrSTO6wAHGkAvjlEoX5jWOCqQ4pw==}
-=======
-  /@storybook/api/6.2.9:
-=======
-  /@storybook/api/6.2.9_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-okkA3HAScE9tGnYBrjTOcgzT+L1lRHNoEh3ZfGgh1u/XNEyHGNkj4grvkd6nX7BzRcYQ/l2VkcKCqmOjUnSkVQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/channels': 6.3.6
       '@storybook/client-logger': 6.3.6
@@ -8028,49 +7435,31 @@ packages:
       '@storybook/theming': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@types/reach__router': 1.3.9
       core-js: 3.15.2
-=======
-      '@reach/router': 1.3.4
-=======
-      '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channels': 6.2.9
-      '@storybook/client-logger': 6.2.9
-      '@storybook/core-events': 6.2.9
-      '@storybook/csf': 0.0.1
-      '@storybook/router': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@types/reach__router': 1.3.7
-      core-js: 3.11.0
->>>>>>> feat: initial setup for augur
       fast-deep-equal: 3.1.3
       global: 4.4.0
       lodash: 4.17.21
       memoizerific: 1.11.3
       qs: 6.10.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
       store2: 2.12.0
-      telejson: 5.1.1
+      telejson: 5.3.3
       ts-dedent: 2.1.1
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/api/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-swPMcQadLDRTnMjL9dwY6K1zXHn3KcAa3euvSHd1R4OKXTSBBj1zHvIaOrq6yHz7RIYOACmZlEV3CUru9FlvEA==}
+  /@storybook/builder-webpack4/6.3.6_4880cc6c35b84094bd856f07dc18daf1:
+    resolution: {integrity: sha512-LhTPQQowS2t6BRnyfusWZLbhjjf54/HiQyovJTTDnqrCiO6QoCMbVnp79LeO1aSkpQCKoeqOZ7TzH87fCytnZA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
+<<<<<<< HEAD
       '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/channels': 6.3.0
       '@storybook/client-logger': 6.3.0
@@ -8122,6 +7511,8 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@babel/core': 7.14.8
       '@babel/plugin-proposal-class-properties': 7.14.5_@babel+core@7.14.8
       '@babel/plugin-proposal-decorators': 7.14.5_@babel+core@7.14.8
@@ -8159,145 +7550,12 @@ packages:
       '@storybook/ui': 6.3.6_873b6ee332b32a0534335ea366866a4e
       '@types/node': 14.17.6
       '@types/webpack': 4.41.30
-=======
-      '@babel/core': 7.13.16
-      '@babel/plugin-proposal-class-properties': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-proposal-decorators': 7.13.15_@babel+core@7.13.16
-      '@babel/plugin-proposal-export-default-from': 7.12.13_@babel+core@7.13.16
-      '@babel/plugin-proposal-nullish-coalescing-operator': 7.13.8_@babel+core@7.13.16
-      '@babel/plugin-proposal-object-rest-spread': 7.13.8_@babel+core@7.13.16
-      '@babel/plugin-proposal-optional-chaining': 7.13.12_@babel+core@7.13.16
-      '@babel/plugin-proposal-private-methods': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.13.16
-      '@babel/plugin-transform-arrow-functions': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-block-scoping': 7.13.16_@babel+core@7.13.16
-      '@babel/plugin-transform-classes': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-destructuring': 7.13.17_@babel+core@7.13.16
-      '@babel/plugin-transform-for-of': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-parameters': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-shorthand-properties': 7.12.13_@babel+core@7.13.16
-      '@babel/plugin-transform-spread': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-template-literals': 7.13.0_@babel+core@7.13.16
-      '@babel/preset-env': 7.13.15_@babel+core@7.13.16
-      '@babel/preset-react': 7.13.13_@babel+core@7.13.16
-      '@babel/preset-typescript': 7.13.0_@babel+core@7.13.16
-      '@storybook/addons': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/channel-postmessage': 6.2.9
-      '@storybook/channels': 6.2.9
-      '@storybook/client-api': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-logger': 6.2.9
-      '@storybook/components': 6.2.9_1f407347b6533184bf697218ead413cc
-      '@storybook/core-common': 6.2.9_9b3d47eb09d7549fa7cd0a3f71caf27d
-      '@storybook/core-events': 6.2.9
-      '@storybook/node-logger': 6.2.9
-      '@storybook/router': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/ui': 6.2.9_1f407347b6533184bf697218ead413cc
-      '@types/node': 14.14.41
-      '@types/webpack': 4.41.27
->>>>>>> feat: initial setup for augur
       autoprefixer: 9.8.6
       babel-loader: 8.2.2_10b6a9815ffc7b4b1f51ac243f183029
       babel-plugin-macros: 2.8.0
       babel-plugin-polyfill-corejs3: 0.1.7_@babel+core@7.14.8
       case-sensitive-paths-webpack-plugin: 2.4.0
-<<<<<<< HEAD
       core-js: 3.15.2
-=======
-      core-js: 3.11.0
-      css-loader: 3.6.0_webpack@4.46.0
-      dotenv-webpack: 1.8.0_webpack@4.46.0
-      file-loader: 6.2.0_webpack@4.46.0
-      find-up: 5.0.0
-      fork-ts-checker-webpack-plugin: 4.1.6
-      fs-extra: 9.1.0
-      glob: 7.1.6
-      glob-promise: 3.4.0_glob@7.1.6
-      global: 4.4.0
-      html-webpack-plugin: 4.5.2_webpack@4.46.0
-      pnp-webpack-plugin: 1.6.4_typescript@4.3.5
-      postcss: 7.0.35
-      postcss-flexbugs-fixes: 4.2.1
-      postcss-loader: 4.2.0_postcss@7.0.35+webpack@4.46.0
-      raw-loader: 4.0.2_webpack@4.46.0
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dev-utils: 11.0.4
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      stable: 0.1.8
-      style-loader: 1.3.0_webpack@4.46.0
-      terser-webpack-plugin: 3.1.0_webpack@4.46.0
-      ts-dedent: 2.1.1
-      typescript: 4.3.5
-      url-loader: 4.1.1_file-loader@6.2.0+webpack@4.46.0
-      util-deprecate: 1.0.2
-      webpack: 4.46.0
-      webpack-dev-middleware: 3.7.3_webpack@4.46.0
-      webpack-filter-warnings-plugin: 1.2.1_webpack@4.46.0
-      webpack-hot-middleware: 2.25.0
-      webpack-virtual-modules: 0.2.2
-    transitivePeerDependencies:
-      - '@types/react'
-      - supports-color
-      - webpack-cli
-      - webpack-command
-    dev: true
-
-  /@storybook/builder-webpack4/6.3.0_57edae19559a63df11d45e0275c3f063:
-    resolution: {integrity: sha512-s2s9uVNIvj/CFQOwA9B8nbOKHNtVj5wIIeeR8cNAGWKxoDNA1YFAqSrmLGWDtxpZpADmJXzmVKMQts7MjkKdKg==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@babel/core': 7.14.3
-      '@babel/plugin-proposal-class-properties': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-proposal-decorators': 7.13.15_@babel+core@7.14.3
-      '@babel/plugin-proposal-export-default-from': 7.12.13_@babel+core@7.14.3
-      '@babel/plugin-proposal-nullish-coalescing-operator': 7.13.8_@babel+core@7.14.3
-      '@babel/plugin-proposal-object-rest-spread': 7.13.8_@babel+core@7.14.3
-      '@babel/plugin-proposal-optional-chaining': 7.13.12_@babel+core@7.14.3
-      '@babel/plugin-proposal-private-methods': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.14.3
-      '@babel/plugin-transform-arrow-functions': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-transform-block-scoping': 7.13.16_@babel+core@7.14.3
-      '@babel/plugin-transform-classes': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-transform-destructuring': 7.13.17_@babel+core@7.14.3
-      '@babel/plugin-transform-for-of': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-transform-parameters': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-transform-shorthand-properties': 7.12.13_@babel+core@7.14.3
-      '@babel/plugin-transform-spread': 7.13.0_@babel+core@7.14.3
-      '@babel/plugin-transform-template-literals': 7.13.0_@babel+core@7.14.3
-      '@babel/preset-env': 7.13.15_@babel+core@7.14.3
-      '@babel/preset-react': 7.13.13_@babel+core@7.14.3
-      '@babel/preset-typescript': 7.13.0_@babel+core@7.14.3
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/channel-postmessage': 6.3.0
-      '@storybook/channels': 6.3.0
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-logger': 6.3.0
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/core-common': 6.3.0_9b3d47eb09d7549fa7cd0a3f71caf27d
-      '@storybook/core-events': 6.3.0
-      '@storybook/node-logger': 6.3.0
-      '@storybook/router': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/ui': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@types/node': 14.14.41
-      '@types/webpack': 4.41.27
-      autoprefixer: 9.8.6
-      babel-loader: 8.2.2_105470dfa535e5f605a4a54ef7d81e87
-      babel-plugin-macros: 2.8.0
-      babel-plugin-polyfill-corejs3: 0.1.7_@babel+core@7.14.3
-      case-sensitive-paths-webpack-plugin: 2.4.0
-      core-js: 3.11.0
->>>>>>> feat: initial setup for augur
       css-loader: 3.6.0_webpack@4.46.0
       dotenv-webpack: 1.8.0_webpack@4.46.0
       file-loader: 6.2.0_webpack@4.46.0
@@ -8376,42 +7634,17 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-<<<<<<< HEAD
   /@storybook/client-api/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-Q/bWuH691L6k7xkiKtBmZo8C+ijgmQ+vc2Fz8pzIRZuMV8ROL74qhrS4BMKV4LhiYm4f8todtWfaQPBjawZMIA==}
-=======
-  /@storybook/channels/6.3.0:
-    resolution: {integrity: sha512-E+SCQLSIlCaOGKEkZ8rFKNyH24/N4IA6h+EDF+9mhw3yT4iv7NCoswCgqX7JhyhSjWkM01onhuMVUVKVvi7CSw==}
-    dependencies:
-      core-js: 3.11.0
-      ts-dedent: 2.1.1
-      util-deprecate: 1.0.2
-    dev: true
-
-  /@storybook/client-api/6.2.9_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-aLvEUVkbvv6Qo/2mF4rFCecdqi2CGOUDdsV1a6EFIVS/9gXFdpirsOwKHo9qNjacGdWPlBYGCUcbrw+DvNaSFA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/channel-postmessage': 6.3.6
       '@storybook/channels': 6.3.6
       '@storybook/client-logger': 6.3.6
       '@storybook/core-events': 6.3.6
-=======
-      '@storybook/addons': 6.2.9
-=======
-      '@storybook/addons': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channel-postmessage': 6.2.9
-      '@storybook/channels': 6.2.9
-      '@storybook/client-logger': 6.2.9
-      '@storybook/core-events': 6.2.9
->>>>>>> feat: initial setup for augur
       '@storybook/csf': 0.0.1
       '@types/qs': 6.9.7
       '@types/webpack-env': 1.16.2
@@ -8420,46 +7653,9 @@ packages:
       lodash: 4.17.21
       memoizerific: 1.11.3
       qs: 6.10.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
-      stable: 0.1.8
-      store2: 2.12.0
-      ts-dedent: 2.1.1
-      util-deprecate: 1.0.2
-    dev: true
-
-  /@storybook/client-api/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-5HLtYPBOHif9AdzwLCrVbMQdOJ2dne9zv7oTo6Yl0wvLhbr6V/VypoXE0CgFF3hAI2iUquG5z00KlrE8UErC5Q==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/channel-postmessage': 6.3.0
-      '@storybook/channels': 6.3.0
-      '@storybook/client-logger': 6.3.0
-      '@storybook/core-events': 6.3.0
-      '@storybook/csf': 0.0.1
-      '@types/qs': 6.9.6
-      '@types/webpack-env': 1.16.0
-      core-js: 3.11.0
-      global: 4.4.0
-      lodash: 4.17.21
-      memoizerific: 1.11.3
-      qs: 6.10.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       stable: 0.1.8
       store2: 2.12.0
       ts-dedent: 2.1.1
@@ -8479,20 +7675,8 @@ packages:
       global: 4.4.0
     dev: true
 
-<<<<<<< HEAD
   /@storybook/components/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-aZkmtAY8b+LFXG6dVp6cTS6zGJuxkHRHcesRSWRQPxtgitaz1G58clRHxbKPRokfjPHNgYA3snogyeqxSA7YNQ==}
-=======
-  /@storybook/client-logger/6.3.0:
-    resolution: {integrity: sha512-x/y820f/2Jm6RW5TxRv7IlbF6zWpTkHoajfwYuTpK/OXvK5gx6dwXGdgjNoaAGofGRz5SVjDjTDPOcd5X5AUPw==}
-    dependencies:
-      core-js: 3.11.0
-      global: 4.4.0
-    dev: true
-
-  /@storybook/components/6.2.9_1f407347b6533184bf697218ead413cc:
-    resolution: {integrity: sha512-hnV1MI2aB2g1sJ7NJphpxi7TwrMZQ/tpCJeHnkjmzyC6ez1MXqcBXGrEEdSXzRfAxjQTOEpu6H1mnns0xMP0Ag==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -8500,60 +7684,12 @@ packages:
       '@popperjs/core': 2.9.2
       '@storybook/client-logger': 6.3.6
       '@storybook/csf': 0.0.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/theming': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
-=======
-      '@storybook/theming': 6.2.9
->>>>>>> feat: initial setup for augur
-=======
-      '@storybook/theming': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
       '@types/color-convert': 2.0.0
       '@types/overlayscrollbars': 1.12.1
       '@types/react-syntax-highlighter': 11.0.5
       color-convert: 2.0.1
-<<<<<<< HEAD
       core-js: 3.15.2
-=======
-      core-js: 3.11.0
-      fast-deep-equal: 3.1.3
-      global: 4.4.0
-      lodash: 4.17.21
-      markdown-to-jsx: 7.1.2_react@18.0.0-alpha-aecb3b6d1
-      memoizerific: 1.11.3
-      overlayscrollbars: 1.13.1
-      polished: 4.1.1
-      prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
-      react-colorful: 5.1.2_f991c289939c8299bed5e4a6a5a79a62
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      react-popper-tooltip: 3.1.1_f991c289939c8299bed5e4a6a5a79a62
-      react-syntax-highlighter: 13.5.3_react@18.0.0-alpha-aecb3b6d1
-      react-textarea-autosize: 8.3.2_5ec7ab1ee537e9220fe02de547882794
-      regenerator-runtime: 0.13.7
-      ts-dedent: 2.1.1
-      util-deprecate: 1.0.2
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: true
-
-  /@storybook/components/6.3.0_1f407347b6533184bf697218ead413cc:
-    resolution: {integrity: sha512-TDcazQAtNgE1E33jKKABx51XpvWyXMcJZFWA0d5wu8XrElrL1PuZqz7dPePoWKGMfTaPYWP6rRyDg4Svv36j+A==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@popperjs/core': 2.9.2
-      '@storybook/client-logger': 6.3.0
-      '@storybook/csf': 0.0.1
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@types/color-convert': 2.0.0
-      '@types/overlayscrollbars': 1.12.0
-      '@types/react-syntax-highlighter': 11.0.5
-      color-convert: 2.0.1
-      core-js: 3.11.0
->>>>>>> feat: initial setup for augur
       fast-deep-equal: 3.1.3
       global: 4.4.0
       lodash: 4.17.21
@@ -8562,8 +7698,6 @@ packages:
       overlayscrollbars: 1.13.1
       polished: 4.1.3
       prop-types: 15.7.2
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-colorful: 5.3.0_f991c289939c8299bed5e4a6a5a79a62
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
@@ -8571,27 +7705,13 @@ packages:
       react-syntax-highlighter: 13.5.3_react@18.0.0-alpha-aecb3b6d1
       react-textarea-autosize: 8.3.3_010541d7fdfc8cbcdd915345c89295c8
       regenerator-runtime: 0.13.9
-=======
-      react-colorful: 5.1.2
-      react-popper-tooltip: 3.1.1
-      react-syntax-highlighter: 13.5.3
-      react-textarea-autosize: 8.3.2
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-colorful: 5.1.2_f991c289939c8299bed5e4a6a5a79a62
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      react-popper-tooltip: 3.1.1_f991c289939c8299bed5e4a6a5a79a62
-      react-syntax-highlighter: 13.5.3_react@18.0.0-alpha-aecb3b6d1
-      react-textarea-autosize: 8.3.2_5ec7ab1ee537e9220fe02de547882794
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       ts-dedent: 2.1.1
       util-deprecate: 1.0.2
     transitivePeerDependencies:
       - '@types/react'
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /@storybook/core-client/6.3.6_4f7bd588893bba3af559a87c8b8df9ad:
@@ -8599,16 +7719,11 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core-client/6.3.6_4880cc6c35b84094bd856f07dc18daf1:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-Bq86flEdXdMNbdHrGMNQ6OT1tcBQU8ym56d+nG46Ctjf5GN+Dl+rPtRWuu7cIZs10KgqJH+86DXp+tvpQIDidg==}
-=======
-  /@storybook/core-client/6.2.9_webpack@4.46.0:
-=======
-  /@storybook/core-client/6.2.9_576b575c791069934f15420679a111d4:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-jW841J5lCe1Ub5ZMtzYPgCy/OUddFxxVYeHLZyuNxlH5RoiQQxbDpuFlzuZMYGuIzD6eZw+ANE4w5vW/y5oBfA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -8618,8 +7733,6 @@ packages:
       typescript:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/channel-postmessage': 6.3.6
       '@storybook/client-api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -8627,75 +7740,15 @@ packages:
       '@storybook/core-events': 6.3.6
       '@storybook/csf': 0.0.1
       '@storybook/ui': 6.3.6_873b6ee332b32a0534335ea366866a4e
-=======
-      '@storybook/addons': 6.2.9
-=======
-      '@storybook/addons': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channel-postmessage': 6.2.9
-      '@storybook/client-api': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-logger': 6.2.9
-      '@storybook/core-events': 6.2.9
-      '@storybook/csf': 0.0.1
-      '@storybook/ui': 6.2.9_1f407347b6533184bf697218ead413cc
-      ansi-to-html: 0.6.14
-      core-js: 3.11.0
-      global: 4.4.0
-      lodash: 4.17.21
-      qs: 6.10.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
-      ts-dedent: 2.1.1
-      typescript: 4.3.5
-      unfetch: 4.2.0
-      util-deprecate: 1.0.2
-      webpack: 4.46.0
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: true
-
-  /@storybook/core-client/6.3.0_576b575c791069934f15420679a111d4:
-    resolution: {integrity: sha512-S2MZmHGjkZdGYgkWNXzn3Z/AS2NeiYVyO503mF7d+4zfgAoasKBkc7Y/1Ry3RuaGRwOq5bNQtJUZsF0kX1a8iQ==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-      typescript: '*'
-      webpack: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/channel-postmessage': 6.3.0
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-logger': 6.3.0
-      '@storybook/core-events': 6.3.0
-      '@storybook/csf': 0.0.1
-<<<<<<< HEAD
-      '@storybook/ui': 6.3.0
->>>>>>> feat: initial setup for augur
-=======
-      '@storybook/ui': 6.3.0_1f407347b6533184bf697218ead413cc
->>>>>>> feat: three tabs added to the market view
       airbnb-js-shims: 2.2.1
       ansi-to-html: 0.6.15
       core-js: 3.15.2
       global: 4.4.0
       lodash: 4.17.21
       qs: 6.10.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       ts-dedent: 2.1.1
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8707,11 +7760,11 @@ packages:
 >>>>>>> feat: three tabs added to the market view
       unfetch: 4.2.0
       util-deprecate: 1.0.2
-      webpack: 4.46.0
     transitivePeerDependencies:
       - '@types/react'
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /@storybook/core-client/6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729:
@@ -8719,16 +7772,11 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core-client/6.3.6_cf9e793d76240c1dee1d99d231bd9d85:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-Bq86flEdXdMNbdHrGMNQ6OT1tcBQU8ym56d+nG46Ctjf5GN+Dl+rPtRWuu7cIZs10KgqJH+86DXp+tvpQIDidg==}
-=======
-  /@storybook/core-client/6.3.0_webpack@4.46.0:
-=======
-  /@storybook/core-client/6.3.0_57edae19559a63df11d45e0275c3f063:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-S2MZmHGjkZdGYgkWNXzn3Z/AS2NeiYVyO503mF7d+4zfgAoasKBkc7Y/1Ry3RuaGRwOq5bNQtJUZsF0kX1a8iQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -8738,8 +7786,6 @@ packages:
       typescript:
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/channel-postmessage': 6.3.6
       '@storybook/client-api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -8747,40 +7793,15 @@ packages:
       '@storybook/core-events': 6.3.6
       '@storybook/csf': 0.0.1
       '@storybook/ui': 6.3.6_873b6ee332b32a0534335ea366866a4e
-=======
-      '@storybook/addons': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channel-postmessage': 6.3.0
-      '@storybook/client-api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-logger': 6.3.0
-      '@storybook/core-events': 6.3.0
-      '@storybook/csf': 0.0.1
-<<<<<<< HEAD
-      '@storybook/ui': 6.3.0
->>>>>>> feat: initial setup for augur
-=======
-      '@storybook/ui': 6.3.0_1f407347b6533184bf697218ead413cc
->>>>>>> feat: three tabs added to the market view
       airbnb-js-shims: 2.2.1
       ansi-to-html: 0.6.15
       core-js: 3.15.2
       global: 4.4.0
       lodash: 4.17.21
       qs: 6.10.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       ts-dedent: 2.1.1
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8792,82 +7813,12 @@ packages:
 >>>>>>> feat: three tabs added to the market view
       unfetch: 4.2.0
       util-deprecate: 1.0.2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      webpack: 4.46.0
-=======
->>>>>>> feat: three tabs added to the market view
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: true
-
-  /@storybook/core-common/6.2.9_9b3d47eb09d7549fa7cd0a3f71caf27d:
-    resolution: {integrity: sha512-ve0Qb4EMit8jGibfZBprmaU2i4LtpB4vSMIzD9nB1YeBmw2cGhHubtmayZ0TwcV3fPQhtYH9wwRWuWyzzHyQyw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@babel/core': 7.13.16
-      '@babel/plugin-proposal-class-properties': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-proposal-decorators': 7.13.15_@babel+core@7.13.16
-      '@babel/plugin-proposal-export-default-from': 7.12.13_@babel+core@7.13.16
-      '@babel/plugin-proposal-nullish-coalescing-operator': 7.13.8_@babel+core@7.13.16
-      '@babel/plugin-proposal-object-rest-spread': 7.13.8_@babel+core@7.13.16
-      '@babel/plugin-proposal-optional-chaining': 7.13.12_@babel+core@7.13.16
-      '@babel/plugin-proposal-private-methods': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.13.16
-      '@babel/plugin-transform-arrow-functions': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-block-scoping': 7.13.16_@babel+core@7.13.16
-      '@babel/plugin-transform-classes': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-destructuring': 7.13.17_@babel+core@7.13.16
-      '@babel/plugin-transform-for-of': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-parameters': 7.13.0_@babel+core@7.13.16
-      '@babel/plugin-transform-shorthand-properties': 7.12.13_@babel+core@7.13.16
-      '@babel/plugin-transform-spread': 7.13.0_@babel+core@7.13.16
-      '@babel/preset-env': 7.13.15_@babel+core@7.13.16
-      '@babel/preset-react': 7.13.13_@babel+core@7.13.16
-      '@babel/preset-typescript': 7.13.0_@babel+core@7.13.16
-      '@babel/register': 7.13.16_@babel+core@7.13.16
-      '@storybook/node-logger': 6.2.9
-      '@storybook/semver': 7.3.2
-      '@types/glob-base': 0.3.0
-      '@types/micromatch': 4.0.1
-      '@types/node': 14.14.41
-      '@types/pretty-hrtime': 1.0.0
-      babel-loader: 8.2.2_0fc9aa51f8dda8b91e4c31310ffa16c5
-      babel-plugin-macros: 3.0.1
-      babel-plugin-polyfill-corejs3: 0.1.7_@babel+core@7.13.16
-      chalk: 4.1.1
-      core-js: 3.11.0
-      express: 4.17.1
-      file-system-cache: 1.0.5
-      find-up: 5.0.0
-      fork-ts-checker-webpack-plugin: 6.2.4
-      glob: 7.1.6
-      glob-base: 0.3.0
-      interpret: 2.2.0
-      json5: 2.2.0
-      lazy-universal-dotenv: 3.0.1
-      micromatch: 4.0.4
-      pkg-dir: 5.0.0
-      pretty-hrtime: 1.0.3
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      resolve-from: 5.0.0
-      ts-dedent: 2.1.1
-      typescript: 4.3.5
-      util-deprecate: 1.0.2
->>>>>>> feat: initial setup for augur
       webpack: 4.46.0
     transitivePeerDependencies:
       - '@types/react'
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /@storybook/core-common/6.3.6_2b3916305ef31ed65577f6648a258bfa:
@@ -8875,16 +7826,11 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core-common/6.3.6_9b3d47eb09d7549fa7cd0a3f71caf27d:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-nHolFOmTPymI50j180bCtcf1UJZ2eOnYaECRtHvVrCUod5KFF7wh2EHrgWoKqrKrsn84UOY/LkX2C2WkbYtWRg==}
-=======
-  /@storybook/core-common/6.3.0:
-=======
-  /@storybook/core-common/6.3.0_9b3d47eb09d7549fa7cd0a3f71caf27d:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-AYoN1g8g4FI2K2UcGfLAm7EUPgesiClLT/zqy2q6dWQrIUayWzJqI+gqDyYukv5s+KHRanGBZNCTBww/VhcPlg==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -8971,21 +7917,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/core-server/6.3.6_0843028c77bcfc72f07d94f8e732ab94:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core-server/6.3.6_38609c1c18205f3a27fedf3e556e40f5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-47ZcfxYn7t891oAMG98iH1BQIgQT9Yk/2BBNVCWY43Ong+ME1xJ6j4C/jkRUOseP7URlfLUQsUYKAYJNVijDvg==}
-=======
-  /@storybook/core-server/6.2.9:
-=======
-  /@storybook/core-server/6.2.9_57edae19559a63df11d45e0275c3f063:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-DzihO73pj1Ro0Y4tq9hjw2mLMUYeSRPrx7CndCOBxcTHCKQ8Kd7Dee3wJ49t5/19V7TW1+4lYR59GAy73FeOAQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/builder-webpack5': 6.3.6
       '@storybook/manager-webpack5': 6.3.6
@@ -9001,11 +7943,14 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@storybook/builder-webpack4': 6.3.6_4f7bd588893bba3af559a87c8b8df9ad
       '@storybook/core-client': 6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729
       '@storybook/core-common': 6.3.6_2b3916305ef31ed65577f6648a258bfa
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/builder-webpack4': 6.3.6_4880cc6c35b84094bd856f07dc18daf1
       '@storybook/core-client': 6.3.6_cf9e793d76240c1dee1d99d231bd9d85
       '@storybook/core-common': 6.3.6_9b3d47eb09d7549fa7cd0a3f71caf27d
@@ -9018,25 +7963,6 @@ packages:
       '@types/node-fetch': 2.5.12
       '@types/pretty-hrtime': 1.0.1
       '@types/webpack': 4.41.30
-=======
-      '@babel/core': 7.13.16
-      '@babel/plugin-transform-template-literals': 7.13.0_@babel+core@7.13.16
-      '@babel/preset-react': 7.13.13_@babel+core@7.13.16
-      '@storybook/addons': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/builder-webpack4': 6.2.9_57edae19559a63df11d45e0275c3f063
-      '@storybook/core-client': 6.2.9_576b575c791069934f15420679a111d4
-      '@storybook/core-common': 6.2.9_9b3d47eb09d7549fa7cd0a3f71caf27d
-      '@storybook/node-logger': 6.2.9
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/ui': 6.2.9_1f407347b6533184bf697218ead413cc
-      '@types/node': 14.14.41
-      '@types/node-fetch': 2.5.10
-      '@types/pretty-hrtime': 1.0.0
-      '@types/webpack': 4.41.27
-      airbnb-js-shims: 2.2.1
-      babel-loader: 8.2.2_0fc9aa51f8dda8b91e4c31310ffa16c5
->>>>>>> feat: initial setup for augur
       better-opn: 2.1.1
       boxen: 4.2.0
       chalk: 4.1.1
@@ -9052,28 +7978,14 @@ packages:
       globby: 11.0.4
       ip: 1.1.5
       node-fetch: 2.6.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       pretty-hrtime: 1.0.3
       prompts: 2.4.1
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-      pnp-webpack-plugin: 1.6.4
-=======
-      pnp-webpack-plugin: 1.6.4_typescript@4.3.5
->>>>>>> feat: three tabs added to the market view
-      pretty-hrtime: 1.0.3
-      prompts: 2.4.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      read-pkg-up: 7.0.1
-      regenerator-runtime: 0.13.7
-      resolve-from: 5.0.0
->>>>>>> feat: initial setup for augur
       serve-favicon: 2.5.0
       ts-dedent: 2.1.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       typescript: 4.4.1-rc
@@ -9089,6 +8001,9 @@ packages:
       url-loader: 4.1.1_file-loader@6.2.0+webpack@4.46.0
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+      typescript: 4.3.5
+>>>>>>> fix: conflicts and bugs
       util-deprecate: 1.0.2
       webpack: 4.46.0
     transitivePeerDependencies:
@@ -9101,21 +8016,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/core-server/6.3.6_4f7bd588893bba3af559a87c8b8df9ad:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core-server/6.3.6_4880cc6c35b84094bd856f07dc18daf1:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-47ZcfxYn7t891oAMG98iH1BQIgQT9Yk/2BBNVCWY43Ong+ME1xJ6j4C/jkRUOseP7URlfLUQsUYKAYJNVijDvg==}
-=======
-  /@storybook/core-server/6.3.0_@babel+core@7.14.3:
-=======
-  /@storybook/core-server/6.3.0_6aadd72a980eea05039aedec59259344:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-6Lckos2bleYb0Qg0JXhLSyqASKMquueefIjde5ySelyJzZLyW8ZYt+sfKu7+rdi/RqOvUCyfLcPHAxJSub2bRg==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/builder-webpack5': 6.3.6
       '@storybook/manager-webpack5': 6.3.6
@@ -9132,6 +8043,7 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@storybook/builder-webpack4': 6.3.6_4f7bd588893bba3af559a87c8b8df9ad
       '@storybook/core-client': 6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729
       '@storybook/core-common': 6.3.6_2b3916305ef31ed65577f6648a258bfa
@@ -9139,6 +8051,8 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/builder-webpack4': 6.3.6_4880cc6c35b84094bd856f07dc18daf1
       '@storybook/core-client': 6.3.6_cf9e793d76240c1dee1d99d231bd9d85
       '@storybook/core-common': 6.3.6_9b3d47eb09d7549fa7cd0a3f71caf27d
@@ -9206,19 +8120,6 @@ packages:
       '@storybook/csf-tools': 6.3.6_@babel+core@7.15.0
       '@storybook/manager-webpack4': 6.3.6_4f7bd588893bba3af559a87c8b8df9ad
       '@storybook/node-logger': 6.3.6
-=======
-      '@storybook/builder-webpack4': 6.3.0
-      '@storybook/core-client': 6.3.0_webpack@4.46.0
-      '@storybook/core-common': 6.3.0
-=======
-      '@storybook/builder-webpack4': 6.3.0_57edae19559a63df11d45e0275c3f063
-      '@storybook/core-client': 6.3.0_576b575c791069934f15420679a111d4
-      '@storybook/core-common': 6.3.0_9b3d47eb09d7549fa7cd0a3f71caf27d
->>>>>>> feat: three tabs added to the market view
-      '@storybook/csf-tools': 6.3.0_@babel+core@7.14.3
-      '@storybook/manager-webpack4': 6.3.0_57edae19559a63df11d45e0275c3f063
-      '@storybook/node-logger': 6.3.0
->>>>>>> feat: initial setup for augur
       '@storybook/semver': 7.3.2
       '@types/node': 14.17.6
       '@types/node-fetch': 2.5.12
@@ -9241,18 +8142,9 @@ packages:
       node-fetch: 2.6.1
       pretty-hrtime: 1.0.3
       prompts: 2.4.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
-=======
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       serve-favicon: 2.5.0
       ts-dedent: 2.1.1
 <<<<<<< HEAD
@@ -9275,21 +8167,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/core/6.3.6_0843028c77bcfc72f07d94f8e732ab94:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core/6.3.6_38609c1c18205f3a27fedf3e556e40f5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-y71VvVEbqCpG28fDBnfNg3RnUPnicwFYq9yuoFVRF0LYcJCy5cYhkIfW3JG8mN2m0P+LzH80mt2Rj6xlSXrkdQ==}
-=======
-  /@storybook/core/6.2.9_webpack@4.46.0:
-=======
-  /@storybook/core/6.2.9_576b575c791069934f15420679a111d4:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-pzbyjWvj0t8m0kR2pC9GQne4sZn7Y/zfcbm6/31CL+yhzOQjfJEj3n4ZFUlxikXqQJPg1aWfypfyaeaLL0QyuA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/builder-webpack5': 6.3.6
       react: ^16.8.0 || ^17.0.0
@@ -9303,6 +8191,7 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@storybook/core-client': 6.3.6_4f7bd588893bba3af559a87c8b8df9ad
       '@storybook/core-server': 6.3.6_0843028c77bcfc72f07d94f8e732ab94
       react: 18.0.0-alpha-aecb3b6d1
@@ -9312,11 +8201,14 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/core-client': 6.3.6_4880cc6c35b84094bd856f07dc18daf1
       '@storybook/core-server': 6.3.6_38609c1c18205f3a27fedf3e556e40f5
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       typescript: 4.3.5
+<<<<<<< HEAD
 =======
       '@storybook/core-client': 6.2.9_webpack@4.46.0
       '@storybook/core-server': 6.2.9
@@ -9332,6 +8224,8 @@ packages:
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - '@babel/core'
       - '@storybook/manager-webpack5'
@@ -9344,21 +8238,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/core/6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core/6.3.6_8b521f13f93ee38e02784efa3a2fdcd2:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-y71VvVEbqCpG28fDBnfNg3RnUPnicwFYq9yuoFVRF0LYcJCy5cYhkIfW3JG8mN2m0P+LzH80mt2Rj6xlSXrkdQ==}
-=======
-  /@storybook/core/6.3.0_105470dfa535e5f605a4a54ef7d81e87:
-=======
-  /@storybook/core/6.3.0_3272dc530629aaf011dd7c9a5225c58e:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-8sEhlzD0f3ewnnXutt+aBTaVJ1EuW6yR8pSSLVSSwdBRQE2UVy1YOA+0kAspq+lNrF1IrvX6WvPqJq/ZmPWcOw==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/builder-webpack5': 6.3.6
       react: ^16.8.0 || ^17.0.0
@@ -9372,6 +8262,7 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@storybook/core-client': 6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729
       '@storybook/core-server': 6.3.6_4f7bd588893bba3af559a87c8b8df9ad
       react: 18.0.0-alpha-aecb3b6d1
@@ -9381,11 +8272,14 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/core-client': 6.3.6_cf9e793d76240c1dee1d99d231bd9d85
       '@storybook/core-server': 6.3.6_38609c1c18205f3a27fedf3e556e40f5
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       typescript: 4.3.5
+<<<<<<< HEAD
 =======
       '@storybook/core-client': 6.3.0_webpack@4.46.0
       '@storybook/core-server': 6.3.0_@babel+core@7.14.3
@@ -9401,6 +8295,8 @@ packages:
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - '@babel/core'
       - '@storybook/manager-webpack5'
@@ -9413,21 +8309,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/core/6.3.6_e8f8e3786bc1ee1f11ba4f443b15a676:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/core/6.3.6_cf9e793d76240c1dee1d99d231bd9d85:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-y71VvVEbqCpG28fDBnfNg3RnUPnicwFYq9yuoFVRF0LYcJCy5cYhkIfW3JG8mN2m0P+LzH80mt2Rj6xlSXrkdQ==}
-=======
-  /@storybook/core/6.3.0_@babel+core@7.14.3:
-=======
-  /@storybook/core/6.3.0_6aadd72a980eea05039aedec59259344:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-8sEhlzD0f3ewnnXutt+aBTaVJ1EuW6yR8pSSLVSSwdBRQE2UVy1YOA+0kAspq+lNrF1IrvX6WvPqJq/ZmPWcOw==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       '@storybook/builder-webpack5': 6.3.6
       react: ^16.8.0 || ^17.0.0
@@ -9441,6 +8333,7 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@storybook/core-client': 6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729
       '@storybook/core-server': 6.3.6_f3244d85a75d9095e6aea7bc180bf0fa
       react: 18.0.0-alpha-aecb3b6d1
@@ -9450,11 +8343,14 @@ packages:
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/core-client': 6.3.6_cf9e793d76240c1dee1d99d231bd9d85
       '@storybook/core-server': 6.3.6_4880cc6c35b84094bd856f07dc18daf1
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       typescript: 4.3.5
+<<<<<<< HEAD
 =======
       '@storybook/core-client': 6.3.0
       '@storybook/core-server': 6.3.0_@babel+core@7.14.3
@@ -9470,6 +8366,8 @@ packages:
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - '@babel/core'
       - '@storybook/manager-webpack5'
@@ -9554,21 +8452,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/manager-webpack4/6.3.6_4f7bd588893bba3af559a87c8b8df9ad:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/manager-webpack4/6.3.6_4880cc6c35b84094bd856f07dc18daf1:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-qh/jV4b6mFRpRFfhk1JSyO2gKRz8PLPvDt2AD52/bTAtNRzypKoiWqyZNR2CJ9hgNQtDrk2CO3eKPrcdKYGizQ==}
-=======
-  /@storybook/manager-webpack4/6.3.0:
-=======
-  /@storybook/manager-webpack4/6.3.0_57edae19559a63df11d45e0275c3f063:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-M4HjxKQeNaMTg7PlxVp06jmdpVHu1H4cdgXbHZcD977nJ6R7bpZ4YTlTez3TjshJLoze75FRyubOlNu0l5CdKQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
@@ -9577,7 +8471,6 @@ packages:
       typescript:
         optional: true
     dependencies:
-<<<<<<< HEAD
       '@babel/core': 7.14.8
       '@babel/plugin-transform-template-literals': 7.14.5_@babel+core@7.14.8
       '@babel/preset-react': 7.14.5_@babel+core@7.14.8
@@ -9590,20 +8483,6 @@ packages:
       '@types/node': 14.17.6
       '@types/webpack': 4.41.30
       babel-loader: 8.2.2_10b6a9815ffc7b4b1f51ac243f183029
-=======
-      '@babel/core': 7.14.3
-      '@babel/plugin-transform-template-literals': 7.13.0_@babel+core@7.14.3
-      '@babel/preset-react': 7.13.13_@babel+core@7.14.3
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/core-client': 6.3.0_576b575c791069934f15420679a111d4
-      '@storybook/core-common': 6.3.0_9b3d47eb09d7549fa7cd0a3f71caf27d
-      '@storybook/node-logger': 6.3.0
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/ui': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@types/node': 14.14.41
-      '@types/webpack': 4.41.27
-      babel-loader: 8.2.2_105470dfa535e5f605a4a54ef7d81e87
->>>>>>> feat: initial setup for augur
       case-sensitive-paths-webpack-plugin: 2.4.0
       chalk: 4.1.1
       core-js: 3.15.2
@@ -9674,21 +8553,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/react-docgen-typescript-plugin/1.0.2-canary.253f8c1.0_d0baf95785a7c009dda921a2bb96a1f3:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/react-docgen-typescript-plugin/1.0.2-canary.253f8c1.0_typescript@4.3.5+webpack@4.46.0:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-mmoRG/rNzAiTbh+vGP8d57dfcR2aP+5/Ll03KKFyfy5FqWFm/Gh7u27ikx1I3LmVMI8n6jh5SdWMkMKon7/tDw==}
-=======
-  /@storybook/react-docgen-typescript-plugin/1.0.2-canary.3c70e01.0_webpack@4.46.0:
-=======
-  /@storybook/react-docgen-typescript-plugin/1.0.2-canary.3c70e01.0_typescript@4.3.5+webpack@4.46.0:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-go1LO+iM6qLGhgqvEoEpw339/kf2YBX86aG2JewWwlHCO0YyyYdlsdZd3KkB5MVtudyK7mtrcNDq0k/EIaB2JA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       typescript: '>= 3.x'
       webpack: '>= 4'
@@ -9698,6 +8573,7 @@ packages:
       find-cache-dir: 3.3.1
       flat-cache: 3.0.4
       micromatch: 4.0.4
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       react-docgen-typescript: 2.0.0_typescript@4.4.1-rc
@@ -9723,6 +8599,11 @@ packages:
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+      react-docgen-typescript: 2.0.0_typescript@4.3.5
+      tslib: 2.3.0
+      typescript: 4.3.5
+>>>>>>> fix: conflicts and bugs
       webpack: 4.46.0
     transitivePeerDependencies:
       - supports-color
@@ -9730,21 +8611,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/react/6.3.6_4f7bd588893bba3af559a87c8b8df9ad:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/react/6.3.6_38609c1c18205f3a27fedf3e556e40f5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-2c30XTe7WzKnvgHBGOp1dzBVlhcbc3oEX0SIeVE9ZYkLvRPF+J1jG948a26iqOCOgRAW13Bele37mG1gbl4tiw==}
-=======
-  /@storybook/react/6.2.9:
-=======
-  /@storybook/react/6.2.9_57edae19559a63df11d45e0275c3f063:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-glvw+o/Vek2oapYIXCYDK6gm3cuSnx0XdOpiJVcXk3KLb8JfLbdzGYYp6dcWUbyOBqGcGFRpXIgMmkcwgn+fvQ==}
->>>>>>> feat: initial setup for augur
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -9761,8 +8638,6 @@ packages:
       '@babel/preset-flow': 7.14.5
       '@babel/preset-react': 7.14.5
       '@pmmmwh/react-refresh-webpack-plugin': 0.4.3_133f2312fd2dfba9fc3b3697533854a6
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/core': 6.3.6_c89e9e5a0f9b8680c2917f17b0ffe729
       '@storybook/core-common': 6.3.6_2b3916305ef31ed65577f6648a258bfa
@@ -9771,6 +8646,7 @@ packages:
       '@storybook/react-docgen-typescript-plugin': 1.0.2-canary.253f8c1.0_d0baf95785a7c009dda921a2bb96a1f3
 =======
       '@storybook/react-docgen-typescript-plugin': 1.0.2-canary.253f8c1.0_typescript@4.3.5+webpack@4.46.0
+<<<<<<< HEAD
 =======
       '@storybook/addons': 6.2.9
       '@storybook/core': 6.2.9_webpack@4.46.0
@@ -9783,6 +8659,8 @@ packages:
       '@storybook/node-logger': 6.2.9
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/semver': 7.3.2
       '@types/webpack-env': 1.16.2
       babel-plugin-add-react-displayname: 0.0.5
@@ -9794,16 +8672,7 @@ packages:
       prop-types: 15.7.2
       react: 18.0.0-alpha-aecb3b6d1
       react-dev-utils: 11.0.4
-<<<<<<< HEAD
-<<<<<<< HEAD
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      react-docgen-typescript-plugin: 0.6.3
->>>>>>> feat: initial setup for augur
-=======
-      react-docgen-typescript-plugin: 0.6.3_typescript@4.3.5
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       react-refresh: 0.8.3
       read-pkg-up: 7.0.1
       regenerator-runtime: 0.13.9
@@ -9834,21 +8703,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@storybook/react/6.3.6_f3244d85a75d9095e6aea7bc180bf0fa:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@storybook/react/6.3.6_4880cc6c35b84094bd856f07dc18daf1:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-2c30XTe7WzKnvgHBGOp1dzBVlhcbc3oEX0SIeVE9ZYkLvRPF+J1jG948a26iqOCOgRAW13Bele37mG1gbl4tiw==}
-=======
-  /@storybook/react/6.3.0_@babel+core@7.14.3:
-=======
-  /@storybook/react/6.3.0_6aadd72a980eea05039aedec59259344:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-GxK88Si9WQa16uUsUBhe6kRhSEZUrR/1ljP6QvLY+C5MyYJZ89DZPAbWnVo47SJCXhAlvJW83nSTSxnobn8RWA==}
->>>>>>> feat: initial setup for augur
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -9866,8 +8731,6 @@ packages:
       '@babel/preset-flow': 7.14.5_@babel+core@7.15.0
       '@babel/preset-react': 7.14.5_@babel+core@7.15.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.4.3_133f2312fd2dfba9fc3b3697533854a6
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/core': 6.3.6_e8f8e3786bc1ee1f11ba4f443b15a676
       '@storybook/core-common': 6.3.6_2b3916305ef31ed65577f6648a258bfa
@@ -9876,6 +8739,7 @@ packages:
       '@storybook/react-docgen-typescript-plugin': 1.0.2-canary.253f8c1.0_d0baf95785a7c009dda921a2bb96a1f3
 =======
       '@storybook/react-docgen-typescript-plugin': 1.0.2-canary.253f8c1.0_typescript@4.3.5+webpack@4.46.0
+<<<<<<< HEAD
 =======
       '@storybook/addons': 6.3.0
       '@storybook/core': 6.3.0_105470dfa535e5f605a4a54ef7d81e87
@@ -9894,6 +8758,8 @@ packages:
       '@storybook/react-docgen-typescript-plugin': 1.0.2-canary.3c70e01.0_typescript@4.3.5+webpack@4.46.0
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: conflicts and bugs
       '@storybook/semver': 7.3.2
       '@types/webpack-env': 1.16.2
       babel-plugin-add-react-displayname: 0.0.5
@@ -9934,29 +8800,13 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/router/5.3.18_b0d14957e13ee1f402de6c14cc0c4091:
-=======
-  /@storybook/router/5.3.18_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: initial setup for augur
-=======
-  /@storybook/router/5.3.18_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-6B2U2C75KTSVaCuYYgcubeJGcCSnwsXuEf50hEd5mGqWgHZfojCtGvB7Ko4X+0h8rEC+eNA4p7YBOhlUv9WNrQ==}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@reach/router': 1.3.4_b0d14957e13ee1f402de6c14cc0c4091
-=======
-      '@reach/router': 1.3.4_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: initial setup for augur
-=======
-      '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
       '@storybook/csf': 0.0.1
       '@types/reach__router': 1.3.9
       core-js: 3.15.2
@@ -9964,7 +8814,6 @@ packages:
       lodash: 4.17.21
       memoizerific: 1.11.3
       qs: 6.10.1
-<<<<<<< HEAD
       react: 16.13.1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       util-deprecate: 1.0.2
@@ -9972,54 +8821,14 @@ packages:
 
   /@storybook/router/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-fQ1n7cm7lPFav7I+fStQciSVMlNdU+yLY6Fue252rpV5Q68bMTjwKpjO9P2/Y3CCj4QD3dPqwEkn4s0qUn5tNA==}
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      util-deprecate: 1.0.2
-    dev: true
-
-  /@storybook/router/6.2.9_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-7Bn1OFoItCl8whXRT8N1qp1Lky7kzXJ3aslWp5E8HcM8rxh4OYXfbaeiyJEJxBTGC5zxgY+tAEXHFjsAviFROg==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-logger': 6.3.6
       '@types/reach__router': 1.3.9
       core-js: 3.15.2
-=======
-      '@reach/router': 1.3.4
-=======
-      '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/client-logger': 6.2.9
-      '@types/reach__router': 1.3.7
-      core-js: 3.11.0
-      fast-deep-equal: 3.1.3
-      global: 4.4.0
-      lodash: 4.17.21
-      memoizerific: 1.11.3
-      qs: 6.10.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      ts-dedent: 2.1.1
-    dev: true
-
-  /@storybook/router/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-RJcRVI6IqffLOU6k9GrlB3cXLLK5TRmFSIjwW3lEHVhj313e56uLRYTylT11aBf8bPEQ+MeQVe2sqQUBG3Ugng==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@reach/router': 1.3.4_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/client-logger': 6.3.0
-      '@types/reach__router': 1.3.7
-      core-js: 3.11.0
->>>>>>> feat: initial setup for augur
       fast-deep-equal: 3.1.3
       global: 4.4.0
       lodash: 4.17.21
@@ -10039,32 +8848,14 @@ packages:
       find-up: 4.1.0
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/source-loader/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-om3iS3a+D287FzBrbXB/IXB6Z5Ql2yc4dFKTy6FPe5v4N3U0p5puWOKUYWWbTX1JbcpRj0IXXo7952G68tcC1g==}
-=======
-  /@storybook/source-loader/6.3.0:
-=======
-  /@storybook/source-loader/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-5LpqY5uu35Fg01D7Zu0xAT7ow6tcuHz+fkIxsGAJhzWovbV5NYl/BP8WSPv7TH+WjYve+RI2Xp6a9JFrgi9gpQ==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/client-logger': 6.3.6
-=======
-      '@storybook/addons': 6.3.0
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/client-logger': 6.3.0
->>>>>>> feat: initial setup for augur
       '@storybook/csf': 0.0.1
       core-js: 3.15.2
       estraverse: 5.2.0
@@ -10072,34 +8863,17 @@ packages:
       loader-utils: 2.0.0
       lodash: 4.17.21
       prettier: 2.2.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       regenerator-runtime: 0.13.9
     dev: true
 
   /@storybook/theming/5.3.18_b0d14957e13ee1f402de6c14cc0c4091:
-=======
-      regenerator-runtime: 0.13.7
-    dev: true
-
-  /@storybook/theming/5.3.18_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      regenerator-runtime: 0.13.7
-    dev: true
-
-  /@storybook/theming/5.3.18_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-lfFTeLoYwLMKg96N3gn0umghMdAHgJBGuk2OM8Ll84yWtdl9RGnzfiI1Fl7Cr5k95dCF7drLJlJCao1VxUkFSA==}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
-<<<<<<< HEAD
       '@emotion/core': 10.0.28_react@16.13.1
       '@emotion/styled': 10.0.27_c989b1aa057905c7a8b69bf973f55a19
       '@storybook/client-logger': 5.3.18
@@ -10112,88 +8886,16 @@ packages:
       prop-types: 15.7.2
       react: 16.13.1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/styled': 10.0.27_868fdfab3e8c9138cf50b7ab83aa28b0
-      '@storybook/client-logger': 5.3.18
-      core-js: 3.10.0
-      deep-object-diff: 1.1.0
-      emotion-theming: 10.0.27_868fdfab3e8c9138cf50b7ab83aa28b0
-      global: 4.4.0
-      memoizerific: 1.11.3
-      polished: 3.7.1
-      prop-types: 15.7.2
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       resolve-from: 5.0.0
       ts-dedent: 1.2.0
     dev: true
 
-  /@storybook/theming/6.2.9_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-183oJW7AD7Fhqg5NT4ct3GJntwteAb9jZnQ6yhf9JSdY+fk8OhxRbPf7ov0au2gYACcGrWDd9K5pYQsvWlP5gA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/is-prop-valid': 0.8.8
-      '@emotion/styled': 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
-      '@storybook/client-logger': 6.2.9
-      core-js: 3.11.0
-      deep-object-diff: 1.1.0
-      emotion-theming: 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
-      global: 4.4.0
-      memoizerific: 1.11.3
-      polished: 4.1.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      resolve-from: 5.0.0
-      ts-dedent: 2.1.1
-    dev: true
-
-  /@storybook/theming/6.3.0_f991c289939c8299bed5e4a6a5a79a62:
-    resolution: {integrity: sha512-Mtnq8qFv/TTtnl1sB6DGBCg/kJq7sR2e2uh/Uy2sHyksnhVITVJxEIFHSBo2L+IE6y0S2Oh6F9WdddWAO4Ao2g==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/is-prop-valid': 0.8.8
-      '@emotion/styled': 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
-      '@storybook/client-logger': 6.3.0
-      core-js: 3.11.0
-      deep-object-diff: 1.1.0
-      emotion-theming: 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
-      global: 4.4.0
-      memoizerific: 1.11.3
-      polished: 4.1.1
-<<<<<<< HEAD
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
-      resolve-from: 5.0.0
-      ts-dedent: 1.2.0
-    dev: true
-
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/theming/6.3.6_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-mPrQrMUREajNEWxzgR8t0YIZsI9avPv25VNA08fANnwVsc887p4OL5eCTL2dFIlD34YDzAwiyRKYoLj2vDW4nw==}
-=======
-  /@storybook/ui/6.2.9:
-=======
-  /@storybook/ui/6.2.9_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-jq2xmw3reIqik/6ibUSbNKGR+Xvr9wkAEwexiOl+5WQ5BeYJpw4dmDmsFQf+SQuWaSEUUPolbzkakRQM778Kdg==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
       '@emotion/is-prop-valid': 0.8.8
       '@emotion/styled': 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
@@ -10206,63 +8908,16 @@ packages:
       polished: 4.1.3
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@emotion/core': 10.1.1
-      '@storybook/addons': 6.2.9
-      '@storybook/api': 6.2.9
-=======
-      '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
-      '@storybook/addons': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channels': 6.2.9
-      '@storybook/client-logger': 6.2.9
-      '@storybook/components': 6.2.9_1f407347b6533184bf697218ead413cc
-      '@storybook/core-events': 6.2.9
-      '@storybook/router': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.2.9_f991c289939c8299bed5e4a6a5a79a62
-      '@types/markdown-to-jsx': 6.11.3
-      copy-to-clipboard: 3.3.1
-      core-js: 3.11.0
-      core-js-pure: 3.11.0
-      downshift: 6.1.3_react@18.0.0-alpha-aecb3b6d1
-      emotion-theming: 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
-      fuse.js: 3.6.1
-      global: 4.4.0
-      lodash: 4.17.21
-      markdown-to-jsx: 6.11.4_react@18.0.0-alpha-aecb3b6d1
-      memoizerific: 1.11.3
-      polished: 4.1.1
-      qs: 6.10.1
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      react-draggable: 4.4.3
-      react-helmet-async: 1.0.9_f991c289939c8299bed5e4a6a5a79a62
-      react-sizeme: 3.0.1_f991c289939c8299bed5e4a6a5a79a62
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       resolve-from: 5.0.0
       ts-dedent: 2.1.1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@storybook/ui/6.3.6_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-S9FjISUiAmbBR7d6ubUEcELQdffDfRxerloxkXs5Ou7n8fEPqpgQB01Hw5MLRUwTEpxPzHn+xtIGYritAGxt/Q==}
-=======
-  /@storybook/ui/6.3.0:
-=======
-  /@storybook/ui/6.3.0_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-1f2+IB+WRrBSht538jNFSUDUxA8PpEOnDkJsE9PyOJEvskV/8POuCTjbpcvdBYFQ9hSq1oi3535mdbNiTivYTg==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
@@ -10279,34 +8934,6 @@ packages:
       core-js-pure: 3.15.2
       downshift: 6.1.3_react@18.0.0-alpha-aecb3b6d1
       emotion-theming: 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
-=======
-      '@emotion/core': 10.1.1
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-=======
-      '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      '@storybook/channels': 6.3.0
-      '@storybook/client-logger': 6.3.0
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/core-events': 6.3.0
-      '@storybook/router': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@types/markdown-to-jsx': 6.11.3
-      copy-to-clipboard: 3.3.1
-      core-js: 3.11.0
-      core-js-pure: 3.11.0
-<<<<<<< HEAD
-      downshift: 6.1.3
-      emotion-theming: 10.0.27_@emotion+core@10.1.1
->>>>>>> feat: initial setup for augur
-=======
-      downshift: 6.1.3_react@18.0.0-alpha-aecb3b6d1
-      emotion-theming: 10.0.27_0969515b2e564c6f8da5ffe0dd24efb6
->>>>>>> feat: three tabs added to the market view
       fuse.js: 3.6.1
       global: 4.4.0
       lodash: 4.17.21
@@ -10317,20 +8944,9 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-draggable: 4.4.3
-<<<<<<< HEAD
-<<<<<<< HEAD
       react-helmet-async: 1.0.9_f991c289939c8299bed5e4a6a5a79a62
       react-sizeme: 3.0.1_f991c289939c8299bed5e4a6a5a79a62
       regenerator-runtime: 0.13.9
-=======
-      react-helmet-async: 1.0.9
-      react-sizeme: 3.0.1
-=======
-      react-helmet-async: 1.0.9_f991c289939c8299bed5e4a6a5a79a62
-      react-sizeme: 3.0.1_f991c289939c8299bed5e4a6a5a79a62
->>>>>>> feat: three tabs added to the market view
-      regenerator-runtime: 0.13.7
->>>>>>> feat: initial setup for augur
       resolve-from: 5.0.0
       store2: 2.12.0
     transitivePeerDependencies:
@@ -10557,9 +9173,6 @@ packages:
       defer-to-connect: 1.1.3
     dev: false
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   /@szmarczak/http-timer/4.0.6:
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
     engines: {node: '>=10'}
@@ -10569,16 +9182,6 @@ packages:
 
   /@testing-library/react-hooks/7.0.1_1959de3a9153879cff3acd96b46ed70f:
     resolution: {integrity: sha512-bpEQ2SHSBSzBmfJ437NmnP+oArQ7aVmmULiAp6Ag2rtyLBLPNFSMmgltUbFGmQOJdPWo4Ub31kpUC5T46zXNwQ==}
-=======
-  /@testing-library/react-hooks/7.0.0_react-test-renderer@17.0.2:
-=======
-  /@testing-library/react-hooks/7.0.0_1959de3a9153879cff3acd96b46ed70f:
->>>>>>> feat: three tabs added to the market view
-=======
-  /@testing-library/react-hooks/7.0.0_react-test-renderer@17.0.2:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-WFBGH8DWdIGGBHt6PBtQPe2v4Kbj9vQ1sQ9qLBTmwn1PNggngint4MTE/IiWCYhPbyTW3oc/7X62DObMn/AjQQ==}
->>>>>>> feat: initial setup for augur
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16.9.0'
@@ -10597,11 +9200,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       react-error-boundary: 3.1.3
       react-test-renderer: 17.0.2
@@ -10611,13 +9217,21 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-error-boundary: 3.1.3_react@18.0.0-alpha-aecb3b6d1
       react-test-renderer: 17.0.2_react@18.0.0-alpha-aecb3b6d1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fix: conflicts and bugs
 =======
       react-error-boundary: 3.1.1
       react-test-renderer: 17.0.2
@@ -10645,7 +9259,12 @@ packages:
       react-test-renderer: 17.0.2
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -10676,6 +9295,7 @@ packages:
     dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       typechain: 5.1.2_typescript@4.4.1-rc
 =======
 =======
@@ -10692,6 +9312,9 @@ packages:
       typechain: 5.0.0_typescript@4.3.5
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+      typechain: 5.1.2_typescript@4.3.5
+>>>>>>> fix: conflicts and bugs
     dev: false
 
   /@types/asn1js/2.0.2:
@@ -11644,12 +10267,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.29.1_9e650468d3ce62d57e2df2f2fad149b2:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.29.1_@typescript-eslint+parser@4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11659,6 +10285,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/eslint-plugin/4.28.5_@typescript-eslint+parser@4.28.5:
 =======
@@ -11667,9 +10295,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@typescript-eslint/eslint-plugin/4.28.5_514553717ff968e20f6d1c6e521f8616:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-m31cPEnbuCqXtEZQJOXAHsHvtoDi9OVaeL5wZnO2KZTnkvELk+u6J6jHg+NzvWQxk+87Zjbc4lJS4NHmgImz6Q==}
+<<<<<<< HEAD
 =======
   /@typescript-eslint/eslint-plugin/4.25.0_@typescript-eslint+parser@4.25.0:
 =======
@@ -11681,6 +10312,8 @@ packages:
     resolution: {integrity: sha512-Qfs3dWkTMKkKwt78xp2O/KZQB8MPS1UQ5D3YW2s6LQWBE1074BE+Rym+b1pXZIX3M3fSvPUDaCvZLKV2ylVYYQ==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
       '@typescript-eslint/parser': ^4.0.0
@@ -11693,6 +10326,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.29.1_f8ed5431742f75332c3083279db44140
       '@typescript-eslint/parser': 4.29.1_f8ed5431742f75332c3083279db44140
 =======
@@ -11700,6 +10334,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.29.1
       '@typescript-eslint/parser': 4.29.1
@@ -11710,6 +10346,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       '@typescript-eslint/experimental-utils': 4.28.5
       '@typescript-eslint/parser': 4.28.5
@@ -11725,11 +10363,14 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@typescript-eslint/experimental-utils': 4.28.5_eslint@7.31.0+typescript@4.3.5
       '@typescript-eslint/parser': 4.28.5_eslint@7.31.0+typescript@4.3.5
       '@typescript-eslint/scope-manager': 4.28.5
       debug: 4.3.2
       eslint: 7.31.0
+<<<<<<< HEAD
 =======
       '@typescript-eslint/experimental-utils': 4.25.0
       '@typescript-eslint/parser': 4.25.0
@@ -11764,9 +10405,12 @@ packages:
       debug: 4.3.1
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
       functional-red-black-tree: 1.0.1
       regexpp: 3.2.0
       semver: 7.3.5
+<<<<<<< HEAD
 <<<<<<< HEAD
       tsutils: 3.21.0_typescript@4.3.5
       typescript: 4.3.5
@@ -11774,10 +10418,15 @@ packages:
 =======
       tsutils: 3.21.0
 >>>>>>> fix: prices
+=======
+      tsutils: 3.21.0_typescript@4.3.5
+      typescript: 4.3.5
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11787,6 +10436,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11796,6 +10447,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/experimental-utils/4.28.5:
 =======
@@ -11804,9 +10457,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@typescript-eslint/experimental-utils/4.28.5_eslint@7.31.0+typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-bGPLCOJAa+j49hsynTaAtQIWg6uZd8VLiPcyDe4QPULsvQwLHGLSGKKcBN8/lBxIX14F74UEMK2zNDI8r0okwA==}
+<<<<<<< HEAD
 =======
   /@typescript-eslint/experimental-utils/4.25.0:
 =======
@@ -11818,10 +10474,13 @@ packages:
     resolution: {integrity: sha512-f0doRE76vq7NEEU0tw+ajv6CrmPelw5wLoaghEHkA2dNLFb3T/zJQqGPQ0OYt5XlZaS13MtnN+GTPCuUVg338w==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
       eslint: '*'
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@types/json-schema': 7.0.9
       '@typescript-eslint/scope-manager': 4.29.1
@@ -11833,6 +10492,8 @@ packages:
       '@typescript-eslint/typescript-estree': 4.29.1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@types/json-schema': 7.0.8
       '@typescript-eslint/scope-manager': 4.28.5
       '@typescript-eslint/types': 4.28.5
@@ -11841,6 +10502,7 @@ packages:
 =======
       '@typescript-eslint/typescript-estree': 4.28.5_typescript@4.3.5
       eslint: 7.31.0
+<<<<<<< HEAD
 =======
       '@types/json-schema': 7.0.7
       '@typescript-eslint/scope-manager': 4.25.0
@@ -11875,8 +10537,16 @@ packages:
       '@typescript-eslint/typescript-estree': 4.25.0
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0_eslint@7.32.0
     transitivePeerDependencies:
@@ -11887,12 +10557,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@typescript-eslint/parser/4.29.1_f8ed5431742f75332c3083279db44140:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/parser/4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -11902,6 +10575,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/parser/4.28.5:
 =======
@@ -11910,9 +10585,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@typescript-eslint/parser/4.28.5_eslint@7.31.0+typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-NPCOGhTnkXGMqTznqgVbA5LqVsnw+i3+XA1UKLnAb+MG1Y1rP4ZSK9GX0kJBmAZTMIktf+dTwXToT6kFwyimbw==}
+<<<<<<< HEAD
 =======
   /@typescript-eslint/parser/4.25.0:
 =======
@@ -11924,6 +10602,8 @@ packages:
     resolution: {integrity: sha512-OZFa1SKyEJpAhDx8FcbWyX+vLwh7OEtzoo2iQaeWwxucyfbi0mT4DijbOSsTgPKzGHr6GrF2V5p/CEpUH/VBxg==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
@@ -11932,6 +10612,7 @@ packages:
       typescript:
         optional: true
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@typescript-eslint/scope-manager': 4.29.1
       '@typescript-eslint/types': 4.29.1
@@ -11944,6 +10625,8 @@ packages:
       '@typescript-eslint/typescript-estree': 4.29.1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@typescript-eslint/scope-manager': 4.28.5
       '@typescript-eslint/types': 4.28.5
       '@typescript-eslint/typescript-estree': 4.28.5
@@ -11953,6 +10636,7 @@ packages:
 =======
       eslint: 7.31.0
       typescript: 4.3.5
+<<<<<<< HEAD
 =======
       '@typescript-eslint/scope-manager': 4.25.0
       '@typescript-eslint/types': 4.25.0
@@ -11980,7 +10664,12 @@ packages:
 =======
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -12001,12 +10690,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.29.1_typescript@4.4.1-rc:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.29.1:
 >>>>>>> feat: initial setup for augur
@@ -12016,6 +10708,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /@typescript-eslint/typescript-estree/4.28.5:
 =======
@@ -12024,9 +10718,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /@typescript-eslint/typescript-estree/4.28.5_typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-FzJUKsBX8poCCdve7iV7ShirP8V+ys2t1fvamVeD1rWpiAnIm550a+BX/fmTHrjEpQJ7ZAn+Z7ZZwJjytk9rZw==}
+<<<<<<< HEAD
 =======
   /@typescript-eslint/typescript-estree/4.25.0:
 =======
@@ -12038,6 +10735,8 @@ packages:
     resolution: {integrity: sha512-1B8U07TGNAFMxZbSpF6jqiDs1cVGO0izVkf18Q/SPcUAc9LhHxzvSowXDTvkHMWUVuPpagupaW63gB6ahTXVlg==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
       typescript: '*'
@@ -12053,6 +10752,7 @@ packages:
       semver: 7.3.5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       tsutils: 3.21.0_typescript@4.4.1-rc
       typescript: 4.4.1-rc
 =======
@@ -12062,6 +10762,10 @@ packages:
 =======
       tsutils: 3.21.0
 >>>>>>> fix: prices
+=======
+      tsutils: 3.21.0_typescript@4.3.5
+      typescript: 4.3.5
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -12685,7 +11389,7 @@ packages:
       symbol.prototype.description: 1.0.4
     dev: true
 
-  /airbnb-prop-types/2.16.0:
+  /airbnb-prop-types/2.16.0_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-7WHOFolP/6cS96PhKNrslCLMYAI8yB1Pp6u6XmxozQOiZbsI5ycglZr5cHhBFfuRcQQjzCMith5ZPZdYiJCxUg==}
     peerDependencies:
       react: ^0.14 || ^15.0.0 || ^16.0.0-alpha
@@ -12698,6 +11402,7 @@ packages:
       object.entries: 1.1.4
       prop-types: 15.7.2
       prop-types-exact: 1.2.0
+      react: 18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
     dev: true
 
@@ -15554,12 +14259,7 @@ packages:
       warning: 4.0.3
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /create-react-context/0.3.0_prop-types@15.7.2+react@16.13.1:
-=======
-  /create-react-context/0.3.0_prop-types@15.7.2:
->>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-dNldIoSuNSvlTJ7slIKC/ZFGKexBMBrrcc+TTe1NdmROnaASuLPvqpwj9v4XS4uXZ8+YPu0sNmShX2rXI5LNsw==}
     peerDependencies:
       prop-types: ^15.0.0
@@ -15567,15 +14267,10 @@ packages:
     dependencies:
       gud: 1.0.0
       prop-types: 15.7.2
-<<<<<<< HEAD
       react: 16.13.1
-=======
->>>>>>> feat: initial setup for augur
       warning: 4.0.3
     dev: true
 
-=======
->>>>>>> feat: three tabs added to the market view
   /create-require/1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
     dev: true
@@ -16638,52 +15333,24 @@ packages:
       '@emotion/core': ^10.0.27
       react: '>=16.3.0'
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
       '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@babel/runtime': 7.14.0
-<<<<<<< HEAD
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: initial setup for augur
-=======
-      '@emotion/core': 10.1.1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       '@emotion/weak-memoize': 0.2.5
       hoist-non-react-statics: 3.3.2
       react: 18.0.0-alpha-aecb3b6d1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /emotion-theming/10.0.27_c989b1aa057905c7a8b69bf973f55a19:
-=======
-  /emotion-theming/10.0.27_@emotion+core@10.1.1:
->>>>>>> feat: initial setup for augur
-=======
-  /emotion-theming/10.0.27_868fdfab3e8c9138cf50b7ab83aa28b0:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-MlF1yu/gYh8u+sLUqA0YuA9JX0P4Hb69WlKc/9OLo+WCXuX6sy/KoIa+qJimgmr2dWqnypYKYPX37esjDBbhdw==}
     peerDependencies:
       '@emotion/core': ^10.0.27
       react: '>=16.3.0'
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
       '@emotion/core': 10.0.28_react@16.13.1
       '@emotion/weak-memoize': 0.2.5
       hoist-non-react-statics: 3.3.2
       react: 16.13.1
-=======
-      '@babel/runtime': 7.14.0
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/weak-memoize': 0.2.5
-      hoist-non-react-statics: 3.3.2
-<<<<<<< HEAD
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
     dev: true
 
   /enc-utils/3.0.0:
@@ -16802,7 +15469,7 @@ packages:
     hasBin: true
     dev: true
 
-  /enzyme-adapter-react-16/1.15.6_enzyme@3.11.0:
+  /enzyme-adapter-react-16/1.15.6_f15f970d9b179e8975516dda0497bdea:
     resolution: {integrity: sha512-yFlVJCXh8T+mcQo8M6my9sPgeGzj85HSHi6Apgf1Cvq/7EL/J9+1JoJmJsRxZgyTvPMAqOEpRSu/Ii/ZpyOk0g==}
     peerDependencies:
       enzyme: ^3.0.0
@@ -16810,28 +15477,31 @@ packages:
       react-dom: ^16.0.0-0
     dependencies:
       enzyme: 3.11.0
-      enzyme-adapter-utils: 1.14.0
+      enzyme-adapter-utils: 1.14.0_react@18.0.0-alpha-aecb3b6d1
       enzyme-shallow-equal: 1.0.4
       has: 1.0.3
       object.assign: 4.1.2
       object.values: 1.1.4
       prop-types: 15.7.2
+      react: 18.0.0-alpha-aecb3b6d1
+      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
-      react-test-renderer: 16.14.0
+      react-test-renderer: 16.14.0_react@18.0.0-alpha-aecb3b6d1
       semver: 5.7.1
     dev: true
 
-  /enzyme-adapter-utils/1.14.0:
+  /enzyme-adapter-utils/1.14.0_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-F/z/7SeLt+reKFcb7597IThpDp0bmzcH1E9Oabqv+o01cID2/YInlqHbFl7HzWBl4h3OdZYedtwNDOmSKkk0bg==}
     peerDependencies:
       react: 0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0
     dependencies:
-      airbnb-prop-types: 2.16.0
+      airbnb-prop-types: 2.16.0_react@18.0.0-alpha-aecb3b6d1
       function.prototype.name: 1.1.4
       has: 1.0.3
       object.assign: 4.1.2
       object.fromentries: 2.0.4
       prop-types: 15.7.2
+      react: 18.0.0-alpha-aecb3b6d1
       semver: 5.7.1
     dev: true
 
@@ -20591,21 +19261,8 @@ packages:
       throat: 6.0.1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   /jest-circus/27.0.6:
     resolution: {integrity: sha512-OJlsz6BBeX9qR+7O9lXefWoc2m9ZqcZ5Ohlzz0pTEAG4xMiZUJoacY8f4YDHxgk0oKYxj277AfOk9w6hZYvi1Q==}
-=======
-  /jest-circus/27.0.1:
-=======
-  /jest-circus/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /jest-circus/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-Tz3ytmrsgxWlTwSyPYb8StF9J2IMjLlbBMKAjhL2UU9/0ZpYb2JiEGjXaAhnGauQRbbpyFbSH3yj5HIbdurmwQ==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/environment': 27.0.6
@@ -20617,7 +19274,6 @@ packages:
       dedent: 0.7.0
       expect: 27.0.6
       is-generator-fn: 2.1.0
-<<<<<<< HEAD
       jest-each: 27.0.6
       jest-matcher-utils: 27.0.6
       jest-message-util: 27.0.6
@@ -20626,16 +19282,6 @@ packages:
       jest-util: 27.0.6
       pretty-format: 27.0.6
       slash: 3.0.0
-=======
-      jest-each: 27.0.1
-      jest-matcher-utils: 27.0.1
-      jest-message-util: 27.0.1
-      jest-runner: 27.0.1
-      jest-runtime: 27.0.1
-      jest-snapshot: 27.0.1
-      jest-util: 27.0.1
-      pretty-format: 27.0.1
->>>>>>> feat: initial setup for augur
       stack-utils: 2.0.3
       throat: 6.0.1
     transitivePeerDependencies:
@@ -20645,12 +19291,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest-cli/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /jest-cli/27.0.6:
 =======
@@ -20659,20 +19308,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /jest-cli/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-qUUVlGb9fdKir3RDE+B10ULI+LQrz+MCflEH2UJyoUjoHHCbxDrMxSzjQAPUMsic4SncI62ofYCcAvW6+6rhhg==}
-=======
-  /jest-cli/27.0.1:
-=======
-  /jest-cli/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /jest-cli/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-plDsQQwpkKK1SZ5L5xqMa7v/sTwB5LTIeSJqb+cV+4EMlThdUQfg8jwMfHX8jHuUc9TPGLcdoZeBuZcGGn3Rlg==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
@@ -20684,12 +19325,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@jest/core': 27.0.6_ts-node@10.2.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       '@jest/core': 27.0.6
 =======
@@ -20698,26 +19342,18 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       '@jest/core': 27.0.6_ts-node@10.1.0
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
       '@jest/test-result': 27.0.6
       '@jest/types': 27.0.6
-=======
-      '@jest/core': 27.0.1
-=======
-      '@jest/core': 27.0.1_ts-node@10.0.0
->>>>>>> feat: three tabs added to the market view
-=======
-      '@jest/core': 27.0.1
->>>>>>> fix: prices
-      '@jest/test-result': 27.0.1
-      '@jest/types': 27.0.1
->>>>>>> feat: initial setup for augur
       chalk: 4.1.1
       exit: 0.1.2
       graceful-fs: 4.2.6
       import-local: 3.0.2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20727,6 +19363,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       jest-config: 27.0.6
 =======
@@ -20735,22 +19373,13 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       jest-config: 27.0.6_ts-node@10.1.0
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
       jest-util: 27.0.6
       jest-validate: 27.0.6
-=======
-      jest-config: 27.0.1
-=======
-      jest-config: 27.0.1_ts-node@10.0.0
->>>>>>> feat: three tabs added to the market view
-=======
-      jest-config: 27.0.1
->>>>>>> fix: prices
-      jest-util: 27.0.1
-      jest-validate: 27.0.1
->>>>>>> feat: initial setup for augur
       prompts: 2.4.1
       yargs: 16.2.0
     transitivePeerDependencies:
@@ -20764,12 +19393,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest-config/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /jest-config/27.0.6:
 =======
@@ -20778,20 +19410,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /jest-config/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-JZRR3I1Plr2YxPBhgqRspDE2S5zprbga3swYNrvY3HfQGu7p/GjyLOqwrYad97tX3U3mzT53TPHVmozacfP/3w==}
-=======
-  /jest-config/27.0.1:
-=======
-  /jest-config/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /jest-config/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-V8O6+CZjGF0OMq4kxVR29ztV/LQqlAAcJLw7a94RndfRXkha4U84n50yZCXiPWtAHHTmb3g1y52US6rGPxA+3w==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     peerDependencies:
       ts-node: '>=9.0.0'
@@ -20799,25 +19423,15 @@ packages:
       ts-node:
         optional: true
     dependencies:
-<<<<<<< HEAD
       '@babel/core': 7.14.8
       '@jest/test-sequencer': 27.0.6
       '@jest/types': 27.0.6
       babel-jest: 27.0.6_@babel+core@7.14.8
-=======
-      '@babel/core': 7.14.3
-      '@jest/test-sequencer': 27.0.1
-      '@jest/types': 27.0.1
-      babel-jest: 27.0.1_@babel+core@7.14.3
->>>>>>> feat: initial setup for augur
       chalk: 4.1.1
       deepmerge: 4.2.2
       glob: 7.1.7
       graceful-fs: 4.2.6
       is-ci: 3.0.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       jest-circus: 27.0.6
       jest-environment-jsdom: 27.0.6
       jest-environment-node: 27.0.6
@@ -20836,6 +19450,7 @@ packages:
 <<<<<<< HEAD
 =======
       ts-node: 10.1.0_typescript@4.3.5
+<<<<<<< HEAD
 =======
       jest-circus: 27.0.1
 =======
@@ -20876,6 +19491,8 @@ packages:
 >>>>>>> fix: prices
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -21269,21 +19886,8 @@ packages:
       slash: 3.0.0
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   /jest-runner/27.0.6:
     resolution: {integrity: sha512-W3Bz5qAgaSChuivLn+nKOgjqNxM7O/9JOJoKDCqThPIg2sH/d4A/lzyiaFgnb9V1/w29Le11NpzTJSzga1vyYQ==}
-=======
-  /jest-runner/27.0.1:
-=======
-  /jest-runner/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /jest-runner/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-DUNizlD2D7J80G3VOrwfbtb7KYxiftMng82HNcKwTW0W3AwwNuBeq+1exoCnLO7Mxh7NP+k/1XQBlzLpjr/CnA==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/console': 27.0.6
@@ -21296,9 +19900,6 @@ packages:
       emittery: 0.8.1
       exit: 0.1.2
       graceful-fs: 4.2.6
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       jest-docblock: 27.0.6
       jest-environment-jsdom: 27.0.6
       jest-environment-node: 27.0.6
@@ -21309,23 +19910,6 @@ packages:
       jest-runtime: 27.0.6
       jest-util: 27.0.6
       jest-worker: 27.0.6
-=======
-      jest-config: 27.0.1
-=======
-      jest-config: 27.0.1_ts-node@10.0.0
->>>>>>> feat: three tabs added to the market view
-=======
-      jest-config: 27.0.1
->>>>>>> fix: prices
-      jest-docblock: 27.0.1
-      jest-haste-map: 27.0.1
-      jest-leak-detector: 27.0.1
-      jest-message-util: 27.0.1
-      jest-resolve: 27.0.1
-      jest-runtime: 27.0.1
-      jest-util: 27.0.1
-      jest-worker: 27.0.1
->>>>>>> feat: initial setup for augur
       source-map-support: 0.5.19
       throat: 6.0.1
     transitivePeerDependencies:
@@ -21522,12 +20106,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /jest/27.0.6_ts-node@10.2.0:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /jest/27.0.6:
 =======
@@ -21536,20 +20123,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /jest/27.0.6_ts-node@10.1.0:
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-EjV8aETrsD0wHl7CKMibKwQNQc3gIRBXlTikBmmHUeVMKaPFxdcUIBfoDqTSXDoGJIivAYGqCWVlzCSaVjPQsA==}
-=======
-  /jest/27.0.1:
-=======
-  /jest/27.0.1_ts-node@10.0.0:
->>>>>>> feat: three tabs added to the market view
-=======
-  /jest/27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-lFEoUdXjbGAIxk/gZhcv98xOaH1hjqG5R/PQHs5GBfIK5iL3tnXCjHQf4HQLVZZ2rcXML3oeVg9+XrRZbooBdQ==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
@@ -21561,6 +20140,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@jest/core': 27.0.6_ts-node@10.2.0
       import-local: 3.0.2
       jest-cli: 27.0.6_ts-node@10.2.0
@@ -21569,6 +20149,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       '@jest/core': 27.0.6
       import-local: 3.0.2
@@ -21610,7 +20192,15 @@ packages:
       jest-cli: 27.0.1
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+      '@jest/core': 27.0.6_ts-node@10.1.0
+      import-local: 3.0.2
+      jest-cli: 27.0.6_ts-node@10.1.0
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -22605,28 +21195,7 @@ packages:
       unquote: 1.1.1
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /markdown-to-jsx/7.1.3_react@18.0.0-alpha-aecb3b6d1:
-=======
-  /markdown-to-jsx/7.1.2:
-=======
-  /markdown-to-jsx/7.1.2_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-O8DMCl32V34RrD+ZHxcAPc2+kYytuDIoQYjY36RVdsLK7uHjgNVvFec4yv0X6LgB4YEZgSvK5QtFi5YVqEpoMA==}
-    engines: {node: '>= 4'}
-    peerDependencies:
-      react: '>= 0.14.0'
-    dependencies:
-      react: 18.0.0-alpha-aecb3b6d1
-    dev: true
-
-<<<<<<< HEAD
-  /markdown-to-jsx/7.1.3:
->>>>>>> feat: initial setup for augur
-=======
-  /markdown-to-jsx/7.1.3_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-jtQ6VyT7rMT5tPV0g2EJakEnXLiPksnvlYtwQsVVZ611JsWGN8bQ1tVSDX4s6JllfEH6wmsYxNjTUAMrPmNA8w==}
     engines: {node: '>= 10'}
     peerDependencies:
@@ -22934,7 +21503,7 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  /mini-create-react-context/0.4.1_prop-types@15.7.2:
+  /mini-create-react-context/0.4.1_d2630f1b5c5d613d08a8af07021f9fe5:
     resolution: {integrity: sha512-YWCYEmd5CQeHGSAKrYvXgmzzkrvssZcuuQDDeqkT+PziKGMgE+0MCCtcKbROzocGBG1meBLl2FotlRwf4gAzbQ==}
     peerDependencies:
       prop-types: ^15.0.0
@@ -22942,6 +21511,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.14.8
       prop-types: 15.7.2
+      react: 18.0.0-alpha-aecb3b6d1
       tiny-warning: 1.0.3
     dev: false
 
@@ -23211,6 +21781,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /nano-base32/1.0.1:
     resolution: {integrity: sha1-ulSMh578+5DaHE2eCX20pGySVe8=}
     dev: false
@@ -23221,6 +21792,8 @@ packages:
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
 =======
 >>>>>>> feat: three tabs added to the market view
@@ -23228,6 +21801,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
   /nano-css/5.3.1:
 <<<<<<< HEAD
 =======
@@ -23248,8 +21823,16 @@ packages:
       stylis: 4.0.10
     dev: false
 
+<<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
+<<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
+=======
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
   /nano-css/5.3.1_f991c289939c8299bed5e4a6a5a79a62:
 =======
 >>>>>>> feat: initial setup for augur
@@ -23497,8 +22080,6 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /normalize-url/6.1.0:
     resolution: {integrity: sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==}
     engines: {node: '>=10'}
@@ -23510,6 +22091,7 @@ packages:
 =======
   /notistack/1.0.6-next.1_132ff92e0fd7328580f6380de259b809:
     resolution: {integrity: sha512-deshn1cnse70pRFKuDC4mKUohjspAF3KjyjoolAFLCNGlFpjpBgHcFR8+gnO4XV0ijuXVz+oDfzBAdw/YMtkkg==}
+<<<<<<< HEAD
 =======
   /notistack/1.0.9:
     resolution: {integrity: sha512-Dal2HtTpWrdYCZ3t0HhJt47NJZwVSPee36WzORRbqUkFR0k9pxFszxBuPSWshBLwF6Av8s86XPP+ED5zRz0CGw==}
@@ -23528,6 +22110,8 @@ packages:
     resolution: {integrity: sha512-Dal2HtTpWrdYCZ3t0HhJt47NJZwVSPee36WzORRbqUkFR0k9pxFszxBuPSWshBLwF6Av8s86XPP+ED5zRz0CGw==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
     peerDependencies:
       '@emotion/react': ^11.4.1
       '@emotion/styled': ^11.3.0
@@ -25108,17 +23692,8 @@ packages:
       webpack: 4.46.0
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /react-colorful/5.3.0_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-zWE5E88zmjPXFhv6mGnRZqKin9s5vip1O3IIGynY9EhZxN8MATUxZkT3e/9OwTEm4DjQBXc6PFWP6AetY+Px+A==}
-=======
-  /react-colorful/5.1.2:
-=======
-  /react-colorful/5.1.2_f991c289939c8299bed5e4a6a5a79a62:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-FRt9jz6xjiPqQ6bIAQ26kd0oJhHbGBwsA4BDz/F8FDCFuQJDiEl0wVUARNiqRyvQjwfKuhM42P/bMYI0l92hRw==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -25169,6 +23744,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /react-docgen-typescript/2.0.0_typescript@4.4.1-rc:
     resolution: {integrity: sha512-lPf+KJKAo6a9klKyK4y8WwgaX+6t5/HkVjHOpJDMbmaXfXcV7zP0QgWtnEOc3ccEUXKvlHMGUMIS9f6Zgo1BSw==}
     peerDependencies:
@@ -25211,8 +23787,9 @@ packages:
   /react-docgen-typescript/2.0.0:
 >>>>>>> feat: initial setup for augur
 =======
+=======
+>>>>>>> fix: conflicts and bugs
   /react-docgen-typescript/2.0.0_typescript@4.3.5:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-lPf+KJKAo6a9klKyK4y8WwgaX+6t5/HkVjHOpJDMbmaXfXcV7zP0QgWtnEOc3ccEUXKvlHMGUMIS9f6Zgo1BSw==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -25275,12 +23852,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /react-error-boundary/3.1.3_react@18.0.0-alpha-aecb3b6d1:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /react-error-boundary/3.1.3:
 =======
@@ -25289,25 +23869,16 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /react-error-boundary/3.1.3_react@18.0.0-alpha-aecb3b6d1:
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-A+F9HHy9fvt9t8SNDlonq01prnU8AmkjvGKV4kk8seB9kU3xMEO8J/PQlLVmoOIDODl5U2kufSBs4vrWIqhsAA==}
-=======
-  /react-error-boundary/3.1.1:
-=======
-  /react-error-boundary/3.1.1_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: three tabs added to the market view
-=======
-  /react-error-boundary/3.1.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-W3xCd9zXnanqrTUeViceufD3mIW8Ut29BUD+S2f0eO2XCOU8b6UrJfY46RDGe5lxCJzfe4j0yvIfh0RbTZhKJw==}
->>>>>>> feat: initial setup for augur
     engines: {node: '>=10', npm: '>=6'}
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
 <<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
@@ -25315,6 +23886,7 @@ packages:
 <<<<<<< HEAD
 =======
       react: 18.0.0-alpha-aecb3b6d1
+<<<<<<< HEAD
 =======
       '@babel/runtime': 7.13.17
 <<<<<<< HEAD
@@ -25339,6 +23911,8 @@ packages:
 >>>>>>> fix: prices
 >>>>>>> fix: prices
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
     dev: true
 
   /react-error-overlay/6.0.9:
@@ -25349,12 +23923,13 @@ packages:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
     dev: true
 
-  /react-feather/2.0.9:
+  /react-feather/2.0.9_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-yMfCGRkZdXwIs23Zw/zIWCJO3m3tlaUvtHiXlW+3FH7cIT6fiK1iJ7RJWugXq7Fso8ZaQyUm92/GOOHXvkiVUw==}
     peerDependencies:
       react: ^16.8.6 || ^17
     dependencies:
       prop-types: 15.7.2
+      react: 18.0.0-alpha-aecb3b6d1
     dev: false
 
   /react-helmet-async/1.0.9_f991c289939c8299bed5e4a6a5a79a62:
@@ -25372,7 +23947,7 @@ packages:
       shallowequal: 1.1.0
     dev: true
 
-  /react-highlight-words/0.17.0:
+  /react-highlight-words/0.17.0_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-uX1Qh5IGjnLuJT0Zok234QDwRC8h4hcVMnB99Cb7aquB1NlPPDiWKm0XpSZOTdSactvnClCk8LOmVlP+75dgHA==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0 || ^16.0.0-0 || ^17.0.0-0
@@ -25380,6 +23955,7 @@ packages:
       highlight-words-core: 1.2.2
       memoize-one: 4.0.3
       prop-types: 15.7.2
+<<<<<<< HEAD
 <<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
 <<<<<<< HEAD
@@ -25395,6 +23971,9 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+      react: 18.0.0-alpha-aecb3b6d1
+>>>>>>> fix: conflicts and bugs
     dev: false
 
   /react-hook-form/7.12.0_react@18.0.0-alpha-aecb3b6d1:
@@ -25438,12 +24017,15 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: true
 
-  /react-middle-ellipsis/1.2.1:
+  /react-middle-ellipsis/1.2.1_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-BUQWVXIWwkY7qBqZx0qyeCnPIh188t0lLS0ftfBsU41HB6k769HyBwE23eP+qNXr4vEnmKTEmlicrypVdWYs0w==}
     engines: {node: '>=8', npm: '>=5'}
     peerDependencies:
       react: ^17.0.0
       react-dom: ^17.0.0
+    dependencies:
+      react: 18.0.0-alpha-aecb3b6d1
+      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
     dev: false
 
   /react-popper-tooltip/3.1.1_f991c289939c8299bed5e4a6a5a79a62:
@@ -25471,6 +24053,7 @@ packages:
       warning: 4.0.3
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25502,6 +24085,8 @@ packages:
 
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
   /react-refresh/0.10.0:
     resolution: {integrity: sha512-PgidR3wST3dDYKr6b4pJoqQFpPGNKDSCDx4cZoshjXipw3LzO7mG1My2pwEzz2JVkF+inx3xRpDeQLFQGH/hsQ==}
     engines: {node: '>=0.10.0'}
@@ -25517,7 +24102,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/5.2.0:
+  /react-router-dom/5.2.0_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-gxAmfylo2QUjcwxI63RhQ5G85Qqt4voZpUXSEqCwykV0baaOTQDR1f0PmY8AELqIyVc0NEZUj0Gov5lNGcXgsA==}
     peerDependencies:
       react: '>=15'
@@ -25526,7 +24111,8 @@ packages:
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.7.2
-      react-router: 5.2.0
+      react: 18.0.0-alpha-aecb3b6d1
+      react-router: 5.2.0_react@18.0.0-alpha-aecb3b6d1
       tiny-invariant: 1.1.0
       tiny-warning: 1.0.3
     dev: false
@@ -25545,7 +24131,7 @@ packages:
       react-router: 6.0.0-beta.0_dd3df4049b9a65e1e2d003c7940c4871
     dev: false
 
-  /react-router/5.2.0:
+  /react-router/5.2.0_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-smz1DUuFHRKdcJC0jobGo8cVbhO3x50tCL4icacOlcwDOEQPq4TMqwx3sY1TP+DvtTgz4nm3thuo7A+BK2U0Dw==}
     peerDependencies:
       react: '>=15'
@@ -25554,9 +24140,10 @@ packages:
       history: 4.10.1
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
-      mini-create-react-context: 0.4.1_prop-types@15.7.2
+      mini-create-react-context: 0.4.1_d2630f1b5c5d613d08a8af07021f9fe5
       path-to-regexp: 1.8.0
       prop-types: 15.7.2
+      react: 18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
       tiny-invariant: 1.1.0
       tiny-warning: 1.0.3
@@ -25573,12 +24160,13 @@ packages:
       react: 18.0.0-alpha-aecb3b6d1
     dev: false
 
-  /react-shallow-renderer/16.14.1:
+  /react-shallow-renderer/16.14.1_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-rkIMcQi01/+kxiTE9D3fdS959U1g7gs+/rborw++42m1O9FAQiNI/UNRZExVUoAOprn4umcXf+pFRou8i4zuBg==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0
     dependencies:
       object-assign: 4.1.1
+      react: 18.0.0-alpha-aecb3b6d1
       react-is: 17.0.2
     dev: true
 
@@ -25604,70 +24192,45 @@ packages:
       '@babel/runtime': 7.14.8
       highlight.js: 10.7.3
       lowlight: 1.20.0
-<<<<<<< HEAD
       prismjs: 1.24.1
       react: 18.0.0-alpha-aecb3b6d1
       refractor: 3.4.0
-=======
-      prismjs: 1.23.0
-      react: 18.0.0-alpha-aecb3b6d1
-      refractor: 3.3.1
->>>>>>> feat: initial setup for augur
     dev: true
 
-  /react-test-renderer/16.14.0:
+  /react-test-renderer/16.14.0_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-L8yPjqPE5CZO6rKsKXRO/rVPiaCOy0tQQJbC+UjPNlobl5mad59lvPjwFsQHTvL03caVDIVr9x9/OSgDe6I5Eg==}
     peerDependencies:
       react: ^16.14.0
     dependencies:
       object-assign: 4.1.1
       prop-types: 15.7.2
+      react: 18.0.0-alpha-aecb3b6d1
       react-is: 16.13.1
       scheduler: 0.19.1
     dev: true
 
-  /react-test-renderer/17.0.2:
+  /react-test-renderer/17.0.2_react@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-yaQ9cB89c17PUb0x6UfWRs7kQCorVdHlutU1boVPEsB8IDZH6n9tHxMacc3y0JoXOJUsZb/t/Mb8FUWMKaM7iQ==}
     peerDependencies:
       react: 17.0.2
     dependencies:
       object-assign: 4.1.1
+      react: 18.0.0-alpha-aecb3b6d1
       react-is: 17.0.2
-      react-shallow-renderer: 16.14.1
+      react-shallow-renderer: 16.14.1_react@18.0.0-alpha-aecb3b6d1
       scheduler: 0.20.2
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /react-textarea-autosize/8.3.3_010541d7fdfc8cbcdd915345c89295c8:
     resolution: {integrity: sha512-2XlHXK2TDxS6vbQaoPbMOfQ8GK7+irc2fVK6QFIcC8GOnH3zI/v481n+j1L0WaPVvKxwesnY93fEfH++sus2rQ==}
-=======
-  /react-textarea-autosize/8.3.2:
-=======
-  /react-textarea-autosize/8.3.2_5ec7ab1ee537e9220fe02de547882794:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-JrMWVgQSaExQByP3ggI1eA8zF4mF0+ddVuX7acUeK2V7bmrpjVOY72vmLz2IXFJSAXoY3D80nEzrn0GWajWK3Q==}
->>>>>>> feat: initial setup for augur
     engines: {node: '>=10'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
       react: 18.0.0-alpha-aecb3b6d1
       use-composed-ref: 1.1.0_react@18.0.0-alpha-aecb3b6d1
       use-latest: 1.2.0_010541d7fdfc8cbcdd915345c89295c8
-=======
-      '@babel/runtime': 7.14.0
-<<<<<<< HEAD
-      use-composed-ref: 1.1.0
-      use-latest: 1.2.0
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      use-composed-ref: 1.1.0_react@18.0.0-alpha-aecb3b6d1
-      use-latest: 1.2.0_5ec7ab1ee537e9220fe02de547882794
->>>>>>> feat: three tabs added to the market view
     transitivePeerDependencies:
       - '@types/react'
     dev: true
@@ -25686,24 +24249,15 @@ packages:
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
     dev: false
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /react-universal-interface/0.6.2_76516291a54c04f0b636c79937028dc1:
-=======
-  /react-universal-interface/0.6.2_tslib@2.2.0:
->>>>>>> feat: initial setup for augur
-=======
-  /react-universal-interface/0.6.2_f81ffae3c0d6edaa9e731142af3ae719:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==}
     peerDependencies:
       react: '*'
       tslib: '*'
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       react: 18.0.0-alpha-aecb3b6d1
       tslib: 2.3.0
+<<<<<<< HEAD
 =======
 =======
       react: 18.0.0-alpha-aecb3b6d1
@@ -25775,6 +24329,8 @@ packages:
 =======
       tslib: 2.2.0
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
     dev: false
 
 >>>>>>> feat: initial setup for augur
@@ -25793,22 +24349,10 @@ packages:
       fast-deep-equal: 3.1.3
       fast-shallow-equal: 1.0.0
       js-cookie: 2.2.1
-<<<<<<< HEAD
-<<<<<<< HEAD
       nano-css: 5.3.1_f991c289939c8299bed5e4a6a5a79a62
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
       react-universal-interface: 0.6.2_76516291a54c04f0b636c79937028dc1
-=======
-      nano-css: 5.3.1
-      react-universal-interface: 0.6.2_tslib@2.2.0
->>>>>>> feat: initial setup for augur
-=======
-      nano-css: 5.3.1_f991c289939c8299bed5e4a6a5a79a62
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-      react-universal-interface: 0.6.2_f81ffae3c0d6edaa9e731142af3ae719
->>>>>>> feat: three tabs added to the market view
       resize-observer-polyfill: 1.5.1
       screenfull: 5.1.0
       set-harmonic-interval: 1.0.1
@@ -25817,12 +24361,13 @@ packages:
       tslib: 2.3.0
     dev: false
 
-  /react-virtualized-auto-sizer/1.0.5:
+  /react-virtualized-auto-sizer/1.0.5_f991c289939c8299bed5e4a6a5a79a62:
     resolution: {integrity: sha512-kivjYVWX15TX2IUrm8F1jaCEX8EXrpy3DD+u41WGqJ1ZqbljWpiwscV+VxOM1l7sSIM1jwi2LADjhhAJkJ9dxA==}
     engines: {node: '>8.0.0'}
     peerDependencies:
       react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0
       react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25834,6 +24379,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
 =======
 >>>>>>> fix: prices
@@ -25868,7 +24415,15 @@ packages:
       '@babel/runtime': 7.13.10
       memoize-one: 5.1.1
 >>>>>>> fix: prices
+<<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+=======
+    dependencies:
+      react: 18.0.0-alpha-aecb3b6d1
+      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
     dev: false
 
   /react-window/1.8.6_f991c289939c8299bed5e4a6a5a79a62:
@@ -25878,20 +24433,10 @@ packages:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0
       react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
       '@babel/runtime': 7.14.8
       memoize-one: 5.2.1
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@babel/runtime': 7.13.10
-      memoize-one: 5.1.1
-<<<<<<< HEAD
->>>>>>> feat: initial setup for augur
-=======
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
     dev: false
 
   /react/16.13.1:
@@ -27562,19 +26107,9 @@ packages:
   /storybook-addon-matrix/1.6.0_react-dom@18.0.0-alpha-aecb3b6d1:
     resolution: {integrity: sha512-2Fc2E3B2oqjWUMil4q5K13wjeH6uK+Ae7Y7647VNu8+qBEcXokAcL6RTc69+63fnXQeLA6ZhZYUjWmhE4NLxhg==}
     dependencies:
-<<<<<<< HEAD
       '@emotion/core': 10.0.28_react@16.13.1
       '@emotion/styled': 10.0.27_c989b1aa057905c7a8b69bf973f55a19
       '@storybook/addons': 5.3.18_react-dom@18.0.0-alpha-aecb3b6d1
-=======
-      '@emotion/core': 10.0.28_react@18.0.0-alpha-aecb3b6d1
-      '@emotion/styled': 10.0.27_868fdfab3e8c9138cf50b7ab83aa28b0
-<<<<<<< HEAD
-      '@storybook/addons': 5.3.18
->>>>>>> feat: initial setup for augur
-=======
-      '@storybook/addons': 5.3.18_react-dom@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       '@types/js-combinatorics': 0.5.31
       '@types/styled-system': 5.1.9
       js-combinatorics: 0.5.5
@@ -27585,43 +26120,18 @@ packages:
       - regenerator-runtime
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /storybook-addon-outline/1.4.1_873b6ee332b32a0534335ea366866a4e:
     resolution: {integrity: sha512-Qvv9X86CoONbi+kYY78zQcTGmCgFaewYnOVR6WL7aOFJoW7TrLiIc/O4hH5X9PsEPZFqjfXEPUPENWVUQim6yw==}
-=======
-  /storybook-addon-outline/1.3.4:
-=======
-  /storybook-addon-outline/1.3.4_1f407347b6533184bf697218ead413cc:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-UNFansfJq1j5Z+GdB8/eoSck9A27VPm5HPG4LBnPKwvAmvjccVgY9mcbcG/ezF83RlrtCOKkfQ1NgOqz2NlGGg==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
       react-dom: ^16.8.0 || ^17.0.0
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@storybook/addons': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/api': 6.3.6_f991c289939c8299bed5e4a6a5a79a62
       '@storybook/components': 6.3.6_873b6ee332b32a0534335ea366866a4e
       '@storybook/core-events': 6.3.6
       react: 18.0.0-alpha-aecb3b6d1
       react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
-=======
-      '@storybook/addons': 6.3.0
-      '@storybook/api': 6.3.0
-      '@storybook/components': 6.3.0
-      '@storybook/core-events': 6.3.0
->>>>>>> feat: initial setup for augur
-=======
-      '@storybook/addons': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/api': 6.3.0_f991c289939c8299bed5e4a6a5a79a62
-      '@storybook/components': 6.3.0_1f407347b6533184bf697218ead413cc
-      '@storybook/core-events': 6.3.0
-      react: 18.0.0-alpha-aecb3b6d1
-      react-dom: 18.0.0-alpha-aecb3b6d1_react@18.0.0-alpha-aecb3b6d1
->>>>>>> feat: three tabs added to the market view
       ts-dedent: 2.1.1
     transitivePeerDependencies:
       - '@types/react'
@@ -28531,21 +27041,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /ts-essentials/7.0.2_typescript@4.4.1-rc:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /ts-essentials/7.0.2_typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-qWPVC1xZGdefbsgFP7tPo+bsgSA2ZIXL1XeEe5M2WoMZxIOr/HbsHxP/Iv75IFhiMHMDGL7cOOwi5SXcgx9mHw==}
-=======
-  /ts-essentials/7.0.1:
-=======
-  /ts-essentials/7.0.1_typescript@4.3.5:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-8lwh3QJtIc1UWhkQtr9XuksXu3O0YQdEE5g79guDfhCaU1FWTDIEDZ1ZSx4HTHUmlJZ8L812j3BZQ4a0aOUkSA==}
->>>>>>> feat: initial setup for augur
     peerDependencies:
       typescript: '>=3.7.0'
 <<<<<<< HEAD
@@ -28563,6 +27069,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /ts-interface-checker/0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
@@ -28576,12 +27083,17 @@ packages:
 =======
 <<<<<<< HEAD
 >>>>>>> fix: prices
+=======
+<<<<<<< HEAD
+>>>>>>> fix: conflicts and bugs
   /ts-jest/27.0.4_2b1bb99c65ce8fc8eda3ccb6cb24befc:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
   /ts-jest/27.0.4_@types+jest@26.0.24+jest@27.0.6:
 =======
@@ -28590,20 +27102,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /ts-jest/27.0.4_52cc4273aa16028085013af47e479e10:
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-c4E1ECy9Xz2WGfTMyHbSaArlIva7Wi2p43QOMmCqjSSjHP06KXv+aT+eSY+yZMuqsMi3k7pyGsGj2q5oSl5WfQ==}
-=======
-  /ts-jest/27.0.1_jest@27.0.1:
-=======
-  /ts-jest/27.0.1_jest@27.0.1+typescript@4.3.5:
->>>>>>> feat: three tabs added to the market view
-=======
-  /ts-jest/27.0.1_jest@27.0.1:
->>>>>>> fix: prices
-    resolution: {integrity: sha512-03qAt77QjhxyM5Bt2KrrT1WbdumiwLz989sD3IUznSp3GIFQrx76kQqSMLF7ynnxrF3/1ipzABnHxMlU8PD4Vw==}
->>>>>>> feat: initial setup for augur
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
@@ -28627,12 +27131,15 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       jest: 27.0.6_ts-node@10.2.0
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
 <<<<<<< HEAD
       jest: 27.0.6
 =======
@@ -28641,20 +27148,12 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       jest: 27.0.6_ts-node@10.1.0
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
       jest-util: 27.0.6
-=======
-      jest: 27.0.1
-=======
-      jest: 27.0.1_ts-node@10.0.0
->>>>>>> feat: three tabs added to the market view
-=======
-      jest: 27.0.1
->>>>>>> fix: prices
-      jest-util: 27.0.1
->>>>>>> feat: initial setup for augur
       json5: 2.2.0
       lodash: 4.17.21
       make-error: 1.3.6
@@ -28663,9 +27162,13 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       typescript: 4.4.1-rc
 =======
 <<<<<<< HEAD
+>>>>>>> fix: conflicts and bugs
+=======
+<<<<<<< HEAD
 >>>>>>> fix: prices
 =======
 <<<<<<< HEAD
@@ -28678,6 +27181,8 @@ packages:
 =======
 >>>>>>> fix: prices
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
       typescript: 4.3.5
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
@@ -28690,6 +27195,7 @@ packages:
 =======
   /ts-node/10.1.0_typescript@4.3.5:
     resolution: {integrity: sha512-6szn3+J9WyG2hE+5W8e0ruZrzyk1uFLYye6IGMBadnOzDh8aP7t8CbFpsfCiEx2+wMixAhjFt7lOZC4+l+WbEA==}
+<<<<<<< HEAD
 =======
 =======
       typescript: 4.3.5
@@ -28717,6 +27223,8 @@ packages:
     resolution: {integrity: sha512-ROWeOIUvfFbPZkoDis0L/55Fk+6gFQNZwwKPLinacRl6tsxstTF1DbAcLKkovwnpKMVvOMHP1TIbnwXwtLg1gg==}
 >>>>>>> feat: initial setup for augur
 >>>>>>> feat: initial setup for augur
+=======
+>>>>>>> fix: conflicts and bugs
     engines: {node: '>=12.0.0'}
     hasBin: true
     peerDependencies:
@@ -28877,6 +27385,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /tsutils/3.21.0_typescript@4.4.1-rc:
 =======
   /tsutils/3.21.0_typescript@4.3.5:
@@ -28884,6 +27393,9 @@ packages:
 =======
   /tsutils/3.21.0:
 >>>>>>> fix: prices
+=======
+  /tsutils/3.21.0_typescript@4.3.5:
+>>>>>>> fix: conflicts and bugs
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
@@ -28892,12 +27404,16 @@ packages:
       tslib: 1.14.1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       typescript: 4.4.1-rc
 =======
       typescript: 4.3.5
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+      typescript: 4.3.5
+>>>>>>> fix: conflicts and bugs
     dev: true
 
   /tty-browserify/0.0.0:
@@ -28938,6 +27454,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /type-coverage-core/2.17.5_typescript@4.4.1-rc:
 =======
   /type-coverage-core/2.17.5_typescript@4.3.5:
@@ -28945,6 +27462,9 @@ packages:
 =======
   /type-coverage-core/2.17.5:
 >>>>>>> fix: prices
+=======
+  /type-coverage-core/2.17.5_typescript@4.3.5:
+>>>>>>> fix: conflicts and bugs
     resolution: {integrity: sha512-FfkH2kIgQkkgC47V2WHJZWBbjYjMw2ZpQRdRGTcMBAnkijmRCp9I1LpOuI+Gv4MDtniRLnkAo8htGGt2iExFgA==}
     peerDependencies:
       typescript: 2 || 3 || 4
@@ -28952,7 +27472,6 @@ packages:
       fast-glob: 3.2.7
       minimatch: 3.0.4
       normalize-path: 3.0.0
-<<<<<<< HEAD
       tslib: 2.3.0
       tsutils: 3.21.0_typescript@4.4.1-rc
       typescript: 4.4.1-rc
@@ -28960,17 +27479,10 @@ packages:
 
   /type-coverage/2.18.0_typescript@4.4.1-rc:
     resolution: {integrity: sha512-SAyrR6Xl7GfHNcXU8Y3wSnJfGftdCvf/b2JlJJtt7gt74T0dCF077/ukhlLjI/MsWmRCxW8k8x/d4AjrFiLSpQ==}
-=======
-      tslib: 2.2.0
-      tsutils: 3.21.0
-    dev: true
-
-  /type-coverage/2.17.5:
-    resolution: {integrity: sha512-Lqmvt4RVf1A+KE7x5PSRU7lM53HfyqeYmAuueHgJnol4omlZ4EnydodMkEc015cQohdqvLLz1vQ5Qhspg1hfRw==}
->>>>>>> feat: initial setup for augur
     hasBin: true
     dependencies:
       minimist: 1.2.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       type-coverage-core: 2.17.5_typescript@4.4.1-rc
@@ -28980,6 +27492,9 @@ packages:
 =======
       type-coverage-core: 2.17.5
 >>>>>>> fix: prices
+=======
+      type-coverage-core: 2.17.5_typescript@4.3.5
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -29032,21 +27547,17 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /typechain/5.1.2_typescript@4.4.1-rc:
 =======
 =======
 >>>>>>> feat: three tabs added to the market view
 <<<<<<< HEAD
+=======
+>>>>>>> fix: conflicts and bugs
   /typechain/5.1.2_typescript@4.3.5:
 >>>>>>> feat: initial setup for augur
     resolution: {integrity: sha512-FuaCxJd7BD3ZAjVJoO+D6TnqKey3pQdsqOBsC83RKYWKli5BDhdf0TPkwfyjt20TUlZvOzJifz+lDwXsRkiSKA==}
-=======
-  /typechain/5.0.0:
-=======
-  /typechain/5.0.0_typescript@4.3.5:
->>>>>>> feat: three tabs added to the market view
-    resolution: {integrity: sha512-Ko2/8co0FUmPUkaXPcb8PC3ncWa5P72nvkiNMgcomd4OAInltJlITF0kcW2cZmI2sFkvmaHV5TZmCnOHgo+i5Q==}
->>>>>>> feat: initial setup for augur
     hasBin: true
     dependencies:
       '@types/prettier': 2.3.2
@@ -29056,13 +27567,13 @@ packages:
       glob: 7.1.7
       js-sha3: 0.8.0
       lodash: 4.17.21
-<<<<<<< HEAD
       mkdirp: 1.0.4
       prettier: 2.3.2
 <<<<<<< HEAD
       ts-essentials: 7.0.2_typescript@4.4.1-rc
 =======
       ts-essentials: 7.0.2_typescript@4.3.5
+<<<<<<< HEAD
 =======
       prettier: 2.3.0
 <<<<<<< HEAD
@@ -29075,6 +27586,8 @@ packages:
       ts-essentials: 7.0.1_typescript@4.3.5
 >>>>>>> feat: three tabs added to the market view
 >>>>>>> feat: three tabs added to the market view
+=======
+>>>>>>> fix: conflicts and bugs
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -29461,19 +27974,11 @@ packages:
       punycode: 1.3.2
       querystring: 0.2.0
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /urlcat/2.0.4:
     resolution: {integrity: sha512-12c4Vi40DHVdZ/8mOLjZjp0asCzM6hi8Gj116fpImRP1FN4gBMCtMi9XhLNOmre/FEQYNqHbZmX8iyYAtIcy8Q==}
     dev: false
 
   /use-composed-ref/1.1.0_react@18.0.0-alpha-aecb3b6d1:
-=======
-  /use-composed-ref/1.1.0:
->>>>>>> feat: initial setup for augur
-=======
-  /use-composed-ref/1.1.0_react@18.0.0-alpha-aecb3b6d1:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-my1lNHGWsSDAhhVAT4MKs6IjBUtG6ZG11uUqexPH9PptiIZDQOzaF4f5tEbJ2+7qvNbtXNBbU3SfmN+fXlWDhg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0
@@ -29482,15 +27987,7 @@ packages:
       ts-essentials: 2.0.12
     dev: true
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   /use-isomorphic-layout-effect/1.1.1_010541d7fdfc8cbcdd915345c89295c8:
-=======
-  /use-isomorphic-layout-effect/1.1.1:
->>>>>>> feat: initial setup for augur
-=======
-  /use-isomorphic-layout-effect/1.1.1_5ec7ab1ee537e9220fe02de547882794:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-L7Evj8FGcwo/wpbv/qvSfrkHFtOpCzvM5yl2KVyDJoylVuSvzphiiasmjgQPttIGBAy2WKiBNR98q8w7PiNgKQ==}
     peerDependencies:
       '@types/react': '*'
@@ -29498,27 +27995,12 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-<<<<<<< HEAD
-<<<<<<< HEAD
     dependencies:
       '@types/react': 17.0.15
       react: 18.0.0-alpha-aecb3b6d1
     dev: true
 
   /use-latest/1.2.0_010541d7fdfc8cbcdd915345c89295c8:
-=======
-    dev: true
-
-  /use-latest/1.2.0:
->>>>>>> feat: initial setup for augur
-=======
-    dependencies:
-      '@types/react': 17.0.11
-      react: 18.0.0-alpha-aecb3b6d1
-    dev: true
-
-  /use-latest/1.2.0_5ec7ab1ee537e9220fe02de547882794:
->>>>>>> feat: three tabs added to the market view
     resolution: {integrity: sha512-d2TEuG6nSLKQLAfW3By8mKr8HurOlTkul0sOpxbClIv4SQ4iOd7BYr7VIzdbktUCnv7dua/60xzd8igMU6jmyw==}
     peerDependencies:
       '@types/react': '*'
@@ -29527,21 +28009,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-<<<<<<< HEAD
-<<<<<<< HEAD
       '@types/react': 17.0.15
       react: 18.0.0-alpha-aecb3b6d1
       use-isomorphic-layout-effect: 1.1.1_010541d7fdfc8cbcdd915345c89295c8
-=======
-      use-isomorphic-layout-effect: 1.1.1
->>>>>>> feat: initial setup for augur
-=======
-      '@types/react': 17.0.11
-      react: 18.0.0-alpha-aecb3b6d1
-      use-isomorphic-layout-effect: 1.1.1_5ec7ab1ee537e9220fe02de547882794
->>>>>>> feat: three tabs added to the market view
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29550,6 +28023,8 @@ packages:
 >>>>>>> feat: three tabs added to the market view
 =======
 >>>>>>> fix: prices
+=======
+>>>>>>> fix: conflicts and bugs
   /use-subscription/1.5.1:
 <<<<<<< HEAD
 =======
@@ -29562,7 +28037,12 @@ packages:
       object-assign: 4.1.1
     dev: false
 
+<<<<<<< HEAD
 >>>>>>> feat: initial setup for augur
+=======
+=======
+>>>>>>> fix: conflicts and bugs
+>>>>>>> fix: conflicts and bugs
   /use-subscription/1.5.1_react@18.0.0-alpha-aecb3b6d1:
 =======
 >>>>>>> feat: initial setup for augur
