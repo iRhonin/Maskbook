@@ -5,7 +5,7 @@ import { useRemoteControlledDialog, useStylesExtends } from '@masknet/shared'
 import ActionButton from '../../extension/options-page/DashboardComponents/ActionButton'
 import { WalletMessages } from '../../plugins/Wallet/messages'
 import { useI18N } from '../../utils'
-import { isZero, ProviderType, useAccount, useChainIdValid, useNativeTokenBalance } from '@masknet/web3-shared'
+import { isZero, useAccount, useChainIdValid, useNativeTokenBalance } from '@masknet/web3-shared'
 import { useWalletRiskWarningDialog } from '../../plugins/Wallet/hooks/useWalletRiskWarningDialog'
 
 const useStyles = makeStyles()((theme) => ({
@@ -28,7 +28,7 @@ export function EthereumWalletConnectedBoundary(props: EthereumWalletConnectedBo
     const account = useAccount()
     const chainIdValid = useChainIdValid()
     const nativeTokenBalance = useNativeTokenBalance()
-    console.log()
+
     //#region remote controlled confirm risk warning
     const { isConfirmed: isRiskWarningConfirmed, openDialog: openRiskWarningDialog } = useWalletRiskWarningDialog()
     //#endregion
