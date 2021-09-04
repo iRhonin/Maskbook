@@ -83,6 +83,17 @@ export interface MmaMarket {
     marketType: string
 }
 
+export interface NflMarket {
+    homeTeamId: string
+    awayTeamId: string
+    homeFighterName: string
+    awayFighterName: string
+    endTime: string
+    winner: string | null
+    overUnderTotal: string
+    marketType: string
+}
+
 export interface CryptoMarket {
     endTime: string
     winner: string | null
@@ -92,6 +103,7 @@ export interface CryptoMarket {
 export interface MarketInfo {
     teamSportsMarket?: TeamSportsMarket[]
     mmaMarket?: MmaMarket[]
+    nflMarket?: NflMarket[]
     cryptoMarket?: CryptoMarket[]
 }
 
@@ -99,8 +111,10 @@ export interface Market {
     address: string
     id: string
     link: string
-    homeTeam?: Team
-    awayTeam?: Team
+    homeTeamId?: string
+    homeTeamName?: string
+    awayTeamId?: string
+    awayTeamName?: string
     title: string
     description: string
     endDate: Date
@@ -127,7 +141,8 @@ export enum SportMarketType {
 export enum MarketType {
     Sport = 0,
     Mma = 1,
-    Crypto = 2,
+    Nfl = 2,
+    Crypto = 3,
 }
 
 export interface MarketTitle {

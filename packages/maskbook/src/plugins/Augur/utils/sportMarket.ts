@@ -1,15 +1,16 @@
-import { Team, Sport, SportMarketType, MarketTitle, Outcome, SportType, NAMING_TEAM, NAMING_LINE } from '../types'
+import { Sport, SportMarketType, MarketTitle, Outcome, SportType, NAMING_TEAM, NAMING_LINE } from '../types'
 import { BigNumber as BN } from 'bignumber.js'
 import { AWAY_TEAM_OUTCOME, NO_CONTEST, NO_CONTEST_OUTCOME_ID, NO_CONTEST_TIE } from '../constants'
-import { getFullTeamName } from '.'
 import { isSameAddress } from '@masknet/web3-shared'
 
 export const deriveSportMarketInfo = (
     address: string,
     id: string,
-    awayTeam: Team,
     endDate: Date,
-    homeTeam: Team,
+    awayTeamId: string,
+    awayTeamName: string,
+    homeTeamId: string,
+    homeTeamName: string,
     sport: Sport,
     _sportsMarketType: string,
     shareTokens: string[],
@@ -20,9 +21,6 @@ export const deriveSportMarketInfo = (
     let line = new BN(String(value0)).div(10).decimalPlaces(0, 1).toNumber() || undefined
     const sportsMarketType = new BN(String(_sportsMarketType)).toNumber()
     if (sportsMarketType === SportMarketType.HeadToHead) line = undefined
-
-    const homeTeamName = getFullTeamName(homeTeam)
-    const awayTeamName = getFullTeamName(awayTeam)
 
     const outcomes = decodeOutcomes(
         shareTokens,
@@ -40,9 +38,11 @@ export const deriveSportMarketInfo = (
     return {
         address,
         id,
-        awayTeam,
         endDate,
-        homeTeam,
+        awayTeamId,
+        awayTeamName,
+        homeTeamId,
+        homeTeamName,
         sport,
         sportsMarketType,
         shareTokens,

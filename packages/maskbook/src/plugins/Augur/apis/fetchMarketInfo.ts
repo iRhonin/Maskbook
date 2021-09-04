@@ -27,6 +27,16 @@ export async function fetchMarketInfo(address: string, id: string, url: string) 
                     marketType
                 }
             }
+            nflMarket(id: "${address.toLowerCase() + '-' + id}"){
+                homeTeamId
+                awayTeamId
+                homeTeamName
+                awayTeamName
+                endTime
+                winner
+                overUnderTotal
+                marketType
+            }
         }`,
     }
     const response = await fetch(url, {
@@ -35,6 +45,6 @@ export async function fetchMarketInfo(address: string, id: string, url: string) 
         mode: 'cors',
         credentials: 'omit',
     })
-    const result = (await response.json())?.data.market
-    return result as MarketInfo
+    const result = (await response.json())?.data
+    return { ...result.market, nflMarket: result.nflMarket } as MarketInfo
 }
